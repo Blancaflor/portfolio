@@ -13,13 +13,14 @@ function HeroSection() {
       <ContentWrapper>
         <TextWrapper>
           <Title>
-            We<br />design<br /> and <span>code</span> your <span>website</span>.
+            We
+            <br />
+            design
+            <br /> and <span>code</span> your <span>website</span>.
           </Title>
-          <Description>
-            Welcome on our Digital Platform
-          </Description>
-          <PurchaseButton 
-            title="Make Appointment"
+          <Description>Welcome on our Digital Platform</Description>
+          <PurchaseButton
+            title="Make An Appointment"
             subtitle="Send us an email!"
           />
         </TextWrapper>
@@ -57,8 +58,8 @@ const TextWrapper = styled.div`
   max-width: 360px;
   display: grid;
   gap: 30px;
-  
- > * {
+
+  > * {
     opacity: 0;
     animation: ${animation} 1s forwards;
 
@@ -76,14 +77,14 @@ const TextWrapper = styled.div`
 
 const Title = styled(H1)`
   color: ${themes.dark.text1};
-  background: linear-gradient(180deg, #730040 0%, #301CBE 100%),
-  linear-gradient(180deg, #FFD7FF 0%, #FFB6FF 100%);
+  background: linear-gradient(180deg, #730040 0%, #301cbe 100%),
+    linear-gradient(180deg, #ffd7ff 0%, #ffb6ff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 
   span {
-    background: linear-gradient(180deg, #FFD7FF 0%, #FFB6FF 100%);
+    background: linear-gradient(180deg, #ffd7ff 0%, #ffb6ff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
