@@ -6,15 +6,12 @@ import SEO from "../components/layout/seo"
 function sendEmail Contact() {
   e.preventDefault();
 
-  emailjs.sendForm('gmail', 'YOUR_TEMPLATE_ID', form.current, 'U1ZKe3G9J3WB7krWW')
+  emailjs.sendForm('gmail', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
     .then((result) => {
       console.log(result.text);
     }, (error) => {
       console.log(error.text);
     });
-    e.target.reset()
-}
-    
   return (
     <Layout>
       <SEO title="Contact" />

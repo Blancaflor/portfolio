@@ -12,7 +12,7 @@ function sendEmail Contact() {
     }, (error) => {
       console.log(error.text);
     });
-    e.target.reset()
+    e
 }
     
   return (
