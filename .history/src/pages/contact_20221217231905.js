@@ -6,6 +6,7 @@ import styled, { keyframes } from "styled-components"
 import WaveBackground from "../backgrounds/WaveBackground"
 import PurchaseButton from "../buttons/PurchaseButton"
 
+
 export default function Contact() {
 
   function sendEmail(e) {

@@ -5,6 +5,8 @@ import SEO from "../components/layout/seo"
 import styled, { keyframes } from "styled-components"
 import WaveBackground from "../backgrounds/WaveBackground"
 import PurchaseButton from "../buttons/PurchaseButton"
+import { themes } from "../styles/ColorStyles"
+import { H1, MediumText } from "../styles/TextStyles"
 
 export default function Contact() {
 
@@ -34,7 +36,7 @@ export default function Contact() {
               <br /> and <span>code</span> your <span>website</span>.
             </Title>
             <Description>Welcome on our Digital Platform</Description>
-            <PurchaseButton
+            <PurchaseButto
               title="Make An Appointment"
               subtitle="Send us an email!"
             />
