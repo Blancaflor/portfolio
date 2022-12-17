@@ -12,4 +12,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default Co

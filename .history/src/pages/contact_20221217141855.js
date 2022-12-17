@@ -3,7 +3,7 @@ import Layout from "../components/layout/layout"
 import SEO from "../components/layout/seo"
 import HeroSection from "../components/sections/HeroSection"
 
-function Contact() {
+function Conta() {
   return (
     <Layout>
       <SEO title="Home" />
@@ -12,4 +12,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default IndexPage
