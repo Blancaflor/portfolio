@@ -4,6 +4,7 @@ import Layout from "../components/layout/layout"
 import SEO from "../components/layout/seo"
 import styled, { keyframes } from "styled-components"
 
+
 export default function Contact() {
 
   function sendEmail(e) {
