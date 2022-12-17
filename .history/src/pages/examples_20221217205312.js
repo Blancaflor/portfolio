@@ -6,7 +6,7 @@ import HeroSection from "../components/sections/HeroSection"
 function Examples() {
   return (
     <Layout>
-      <SEO title="Examples" />
+      <SEO title="Exa" />
       <HeroSection />
     </Layout>
   )

@@ -1,15 +1,16 @@
 import React from "react"
+import email from "react"
 import Layout from "../components/layout/layout"
 import SEO from "../components/layout/seo"
 import HeroSection from "../components/sections/HeroSection"
 
-function Examples() {
+function Contact() {
   return (
     <Layout>
-      <SEO title="Examples" />
+      <SEO title="Contact" />
       <HeroSection />
     </Layout>
   )
 }
 
-export default Examples
+export default Contact
