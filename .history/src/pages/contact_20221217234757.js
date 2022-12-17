@@ -8,7 +8,7 @@ export default function Contact() {
 function sendEmail(e) {
   e.preventDefault();
 
-  emailjs.sendForm('gmail', 'template_s8p11gi', form.current, 'U1ZKe3G9J3WB7krWW')
+  emailjs.sendForm('gmail', 'YOUR_TEMPLATE_ID', form.current, 'U1ZKe3G9J3WB7krWW')
     .then((result) => {
       console.log(result.text);
     }, (error) => {
@@ -32,7 +32,7 @@ function sendEmail(e) {
             <input type="text" className="form-control" placeholder="Subject" name="subject" />
           </div>
           <div className="col-8 form-group pt-2 mx-auto">
-            <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
+            <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message" ></textarea>
         </div>
         <div className="col-8 pt-3 mx-auto">
           <input type="submit" className="btn btn-info" value="Send Message"></input>
