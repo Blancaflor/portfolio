@@ -84,3 +84,6 @@ const TextWrapper = styled.div`
   display: grid;
   gap: 30px;
 `
+
+
+
