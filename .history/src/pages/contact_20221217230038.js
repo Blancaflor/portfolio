@@ -3,7 +3,7 @@ import emailjs from "emailjs-com"
 import Layout from "../components/layout/layout"
 import SEO from "../components/layout/seo"
 
-export default function Contact() {
+export default function Contact()
 
 function sendEmail(e) {
   e.preventDefault();

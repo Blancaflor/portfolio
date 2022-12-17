@@ -3,9 +3,9 @@ import emailjs from "emailjs-com"
 import Layout from "../components/layout/layout"
 import SEO from "../components/layout/seo"
 
-export default function Contact() {
 
-function sendEmail(e) {
+
+function sendEmail Contact() {
   e.preventDefault();
 
   emailjs.sendForm('gmail', 'YOUR_TEMPLATE_ID', form.current, 'U1ZKe3G9J3WB7krWW')
