@@ -1,7 +1,7 @@
 import React from "react"
 import emailjs from "emailjs-com"
-import Layout from "../layout/layout"
-import SEO from "../layout/seo"
+import Layout from "../components/layout/layout"
+import SEO from "../components/layout/seo"
 import styled, { keyframes } from "styled-components"
 import WaveBackground from "../backgrounds/WaveBackground"
 import PurchaseButton from "../buttons/PurchaseButton"
@@ -126,3 +126,4 @@ const Title = styled(H1)`
 
 
 
+z
