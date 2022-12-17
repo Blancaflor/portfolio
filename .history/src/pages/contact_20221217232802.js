@@ -85,6 +85,8 @@ const TextWrapper = styled.div`
   gap: 30px;
 `
 
+
+
   @media (max-width: 450px) {
     font-size: 48px;
   }
