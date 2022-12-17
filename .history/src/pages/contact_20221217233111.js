@@ -3,8 +3,7 @@ import emailjs from "emailjs-com"
 import Layout from "../components/layout/layout"
 import SEO from "../components/layout/seo"
 import styled, { keyframes } from "styled-components"
-import WaveBackground from "../backgrounds/WaveBackground"
-import PurchaseButton from "../buttons/PurchaseButton"
+
 
 export default function Contact() {
 
