@@ -86,6 +86,7 @@ const TextWrapper = styled.div`
 `
 
 const Title = styled(H1)`
+  
   color: transparent;
 
   span {

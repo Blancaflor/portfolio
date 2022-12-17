@@ -86,6 +86,8 @@ const TextWrapper = styled.div`
 `
 
 const Title = styled(H1)`
+  
+  -webkit-background-clip: text;
   color: transparent;
 
   span {
