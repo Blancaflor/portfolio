@@ -83,6 +83,7 @@ const TextWrapper = styled.div`
   max-width: 360px;
   display: grid;
   gap: 30px;
+
 `
 
 const Title = styled(H1)`
