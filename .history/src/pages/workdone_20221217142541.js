@@ -3,7 +3,7 @@ import Layout from "../components/layout/layout"
 import SEO from "../components/layout/seo"
 import HeroSection from "../components/sections/HeroSection"
 
-function Examples() {
+function Work() {
   return (
     <Layout>
       <SEO title="Home" />
@@ -12,4 +12,4 @@ function Examples() {
   )
 }
 
-export default Examples
+export default Work

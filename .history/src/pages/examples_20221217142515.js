@@ -12,4 +12,4 @@ function Examples() {
   )
 }
 
-export default Examples
+export default Ex
