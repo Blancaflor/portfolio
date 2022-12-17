@@ -5,7 +5,7 @@ export const menuData = [
     icon: "/images/icons/tutorials.svg",
     link: "/workdone",
   },
-  { title: "Contact", icon: "/images/icons/pricing.svg", link: "/components/sections/contact" },
+  { title: "Contact", icon: "/images/icons/pricing.svg", link: "C:\Users\blanc\OneDrive\Desktop\website-portfolio #2 #1\portfolio\src\components\sections\contact.js" },
   { title: "", icon: "/images/icons/search.svg", link: "/search" },
   { title: "", icon: "/images/icons/account.svg", link: "/account" },
 ]
