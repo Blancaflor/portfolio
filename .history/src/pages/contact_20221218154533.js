@@ -84,7 +84,7 @@ const ContentWrapper = styled.div`
   }
 
   input {
-    padding: 60px 0;
+    
   }
 
   @media (max-width: 450px) {
