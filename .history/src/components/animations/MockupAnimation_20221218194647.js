@@ -86,6 +86,8 @@ const Wrapper = styled.div`
     }
   }
 
+  
+
   .mockup1 {
     width: 183px;
     height: 120px;
