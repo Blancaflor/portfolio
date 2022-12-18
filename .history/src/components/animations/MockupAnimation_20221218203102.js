@@ -67,18 +67,12 @@ const Wrapper = styled.div`
       transition-delay: 0.1s;
       transform: translate(-120px, 30px);
     }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
   }
   :hover div {
     transform: rotateY(0deg) rotateX(0deg);
     &.mockup5 {
       transition-delay: 0.1s;
       transform: translate(-90px, 30px);
-    }
-    :hover {
-      filter: brightness(150%) saturate(120%);
     }
   }
 

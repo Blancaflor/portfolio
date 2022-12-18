@@ -5,11 +5,11 @@ import { Link } from "gatsby"
 export default function MockupAnimation() {
     return (
       <Wrapper>
-        <Link to="https://www.tupperwarelochristi.be/" target="_blank" ><div id="moc1" className="mockup1" /></Link>
-        <Link to="https://prosteam.be/" target="_blank" ><div id="moc2" className="mockup2" /></Link>
-        <Link to="https://slickcoin.netlify.com/" target="_blank" ><div id="moc3" className="mockup3" /></Link>
-        <Link to="/" target="_blank" ><div id="moc4" className="mockup4" /></Link>
-        <Link to="https://bikera.org/" target="_blank" ><div id="moc5" className="mockup5" /></Link>
+        <Link to="https://www.tupperwarelochristi.be/" target="_blank" ><div id className="mockup1" /></Link>
+        <Link to="https://prosteam.be/" target="_blank" ><div className="mockup2" /></Link>
+        <Link to="https://slickcoin.netlify.com/" target="_blank" ><div className="mockup3" /></Link>
+        <Link to="/" target="_blank" ><div className="mockup4" /></Link>
+        <Link to="https://bikera.org/" target="_blank" ><div className="mockup5" /></Link>
       </Wrapper>
   )
 }
@@ -41,38 +41,17 @@ const Wrapper = styled.div`
       transition-delay: 0.1s;
       transform: translate(-30px, -30px);
     }
-  }
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
     &.mockup2 {
       transition-delay: 0s;
       transform: translate(0px, -30px);
     }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
-  }
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
     &.mockup3 {
       transition-delay: 0s;
     }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
-  }
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
     &.mockup4 {
       transition-delay: 0.1s;
       transform: translate(-120px, 30px);
     }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
-  }
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
     &.mockup5 {
       transition-delay: 0.1s;
       transform: translate(-90px, 30px);
