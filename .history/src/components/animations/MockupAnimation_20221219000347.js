@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 export default function MockupAnimation() {
     return (
       <Wrapper>
-        <Mockup1><Link to="https://www.tupperwarelochristi.be/" target="_blank" ><div className="mockup1" /></Link></Mockup1>
+        <Mockup><Link to="https://www.tupperwarelochristi.be/" target="_blank" ><div className="mockup1" /></Link></Mockup>
         <Mockup2><Link to="https://prosteam.be/" target="_blank" ><div className="mockup2" /></Link></Mockup2>
         <Mockup3><Link to="https://slickcoin.netlify.com/" target="_blank" ><div className="mockup3" /></Link></Mockup3>
         <Mockup4><Link to="/" target="_blank" ><div className="mockup4" /></Link></Mockup4>
@@ -139,7 +139,8 @@ const Wrapper = styled.div`
   }
 `
 
-const Mockup1 = styled.div`
+const Mockup = styled.div`
+
   div {
     transform: rotateY(-20deg) rotateX(20deg);
     transform-origin: bottom left;
