@@ -67,7 +67,7 @@ const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 44px auto;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-aro;
   padding: 0 30px;
   align-items: center;
 
