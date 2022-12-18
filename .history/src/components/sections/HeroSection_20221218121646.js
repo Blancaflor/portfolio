@@ -1,10 +1,10 @@
 import React from "react"
 import styled, { keyframes } from "styled-components"
-import MockupAnimation from "../animations/MockupAnimation"
-import WaveBackground from "../backgrounds/WaveBackground"
-import PurchaseButton from "../buttons/PurchaseButton"
-import { themes } from "../styles/ColorStyles"
-import { H1, MediumText } from "../styles/TextStyles"
+import MockupAnimation from ".../p/animations/MockupAnimation"
+import WaveBackground from ".../p/backgrounds/WaveBackground"
+import PurchaseButton from ".../p/buttons/PurchaseButton"
+import { themes } from ".../p/styles/ColorStyles"
+import { H1, MediumText } from ".../p/styles/TextStyles"
 
 function HeroSection() {
   return (
