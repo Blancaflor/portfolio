@@ -26,13 +26,39 @@ const Wrapper = styled.div`
     transform: scale(0.4);
   }
 
-  div {
+  div &.mockup1 {
     transform: rotateY(-20deg) rotateX(20deg);
     transform-origin: bottom left;
   }
 
   * {
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+  :hover div {
+    transform: rotateY(0deg) rotateX(0deg);
+    &.mockup1 {
+      transition-delay: 0.1s;
+      transform: translate(-30px, -30px);
+    }
+    &.mockup2 {
+      transition-delay: 0s;
+      transform: translate(0px, -30px);
+    }
+    &.mockup3 {
+      transition-delay: 0s;
+    }
+    &.mockup4 {
+      transition-delay: 0.1s;
+      transform: translate(-120px, 30px);
+    }
+    &.mockup5 {
+      transition-delay: 0.1s;
+      transform: translate(-90px, 30px);
+    }
+    :hover {
+      filter: brightness(150%) saturate(120%);
+    }
   }
 
   .mockup1 {
@@ -147,31 +173,3 @@ const Wrapper = styled.div`
     border-radius: 14px;
   }
 `
-
-const div = styled.div`
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
-    &.mockup1 {
-      transition-delay: 0.1s;
-      transform: translate(-30px, -30px);
-    }
-    &.mockup2 {
-      transition-delay: 0s;
-      transform: translate(0px, -30px);
-    }
-    &.mockup3 {
-      transition-delay: 0s;
-    }
-    &.mockup4 {
-      transition-delay: 0.1s;
-      transform: translate(-120px, 30px);
-    }
-    &.mockup5 {
-      transition-delay: 0.1s;
-      transform: translate(-90px, 30px);
-    }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
-  }
-  `
