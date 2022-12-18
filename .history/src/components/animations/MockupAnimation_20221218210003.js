@@ -140,6 +140,8 @@ const Mockup1 = styled.div`
     transform: scale(0.4);
   }
 
+
+
   * {
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
