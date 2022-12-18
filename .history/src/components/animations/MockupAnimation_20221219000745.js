@@ -175,9 +175,7 @@ const Mockup2 = styled.div`
       transition-delay: 0s;
       transform: translate(0px, -30px);
     }
-    :hover {
-    filter: brightness(150%) saturate(120%);
-  }
+    
   }  
 `
 
@@ -195,9 +193,7 @@ const Mockup3 = styled.div`
   &.mockup3 {
       transition-delay: 0s;
     }
-    :hover {
-    filter: brightness(150%) saturate(120%);
-  }
+    
   }  
 `
 
@@ -216,9 +212,7 @@ const Mockup4 = styled.div`
       transition-delay: 0.1s;
       transform: translate(-120px, 30px);
     }
-    :hover {
-    filter: brightness(150%) saturate(120%);
-  }
+    
   }  
 `
 
@@ -237,8 +231,6 @@ const Mockup5 = styled.div`
       transition-delay: 0.1s;
       transform: translate(-90px, 30px);
     }
-    :hover {
-    filter: brightness(150%) saturate(120%);
-  }
+    
   }  
 `
