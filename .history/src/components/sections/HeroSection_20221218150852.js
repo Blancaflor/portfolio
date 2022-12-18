@@ -6,7 +6,6 @@ import PurchaseButton from "../buttons/PurchaseButton"
 import { themes } from "../styles/ColorStyles"
 import { H1, MediumText } from "../styles/TextStyles"
 import TextAnimation from "../animations/TextAnimation"
-import TextAnimation2 from "../animations/TextAnimation2"
 
 
 function HeroSection() {
@@ -19,7 +18,7 @@ function HeroSection() {
             We
             <br />
             design
-            <br /> and <TextAnimation /> your <TextAnimation2 />.
+            <br /> and <TextAnimation /> your <TextAnimat />.
           </Title>
           <Description>Welcome on our Digital Platform</Description>
           <PurchaseButton

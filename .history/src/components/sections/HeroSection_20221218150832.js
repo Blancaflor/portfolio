@@ -6,7 +6,6 @@ import PurchaseButton from "../buttons/PurchaseButton"
 import { themes } from "../styles/ColorStyles"
 import { H1, MediumText } from "../styles/TextStyles"
 import TextAnimation from "../animations/TextAnimation"
-import TextAnimation2 from "../animations/TextAnimation2"
 
 
 function HeroSection() {
