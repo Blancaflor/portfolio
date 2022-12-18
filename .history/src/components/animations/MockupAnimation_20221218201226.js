@@ -57,6 +57,7 @@ const Wrapper = styled.div`
       transition-delay: 0.1s;
       transform: translate(-30px, -30px);
     }
+  }
     &.mockup2 {
       transition-delay: 0s;
       transform: translate(0px, -30px);
@@ -75,7 +76,7 @@ const Wrapper = styled.div`
     :hover {
       filter: brightness(150%) saturate(120%);
     }
-  }
+ 
 
   .mockup1 {
     width: 183px;
