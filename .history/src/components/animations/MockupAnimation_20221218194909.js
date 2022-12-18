@@ -57,7 +57,7 @@ const Wrapper = styled.div`
   }
   :hover div {
     transform: rotateY(0deg) rotateX(0deg);
-    &.mockup3 {
+    &.mockup1 {
       transition-delay: 0.1s;
       transform: translate(-30px, -30px);
     }
@@ -67,7 +67,7 @@ const Wrapper = styled.div`
   }
   :hover div {
     transform: rotateY(0deg) rotateX(0deg);
-    &.mockup4 {
+    &.mockup1 {
       transition-delay: 0.1s;
       transform: translate(-30px, -30px);
     }
@@ -77,7 +77,7 @@ const Wrapper = styled.div`
   }
   :hover div {
     transform: rotateY(0deg) rotateX(0deg);
-    &.mockup5 {
+    &.mockup1 {
       transition-delay: 0.1s;
       transform: translate(-30px, -30px);
     }

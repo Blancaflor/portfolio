@@ -77,7 +77,7 @@ const Wrapper = styled.div`
   }
   :hover div {
     transform: rotateY(0deg) rotateX(0deg);
-    &.mockup5 {
+    &.mockup {
       transition-delay: 0.1s;
       transform: translate(-30px, -30px);
     }
