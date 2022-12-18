@@ -24,7 +24,7 @@ const Wrapper = styled.div`
   padding: 20px;
   position: absolute;
   top: 60px;
-  right: 376px;
+  right: 37px;
   opacity: ${props => (props.isOpen ? 1 : 0)};
   z-index: 1;
   display: grid;
