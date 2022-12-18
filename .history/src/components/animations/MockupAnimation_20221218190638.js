@@ -35,6 +35,7 @@ const Wrapper = styled.div`
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 
+  
   :hover div .mockup1 {
     transform: rotateY(0deg) rotateX(0deg);
     transition-delay: 0.1s;
