@@ -36,7 +36,11 @@ export default function Contact() {
             design
             <br /> and <TextAnimation /> your <TextAnimation2 />.
           </Title>
-          <Description>Send us your message!</Description>
+          <Description>Welcome on our Digital Platform</Description>
+          <PurchaseButton
+            title="Make An Appointment"
+            subtitle="Send us an email!"
+          />
         </TextWrapper>
         <form onSubmit={sendEmail}>
         <div className="row pt-5 mx-auto">

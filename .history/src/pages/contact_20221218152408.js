@@ -36,7 +36,7 @@ export default function Contact() {
             design
             <br /> and <TextAnimation /> your <TextAnimation2 />.
           </Title>
-          <Description>Send us your message!</Description>
+          <Description>Send</Description>
         </TextWrapper>
         <form onSubmit={sendEmail}>
         <div className="row pt-5 mx-auto">
