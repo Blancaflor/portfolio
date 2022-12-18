@@ -44,7 +44,7 @@ export default function Contact() {
   )
 }
 
-const form = styled.form`
+const form = styled.f`
   max-width: 1234px;
   margin: 0 auto;
   padding: 200px 30px;
