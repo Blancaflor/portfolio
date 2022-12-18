@@ -165,6 +165,7 @@ const Mockup2 = styled.div`
     transform: scale(0.4);
   }
 
+
   * {
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
@@ -193,6 +194,7 @@ const Mockup3 = styled.div`
     transform: scale(0.4);
   }
 
+
   * {
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
@@ -219,6 +221,7 @@ const Mockup4 = styled.div`
   @media (max-width: 450px) {
     transform: scale(0.4);
   }
+
 
   * {
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -247,6 +250,7 @@ const Mockup5 = styled.div`
   @media (max-width: 450px) {
     transform: scale(0.4);
   }
+
 
   * {
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);

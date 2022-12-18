@@ -165,17 +165,22 @@ const Mockup2 = styled.div`
     transform: scale(0.4);
   }
 
+  div {
+    transform: rotateY(-20deg) rotateX(20deg);
+    transform-origin: bottom left;
+  }
+
   * {
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 
-  :hover div Mockup2 {
+  :hover Mockup2 {
     transform: rotateY(0deg) rotateX(0deg);
     &.mockup2 {
       transition-delay: 0s;
       transform: translate(0px, -30px);
     }
-    :hover {
+    :hover  {
       filter: brightness(150%) saturate(120%);
     }
   }
@@ -191,6 +196,11 @@ const Mockup3 = styled.div`
   }
   @media (max-width: 450px) {
     transform: scale(0.4);
+  }
+
+  div {
+    transform: rotateY(-20deg) rotateX(20deg);
+    transform-origin: bottom left;
   }
 
   * {
@@ -220,6 +230,11 @@ const Mockup4 = styled.div`
     transform: scale(0.4);
   }
 
+  div {
+    transform: rotateY(-20deg) rotateX(20deg);
+    transform-origin: bottom left;
+  }
+
   * {
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
@@ -246,6 +261,11 @@ const Mockup5 = styled.div`
   }
   @media (max-width: 450px) {
     transform: scale(0.4);
+  }
+
+  div {
+    transform: rotateY(-20deg) rotateX(20deg);
+    transform-origin: bottom left;
   }
 
   * {
