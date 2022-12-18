@@ -43,7 +43,7 @@ function sendEmail(e) {
   )
 }
 
-const form = styled.div`
+.orm = styled.div`
   max-width: 1234px;
   margin: 0 auto;
   padding: 200px 30px;
