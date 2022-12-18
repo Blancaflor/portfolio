@@ -26,23 +26,23 @@ const Wrapper = styled.div`
     transform: scale(0.4);
   }
 
-  .mockup1 {
+  d.mockup1 {
     transform: rotateY(-20deg) rotateX(20deg);
     transform-origin: bottom left;
   }
-  .mockup2 {
+  d.mockup2 {
     transform: rotateY(-20deg) rotateX(20deg);
     transform-origin: bottom left;
   }
-  .mockup3 {
+  d.mockup3 {
     transform: rotateY(-20deg) rotateX(20deg);
     transform-origin: bottom left;
   }
-  .mockup4 {
+  d.mockup4 {
     transform: rotateY(-20deg) rotateX(20deg);
     transform-origin: bottom left;
   }
-  .mockup5 {
+  d.mockup5 {
     transform: rotateY(-20deg) rotateX(20deg);
     transform-origin: bottom left;
   }
