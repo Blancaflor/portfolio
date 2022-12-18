@@ -34,6 +34,7 @@ const Wrapper = styled.div`
     opacity: 90%;
 
     background: url("/images/animations/tupperware.svg"), 
+      
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
