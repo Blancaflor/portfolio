@@ -57,16 +57,20 @@ const Wrapper = styled.div`
   }
   :hover div &.mockup4 {
     transform: rotateY(0deg) rotateX(0deg);
-    transition-delay: 0.1s;
-    transform: translate(-120px, 30px);
+     {
+      transition-delay: 0.1s;
+      transform: translate(-120px, 30px);
+    }
     :hover {
       filter: brightness(150%) saturate(120%);
     }
   }
-  :hover div &.mockup5 {
+  :hover div {
     transform: rotateY(0deg) rotateX(0deg);
-    transition-delay: 0.1s;
-    transform: translate(-90px, 30px);
+    &.mockup5 {
+      transition-delay: 0.1s;
+      transform: translate(-90px, 30px);
+    }
     :hover {
       filter: brightness(150%) saturate(120%);
     }
