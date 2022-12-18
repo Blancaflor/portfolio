@@ -26,23 +26,7 @@ const Wrapper = styled.div`
     transform: scale(0.4);
   }
 
-  div &.mockup1 {
-    transform: rotateY(-20deg) rotateX(20deg);
-    transform-origin: bottom left;
-  }
-  div &.mockup2 {
-    transform: rotateY(-20deg) rotateX(20deg);
-    transform-origin: bottom left;
-  }
-  div &.mockup3 {
-    transform: rotateY(-20deg) rotateX(20deg);
-    transform-origin: bottom left;
-  }
-  div &.mockup4 {
-    transform: rotateY(-20deg) rotateX(20deg);
-    transform-origin: bottom left;
-  }
-  div &.mockup5 {
+  div {
     transform: rotateY(-20deg) rotateX(20deg);
     transform-origin: bottom left;
   }
@@ -51,7 +35,7 @@ const Wrapper = styled.div`
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 
-  :hover div {
+  :hover L div {
     transform: rotateY(0deg) rotateX(0deg);
     &.mockup1 {
       transition-delay: 0.1s;
