@@ -17,7 +17,7 @@ export default function MenuButton(props) {
 const MenuItem = styled.div`
   color: rgba(255,255, 255, 0.7);
   display:grid;
-  grid-template-columns: 24px center;
+  grid-template-columns: 24px c;
   gap: ${props => (props.title ? "10px" : "0px")};
   align-items: center;
   padding: 10px;
