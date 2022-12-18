@@ -71,7 +71,7 @@ const Wrapper = styled.div`
       filter: brightness(150%) saturate(120%);
     }
   }
-  :hover div .mockup3 {
+  :hover div  {
     transform: rotateY(0deg) rotateX(0deg);
     &.mockup3 {
       transition-delay: 0s;
@@ -80,7 +80,7 @@ const Wrapper = styled.div`
       filter: brightness(150%) saturate(120%);
     }
   }
-  :hover div .mockup4 {
+  :hover div {
     transform: rotateY(0deg) rotateX(0deg);
     &.mockup4 {
       transition-delay: 0.1s;
@@ -90,7 +90,7 @@ const Wrapper = styled.div`
       filter: brightness(150%) saturate(120%);
     }
   }
-  :hover div .mockup5 {
+  :hover div {
     transform: rotateY(0deg) rotateX(0deg);
     &.mockup5 {
       transition-delay: 0.1s;
