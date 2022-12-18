@@ -77,7 +77,7 @@ const ContentWrapper = styled.div`
   padding: 200px 30px;
   display: grid;
   grid-template-columns: 360px auto;
-  justify-content: space-around;
+  justify-content: space-a;
 
   @media (max-width: 450px) {
     grid-template-columns: auto;
