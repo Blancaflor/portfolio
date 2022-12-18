@@ -150,7 +150,7 @@ const Wrapper = styled.div`
   }
 `
 
-const Mockup = styled.li`
+const Mockup = styled.l`
   :hover div {
     transform: rotateY(0deg) rotateX(0deg);
     &.mockup1 {
