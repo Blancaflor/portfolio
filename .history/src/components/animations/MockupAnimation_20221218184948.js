@@ -6,10 +6,10 @@ export default function MockupAnimation() {
     return (
       <Wrapper>
         <div><Link to="https://www.tupperwarelochristi.be/" target="_blank" ><div className="mockup1" /></Link></div>
-        <div><Link to="https://prosteam.be/" target="_blank" ><div className="mockup2" /></Link></div>
-        <div><Link to="https://slickcoin.netlify.com/" target="_blank" ><div className="mockup3" /></Link></div>
-        <div><Link to="/" target="_blank" ><div className="mockup4" /></Link></div>
-        <div><Link to="https://bikera.org/" target="_blank" ><div className="mockup5" /></Link></div>
+        <Link to="https://prosteam.be/" target="_blank" ><div className="mockup2" /></Link>
+        <Link to="https://slickcoin.netlify.com/" target="_blank" ><div className="mockup3" /></Link>
+        <Link to="/" target="_blank" ><div className="mockup4" /></Link>
+        <Link to="https://bikera.org/" target="_blank" ><div className="mockup5" /></Link>
       </Wrapper>
   )
 }
