@@ -80,7 +80,7 @@ const ContentWrapper = styled.div`
   justify-content: space-around;
 
   form {
-    padding: 15px 0;
+    padding: 1px 0;
   }
 
   input {
