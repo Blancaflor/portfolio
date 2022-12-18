@@ -34,17 +34,17 @@ const Wrapper = styled.div`
     opacity: 90%;
 
     background: url("/images/animations/tupperware.svg"), 
-      linear-gradient(
-        198.85deg,
-        #4316db 12.72%,
-        #9076e7 54.49%,
-        #a2eeff 100.01%
+      radial-gradient(
+        218.51% 281.09% at 100% 100%,
+        rgba(253, 63, 51, 0.6) 0%,
+        rgba(76, 0, 200, 0.6) 45.83%,
+        rgba(76, 0, 200, 0.6) 100%
       );
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0px 16.3881px 32.7761px rgba(99, 30, 187, 0.5);
-    backdrop-filter: blur(21.8507px);
+  
     /* Note: backdrop-filter has minimal browser support */
     border-radius: 16px;
   }
