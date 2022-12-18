@@ -239,7 +239,7 @@ const Mockup4 = styled.div`
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 
-  :hover Mockup4 {
+  :hover div {
     transform: rotateY(0deg) rotateX(0deg);
     &.mockup4 {
       transition-delay: 0.1s;
@@ -272,7 +272,7 @@ const Mockup5 = styled.div`
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 
-  :hover Mockup5 {
+  :hover div {
     transform: rotateY(0deg) rotateX(0deg);
     &.mockup5 {
       transition-delay: 0.1s;
