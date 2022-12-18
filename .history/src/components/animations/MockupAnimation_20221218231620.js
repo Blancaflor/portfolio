@@ -35,27 +35,38 @@ const Wrapper = styled.div`
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 
-  :hover div {
+  :hover di .mockup1 {
     transform: rotateY(0deg) rotateX(0deg);
-    &.mockup1 {
-      transition-delay: 0.1s;
-      transform: translate(-30px, -30px);
+    transition-delay: 0.1s;
+    transform: translate(-30px, -30px);
+  }
+  :hover di .mockup2 {
+    transform: rotateY(0deg) rotateX(0deg);
+    transition-delay: 0s;
+    transform: translate(0px, -30px);
+    :hover {
+      filter: brightness(150%) saturate(120%);
     }
-    &.mockup2 {
-      transition-delay: 0s;
-      transform: translate(0px, -30px);
+  }
+  :hover di .mockup3 {
+    transform: rotateY(0deg) rotateX(0deg);
+    transition-delay: 0s;
+    :hover {
+      filter: brightness(150%) saturate(120%);
     }
-    &.mockup3 {
-      transition-delay: 0s;
+  }
+  :hover di .mockup4 {
+    transform: rotateY(0deg) rotateX(0deg);
+    transition-delay: 0.1s;
+    transform: translate(-120px, 30px);
+    :hover {
+      filter: brightness(150%) saturate(120%);
     }
-    &.mockup4 {
-      transition-delay: 0.1s;
-      transform: translate(-120px, 30px);
-    }
-    &.mockup5 {
-      transition-delay: 0.1s;
-      transform: translate(-90px, 30px);
-    }
+  }
+  :hover di .mockup5 {
+    transform: rotateY(0deg) rotateX(0deg);
+    transition-delay: 0.1s;
+    transform: translate(-90px, 30px);
     :hover {
       filter: brightness(150%) saturate(120%);
     }

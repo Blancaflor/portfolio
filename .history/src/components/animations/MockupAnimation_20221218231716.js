@@ -60,6 +60,7 @@ const Wrapper = styled.div`
       filter: brightness(150%) saturate(120%);
     }
   }
+  
 
   .mockup1 {
     width: 183px;

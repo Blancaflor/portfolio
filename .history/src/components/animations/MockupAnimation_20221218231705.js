@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 export default function MockupAnimation() {
     return (
       <Wrapper>
-        <Link to="https://www.tupperwarelochristi.be/" target="_blank" ><div className="mockup1" /></Link>
+        <Link to="https://www.tupperwarelochristi.be/" target="_blank" ><div id= className="mockup1" /></Link>
         <Link to="https://prosteam.be/" target="_blank" ><div className="mockup2" /></Link>
         <Link to="https://slickcoin.netlify.com/" target="_blank" ><div className="mockup3" /></Link>
         <Link to="/" target="_blank" ><div className="mockup4" /></Link>
