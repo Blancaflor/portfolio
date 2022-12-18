@@ -43,7 +43,6 @@ export default function Contact() {
     </Layout >
   )
 }
-
 Form = styled.div`
   max-width: 1234px;
   margin: 0 auto;
