@@ -42,10 +42,8 @@ const Wrapper = styled.div`
       transform: translate(-30px, -30px);
     }
     
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
   }
+  
 
   .mockup1 {
     width: 183px;

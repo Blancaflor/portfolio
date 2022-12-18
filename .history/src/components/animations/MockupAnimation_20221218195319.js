@@ -41,11 +41,33 @@ const Wrapper = styled.div`
       transition-delay: 0.1s;
       transform: translate(-30px, -30px);
     }
-    
+  }
+  :hover div {
+    transform: rotateY(0deg) rotateX(0deg);
+    &.mockup1 {
+      transition-delay: 0.1s;
+      transform: translate(-30px, -30px);
+    }
+  }
+
+  &.mockup2 {
+      transition-delay: 0s;
+      transform: translate(0px, -30px);
+    }
+    &.mockup3 {
+      transition-delay: 0s;
+    }
+    &.mockup4 {
+      transition-delay: 0.1s;
+      transform: translate(-120px, 30px);
+    }
+    &.mockup5 {
+      transition-delay: 0.1s;
+      transform: translate(-90px, 30px);
+    }
     :hover {
       filter: brightness(150%) saturate(120%);
     }
-  }
 
   .mockup1 {
     width: 183px;

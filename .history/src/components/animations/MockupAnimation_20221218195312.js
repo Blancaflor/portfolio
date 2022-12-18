@@ -41,7 +41,46 @@ const Wrapper = styled.div`
       transition-delay: 0.1s;
       transform: translate(-30px, -30px);
     }
-    
+    :hover {
+      filter: brightness(150%) saturate(120%);
+    }
+  }
+  :hover div {
+    transform: rotateY(0deg) rotateX(0deg);
+    &.mockup1 {
+      transition-delay: 0.1s;
+      transform: translate(-30px, -30px);
+    }
+    :hover {
+      filter: brightness(150%) saturate(120%);
+    }
+  }
+  :hover div {
+    transform: rotateY(0deg) rotateX(0deg);
+    &.mockup1 {
+      transition-delay: 0.1s;
+      transform: translate(-30px, -30px);
+    }
+    :hover {
+      filter: brightness(150%) saturate(120%);
+    }
+  }
+  :hover div {
+    transform: rotateY(0deg) rotateX(0deg);
+    &.mockup1 {
+      transition-delay: 0.1s;
+      transform: translate(-30px, -30px);
+    }
+    :hover {
+      filter: brightness(150%) saturate(120%);
+    }
+  }
+  :hover div {
+    transform: rotateY(0deg) rotateX(0deg);
+    &.mockup1 {
+      transition-delay: 0.1s;
+      transform: translate(-30px, -30px);
+    }
     :hover {
       filter: brightness(150%) saturate(120%);
     }
