@@ -44,6 +44,7 @@ const Wrapper = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0px 16.3881px 32.7761px rgba(99, 30, 187, 0.5);
+
     /* Note: backdrop-filter has minimal browser support */
     border-radius: 16px;
   }
