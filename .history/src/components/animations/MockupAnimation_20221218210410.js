@@ -14,7 +14,9 @@ export default function MockupAnimation() {
   )
 }
 
-const Wrapper = styled.div` 
+const Wrapper = styled.div`
+  
+
   .mockup1 {
     width: 183px;
     height: 120px;
@@ -39,7 +41,7 @@ const Wrapper = styled.div`
   }
 
   .mockup2 {
-    position: relative;
+    position: absolute;
     width: 183px;
     height: 120px;
     left: 214px;
@@ -66,7 +68,7 @@ const Wrapper = styled.div`
   }
 
   .mockup3 {
-    position: relative;
+    position: absolute;
     width: 701px;
     height: 428px;
     left: 37px;
@@ -86,7 +88,7 @@ const Wrapper = styled.div`
   }
 
   .mockup4 {
-    position: relative;
+    position: absolute;
     width: 399px;
     height: 274px;
     left: 194px;
@@ -107,7 +109,7 @@ const Wrapper = styled.div`
   }
 
   .mockup5 {
-    position: relative;
+    position: absolute;
     width: 412px;
     height: 274px;
     left: 616px;
