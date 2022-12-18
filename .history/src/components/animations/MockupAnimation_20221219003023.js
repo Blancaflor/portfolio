@@ -34,7 +34,12 @@ const Wrapper = styled.div`
     opacity: 90%;
 
     background: url("/images/animations/tupperware.svg"), 
-    rgba(23, 12, 61, 0.5);
+      linear-gradient(
+        198.85deg,
+        #4316db 12.72%,
+        #9076e7 54.49%,
+        #a2eeff 100.01%
+      );
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
