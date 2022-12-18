@@ -2,7 +2,7 @@ import React from 'react'
 import styled, { keyframes } from 'styled-components'
 
 export default function TextAnimation() {
-    const reactArray = "code".split("")
+    const reactArray = "website".split("")
 
     return (
       <Wrapper>{reactArray.map((item, index) => (
@@ -30,7 +30,7 @@ const Wrapper = styled.span`
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
   }
   span:nth-child(1) {
-    animation-delay: 0.1s;
+    animation-delay: 0.s;
   }
   span:nth-child(2) {
     animation-delay: 0.2s;
