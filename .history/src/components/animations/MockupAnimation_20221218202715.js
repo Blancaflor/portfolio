@@ -26,7 +26,7 @@ const Wrapper = styled.div`
     transform: scale(0.4);
   }
 
-  div {
+  .mocku {
     transform: rotateY(-20deg) rotateX(20deg);
     transform-origin: bottom left;
   }
