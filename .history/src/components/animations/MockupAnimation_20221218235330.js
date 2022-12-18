@@ -10,6 +10,7 @@ export default function MockupAnimation() {
         <Mockup3><Link to="https://slickcoin.netlify.com/" target="_blank" ><div className="mockup3" /></Link></Mockup3>
         <Mockup4><Link to="/" target="_blank" ><div className="mockup4" /></Link></Mockup4>
         <Mockup5><Link to="https://bikera.org/" target="_blank" ><div className="mockup5" /></Link></Mockup5>
+        
       </Wrapper>
   )
 }

@@ -5,11 +5,13 @@ import { Link } from "gatsby"
 export default function MockupAnimation() {
     return (
       <Wrapper>
-        <Mockup><Link to="https://www.tupperwarelochristi.be/" target="_blank" ><div className="mockup1" /></Link></Mockup>
-        <Mockup2><Link to="https://prosteam.be/" target="_blank" ><div className="mockup2" /></Link></Mockup2>
-        <Mockup3><Link to="https://slickcoin.netlify.com/" target="_blank" ><div className="mockup3" /></Link></Mockup3>
-        <Mockup4><Link to="/" target="_blank" ><div className="mockup4" /></Link></Mockup4>
-        <Mockup5><Link to="https://bikera.org/" target="_blank" ><div className="mockup5" /></Link></Mockup5>
+        <Mockup>
+        <Link to="https://www.tupperwarelochristi.be/" target="_blank" ><div className="mockup1" /></Link>
+        <Link to="https://prosteam.be/" target="_blank" ><div className="mockup2" /></Link>
+        <Link to="https://slickcoin.netlify.com/" target="_blank" ><div className="mockup3" /></Link>
+        <Link to="/" target="_blank" ><div className="mockup4" /></Link>
+        <Link to="https://bikera.org/" target="_blank" ><div className="mockup5" /></Link>
+        </Mockup>
       </Wrapper>
   )
 }
@@ -155,6 +157,16 @@ const Mockup = styled.div`
       transition-delay: 0.1s;
       transform: translate(-30px, -30px);
     }
+    
+    
+    &.mockup4 {
+      transition-delay: 0.1s;
+      transform: translate(-120px, 30px);
+    }
+    &.mockup5 {
+      transition-delay: 0.1s;
+      transform: translate(-90px, 30px);
+    }
     :hover {
       filter: brightness(150%) saturate(120%);
     }
@@ -162,40 +174,18 @@ const Mockup = styled.div`
   `
 
 const Mockup2 = styled.div`
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
   &.mockup2 {
       transition-delay: 0s;
       transform: translate(0px, -30px);
     }
-  }  
 `
 
 const Mockup3 = styled.div`
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
   &.mockup3 {
       transition-delay: 0s;
     }
-  }  
 `
 
-const Mockup4 = styled.div`
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
-  &.mockup4 {
-      transition-delay: 0.1s;
-      transform: translate(-120px, 30px);
-    }
-  }  
-`
+const Mockup4 = styled.div``
 
-const Mockup5 = styled.div`
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
-  &.mockup5 {
-      transition-delay: 0.1s;
-      transform: translate(-90px, 30px);
-    }
-  }  
-`
+const Mockup5 = styled.div``

@@ -5,11 +5,13 @@ import { Link } from "gatsby"
 export default function MockupAnimation() {
     return (
       <Wrapper>
-        <Mockup><Link to="https://www.tupperwarelochristi.be/" target="_blank" ><div className="mockup1" /></Link></Mockup>
-        <Mockup2><Link to="https://prosteam.be/" target="_blank" ><div className="mockup2" /></Link></Mockup2>
-        <Mockup3><Link to="https://slickcoin.netlify.com/" target="_blank" ><div className="mockup3" /></Link></Mockup3>
-        <Mockup4><Link to="/" target="_blank" ><div className="mockup4" /></Link></Mockup4>
-        <Mockup5><Link to="https://bikera.org/" target="_blank" ><div className="mockup5" /></Link></Mockup5>
+        <Mockup>
+        <Link to="https://www.tupperwarelochristi.be/" target="_blank" ><div className="mockup1" /></Link>
+        <Link to="https://prosteam.be/" target="_blank" ><div className="mockup2" /></Link>
+        <Link to="https://slickcoin.netlify.com/" target="_blank" ><div className="mockup3" /></Link>
+        <Link to="/" target="_blank" ><div className="mockup4" /></Link>
+        <Link to="https://bikera.org/" target="_blank" ><div className="mockup5" /></Link>
+        
       </Wrapper>
   )
 }
