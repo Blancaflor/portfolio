@@ -2,7 +2,7 @@ import React from 'react'
 import styled, { keyframes } from 'styled-components'
 
 export default function TextAnimation() {
-    const reactArray = "Code".split("")
+    const reactArray = "C".split("")
 
     return (
       <Wrapper>{reactArray.map((item, index) => (

@@ -18,7 +18,7 @@ function HeroSection() {
             We
             <br />
             design
-            <br /> and <TextAnimation /> your <span>website</span>.
+            <br /> and <TextAnimation /> your <span>webs</span>{/**/}.
           </Title>
           <Description>Welcome on our Digital Platform</Description>
           <PurchaseButton
