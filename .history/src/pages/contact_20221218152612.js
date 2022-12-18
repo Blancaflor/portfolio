@@ -7,8 +7,7 @@ import WaveBackground from "../components/backgrounds/WaveBackground"
 import PurchaseButton from "../components/buttons/PurchaseButton"
 import { themes } from "../components/styles/ColorStyles"
 import { H1, MediumText } from "../components/styles/TextStyles"
-import TextAnimation from "../animations/TextAnimation"
-import TextAnimation2 from "../animations/TextAnimation2"
+
 
 export default function Contact() {
 
