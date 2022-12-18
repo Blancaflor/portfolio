@@ -194,3 +194,9 @@ const Wrapper = styled.div`
     border-radius: 14px;
   }
 `
+
+const Mockup1 = styled.div``
+const Mockup2 = styled.div``
+const Mockup = styled.div``
+const Mockup1 = styled.div``
+const Mockup1 = styled.div``

@@ -5,43 +5,17 @@ import { Link } from "gatsby"
 export default function MockupAnimation() {
     return (
       <Wrapper>
-        <Link to="https://www.tupperwarelochristi.be/" target="_blank" ><div id="moc1" className="mockup1" /></Link>
-        <Link to="https://prosteam.be/" target="_blank" ><div id="moc2" className="mockup2" /></Link>
-        <Link to="https://slickcoin.netlify.com/" target="_blank" ><div id="moc3" className="mockup3" /></Link>
-        <Link to="/" target="_blank" ><div id="moc4" className="mockup4" /></Link>
-        <Link to="https://bikera.org/" target="_blank" ><div id="moc5" className="mockup5" /></Link>
+        <Mockup1><Link to="https://www.tupperwarelochristi.be/" target="_blank" ><div id="moc1" className="mockup1" /></Link></Mockup1>
+        <Mockup2><Link to="https://prosteam.be/" target="_blank" ><div id="moc2" className="mockup2" /></Link></Mockup2>
+        <Mockup3><Link to="https://slickcoin.netlify.com/" target="_blank" ><div id="moc3" className="mockup3" /></Link></Mockup3>
+        <Mockup4><Link to="/" target="_blank" ><div id="moc4" className="mockup4" /></Link></Mockup4>
+        <Mockup5><Link to="https://bikera.org/" target="_blank" ><div id="moc5" className="mockup5" /></Link></Mockup5>
       </Wrapper>
   )
 }
 
 const Wrapper = styled.div`
-  position: relative;
-  perspective: 5000;
-
-  @media (max-width: 768px) {
-    transform: scale(0.6);
-    transform-origin: top left;
-  }
-  @media (max-width: 450px) {
-    transform: scale(0.4);
-  }
-
-  div {
-    transform: rotateY(-20deg) rotateX(20deg);
-    transform-origin: bottom left;
-  }
-
-  * {
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
-
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
-    &.mockup1 {
-      transition-delay: 0.1s;
-      transform: translate(-30px, -30px);
-    }
-  }
+  
   :hover div {
     transform: rotateY(0deg) rotateX(0deg);
     &.mockup2 {
@@ -194,3 +168,13 @@ const Wrapper = styled.div`
     border-radius: 14px;
   }
 `
+
+const Mockup1 = styled.div``
+
+const Mockup2 = styled.div``
+
+const Mockup3 = styled.div``
+
+const Mockup4 = styled.div``
+
+const Mockup5 = styled.div``

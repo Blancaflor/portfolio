@@ -5,72 +5,20 @@ import { Link } from "gatsby"
 export default function MockupAnimation() {
     return (
       <Wrapper>
-        <Link to="https://www.tupperwarelochristi.be/" target="_blank" ><div id="moc1" className="mockup1" /></Link>
-        <Link to="https://prosteam.be/" target="_blank" ><div id="moc2" className="mockup2" /></Link>
-        <Link to="https://slickcoin.netlify.com/" target="_blank" ><div id="moc3" className="mockup3" /></Link>
-        <Link to="/" target="_blank" ><div id="moc4" className="mockup4" /></Link>
-        <Link to="https://bikera.org/" target="_blank" ><div id="moc5" className="mockup5" /></Link>
+        <Mockup1><Link to="https://www.tupperwarelochristi.be/" target="_blank" ><div id="moc1" className="mockup1" /></Link></Mockup1>
+        <Mockup2><Link to="https://prosteam.be/" target="_blank" ><div id="moc2" className="mockup2" /></Link></Mockup2>
+        <Mockup3><Link to="https://slickcoin.netlify.com/" target="_blank" ><div id="moc3" className="mockup3" /></Link></Mockup3>
+        <Mockup4><Link to="/" target="_blank" ><div id="moc4" className="mockup4" /></Link></Mockup4>
+        <Mockup5><Link to="https://bikera.org/" target="_blank" ><div id="moc5" className="mockup5" /></Link></Mockup5>
       </Wrapper>
   )
 }
 
 const Wrapper = styled.div`
-  position: relative;
-  perspective: 5000;
-
-  @media (max-width: 768px) {
-    transform: scale(0.6);
-    transform-origin: top left;
-  }
-  @media (max-width: 450px) {
-    transform: scale(0.4);
-  }
-
-  div {
-    transform: rotateY(-20deg) rotateX(20deg);
-    transform-origin: bottom left;
-  }
-
-  * {
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
-
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
-    &.mockup1 {
-      transition-delay: 0.1s;
-      transform: translate(-30px, -30px);
-    }
-  }
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
-    &.mockup2 {
-      transition-delay: 0s;
-      transform: translate(0px, -30px);
-    }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
-  }
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
-    &.mockup3 {
-      transition-delay: 0s;
-    }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
-  }
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
-    &.mockup4 {
-      transition-delay: 0.1s;
-      transform: translate(-120px, 30px);
-    }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
-  }
+  
+  
+  
+  
   :hover div {
     transform: rotateY(0deg) rotateX(0deg);
     &.mockup5 {
@@ -192,5 +140,144 @@ const Wrapper = styled.div`
     /* Note: backdrop-filter has minimal browser support */
 
     border-radius: 14px;
+  }
+`
+
+const Mockup1 = styled.div`
+  position: relative;
+  perspective: 5000;
+
+  @media (max-width: 768px) {
+    transform: scale(0.6);
+    transform-origin: top left;
+  }
+  @media (max-width: 450px) {
+    transform: scale(0.4);
+  }
+
+  div {
+    transform: rotateY(-20deg) rotateX(20deg);
+    transform-origin: bottom left;
+  }
+
+  * {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+  :hover div {
+    transform: rotateY(0deg) rotateX(0deg);
+    &.mockup1 {
+      transition-delay: 0.1s;
+      transform: translate(-30px, -30px);
+    }
+  }
+`
+
+const Mockup2 = styled.div`
+  position: relative;
+  perspective: 5000;
+
+  @media (max-width: 768px) {
+    transform: scale(0.6);
+    transform-origin: top left;
+  }
+  @media (max-width: 450px) {
+    transform: scale(0.4);
+  }
+
+  div {
+    transform: rotateY(-20deg) rotateX(20deg);
+    transform-origin: bottom left;
+  }
+
+  * {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+  :hover div {
+    transform: rotateY(0deg) rotateX(0deg);
+    &.mockup2 {
+      transition-delay: 0s;
+      transform: translate(0px, -30px);
+    }
+    :hover {
+      filter: brightness(150%) saturate(120%);
+    }
+  }
+`
+
+const Mockup3 = styled.div`
+  position: relative;
+  perspective: 5000;
+
+  @media (max-width: 768px) {
+    transform: scale(0.6);
+    transform-origin: top left;
+  }
+  @media (max-width: 450px) {
+    transform: scale(0.4);
+  }
+
+  div {
+    transform: rotateY(-20deg) rotateX(20deg);
+    transform-origin: bottom left;
+  }
+
+  * {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+  :hover div {
+    transform: rotateY(0deg) rotateX(0deg);
+    &.mockup3 {
+      transition-delay: 0s;
+    }
+    :hover {
+      filter: brightness(150%) saturate(120%);
+    }
+  }
+`
+
+const Mockup4 = styled.div`
+  position: relative;
+  perspective: 5000;
+
+  @media (max-width: 768px) {
+    transform: scale(0.6);
+    transform-origin: top left;
+  }
+  @media (max-width: 450px) {
+    transform: scale(0.4);
+  }
+
+  div {
+    transform: rotateY(-20deg) rotateX(20deg);
+    transform-origin: bottom left;
+  }
+
+  * {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+`
+
+const Mockup5 = styled.div`
+  position: relative;
+  perspective: 5000;
+
+  @media (max-width: 768px) {
+    transform: scale(0.6);
+    transform-origin: top left;
+  }
+  @media (max-width: 450px) {
+    transform: scale(0.4);
+  }
+
+  div {
+    transform: rotateY(-20deg) rotateX(20deg);
+    transform-origin: bottom left;
+  }
+
+  * {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 `
