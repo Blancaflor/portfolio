@@ -6,7 +6,7 @@ import { Caption2, SmallText } from "../styles/TextStyles"
 export default function PurchaseButton(props) {
   const { title, subtitle } = props
   return (
-    <Link to="../contact">
+    <Link to="./contact">
     <Wrapper>
         <IconWrapper>
           <Icon src="/images/icons/credit.svg" className="icon" />

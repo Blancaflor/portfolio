@@ -88,7 +88,7 @@ const IconWrapper = styled.div`
   background: linear-gradient(200.44deg, #4316DB 13.57%, #9076E7 98.38%);
   border-radius: 50%;
   display: grid;
-  justify-content: center;
+  justify-content: aut;
   align-content: center;
   justify-self: center;
   position: relative;
