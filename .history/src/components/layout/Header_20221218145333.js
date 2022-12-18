@@ -72,8 +72,8 @@ const Wrapper = styled.div`
   align-items: center;
 
   @media (max-width: 768px) {
+    
     top: 30px;
-    justify-content: space-between;
   }
   @media (max-width: 450px) {
     top: 20px;

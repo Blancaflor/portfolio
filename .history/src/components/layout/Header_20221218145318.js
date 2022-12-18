@@ -72,13 +72,12 @@ const Wrapper = styled.div`
   align-items: center;
 
   @media (max-width: 768px) {
-    top: 30px;
     justify-content: space-between;
+    top: 30px;
   }
   @media (max-width: 450px) {
     top: 20px;
     padding: 0 20px;
-    justify-content: space-between;
   }
 `
 

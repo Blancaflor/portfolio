@@ -73,7 +73,6 @@ const Wrapper = styled.div`
 
   @media (max-width: 768px) {
     top: 30px;
-    justify-content: space-between;
   }
   @media (max-width: 450px) {
     top: 20px;
