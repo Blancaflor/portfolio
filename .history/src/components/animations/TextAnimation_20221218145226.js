@@ -21,7 +21,6 @@ const animation = keyframes`
 const Wrapper = styled.span`
   display: inline-block;
   span {
-    display: inline-block;
     opacity: 0;
     animation-name: ${animation};
     animation-duration: 6s;

@@ -21,13 +21,13 @@ const animation = keyframes`
 const Wrapper = styled.span`
   display: inline-block;
   span {
-    display: inline-block;
+    
     opacity: 0;
     animation-name: ${animation};
     animation-duration: 6s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    
   }
   span:nth-child(1) {
     animation-delay: 0.1s;
