@@ -43,6 +43,7 @@ const Wrapper = styled.div`
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
     backdrop-filter: blur(21.8507px);
     /* Note: backdrop-filter has minimal browser support */
     border-radius: 16px;
