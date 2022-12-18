@@ -15,6 +15,7 @@ export default function MockupAnimation() {
 }
 
 const Wrapper = styled.div`
+  
   position: relative;
   perspective: 5000;
 
@@ -162,6 +163,16 @@ const Mockup = styled.div`
   `
 
 const Mockup2 = styled.div`
+  position: relative;
+  perspective: 5000;
+
+  @media (max-width: 768px) {
+    transform: scale(0.6);
+    transform-origin: top left;
+  }
+  @media (max-width: 450px) {
+    transform: scale(0.4);
+  }
 
   div {
     transform: rotateY(-20deg) rotateX(20deg);
@@ -181,6 +192,16 @@ const Mockup2 = styled.div`
 `
 
 const Mockup3 = styled.div`
+  position: relative;
+  perspective: 5000;
+
+  @media (max-width: 768px) {
+    transform: scale(0.6);
+    transform-origin: top left;
+  }
+  @media (max-width: 450px) {
+    transform: scale(0.4);
+  }
 
   div {
     transform: rotateY(-20deg) rotateX(20deg);
@@ -199,6 +220,16 @@ const Mockup3 = styled.div`
 `
 
 const Mockup4 = styled.div`
+  position: relative;
+  perspective: 5000;
+
+  @media (max-width: 768px) {
+    transform: scale(0.6);
+    transform-origin: top left;
+  }
+  @media (max-width: 450px) {
+    transform: scale(0.4);
+  }
 
   div {
     transform: rotateY(-20deg) rotateX(20deg);
@@ -218,6 +249,16 @@ const Mockup4 = styled.div`
 `
 
 const Mockup5 = styled.div`
+  position: relative;
+  perspective: 5000;
+
+  @media (max-width: 768px) {
+    transform: scale(0.6);
+    transform-origin: top left;
+  }
+  @media (max-width: 450px) {
+    transform: scale(0.4);
+  }
 
   div {
     transform: rotateY(-20deg) rotateX(20deg);
