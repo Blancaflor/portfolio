@@ -26,7 +26,7 @@ const Wrapper = styled.div`
     transform: scale(0.4);
   }
 
-  .mockup1 {
+  m {
     transform: rotateY(-20deg) rotateX(20deg);
     transform-origin: bottom left;
   }
