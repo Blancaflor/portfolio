@@ -37,39 +37,44 @@ const Wrapper = styled.div`
 
   :hover .mockup1  {
     transform: rotateY(0deg) rotateX(0deg);
-    transition-delay: 0.1s;
-    transform: translate(-30px, -30px);
+      transition-delay: 0.1s;
+      transform: translate(-30px, -30px);
+  }
+  :hover div {
+    transform: rotateY(0deg) rotateX(0deg);
+    &.mockup2 {
+      transition-delay: 0s;
+      transform: translate(0px, -30px);
+    }
     :hover {
       filter: brightness(150%) saturate(120%);
     }
   }
-  :hover .mockup2 {
+  :hover div {
     transform: rotateY(0deg) rotateX(0deg);
-    transition-delay: 0s;
-    transform: translate(0px, -30px);
+    &.mockup3 {
+      transition-delay: 0s;
+    }
     :hover {
       filter: brightness(150%) saturate(120%);
     }
   }
-  :hover .mockup3 {
+  :hover div {
     transform: rotateY(0deg) rotateX(0deg);
-    transition-delay: 0s;
+    &.mockup4 {
+      transition-delay: 0.1s;
+      transform: translate(-120px, 30px);
+    }
     :hover {
       filter: brightness(150%) saturate(120%);
     }
   }
-  :hover .mockup4 {
+  :hover div {
     transform: rotateY(0deg) rotateX(0deg);
-    transition-delay: 0.1s;
-    transform: translate(-120px, 30px);
-    :hover {
-      filter: brightness(150%) saturate(120%);
+    &.mockup5 {
+      transition-delay: 0.1s;
+      transform: translate(-90px, 30px);
     }
-  }
-  :hover .mockup5  {
-    transform: rotateY(0deg) rotateX(0deg);
-    transition-delay: 0.1s;
-    transform: translate(-90px, 30px);
     :hover {
       filter: brightness(150%) saturate(120%);
     }
