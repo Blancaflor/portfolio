@@ -35,14 +35,14 @@ const Wrapper = styled.div`
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 
-  :hover #moc1 {
+  :hover  #moc1 {
     transform: rotateY(0deg) rotateX(0deg);
     &.mockup1 {
       transition-delay: 0.1s;
       transform: translate(-30px, -30px);
     }
   }
-  :hover #moc2 {
+  :hover  #moc2 {
     transform: rotateY(0deg) rotateX(0deg);
     &.mockup2 {
       transition-delay: 0s;
@@ -52,7 +52,7 @@ const Wrapper = styled.div`
       filter: brightness(150%) saturate(120%);
     }
   }
-  :hover #moc3 {
+  :hover  #moc3 {
     transform: rotateY(0deg) rotateX(0deg);
     &.mockup3 {
       transition-delay: 0s;
@@ -61,7 +61,7 @@ const Wrapper = styled.div`
       filter: brightness(150%) saturate(120%);
     }
   }
-  :hover #moc4 {
+  :hover  #moc4 {
     transform: rotateY(0deg) rotateX(0deg);
     &.mockup4 {
       transition-delay: 0.1s;
@@ -71,7 +71,7 @@ const Wrapper = styled.div`
       filter: brightness(150%) saturate(120%);
     }
   }
-  :hover #moc5 {
+  :hover  #moc5 {
     transform: rotateY(0deg) rotateX(0deg);
     &.mockup5 {
       transition-delay: 0.1s;
