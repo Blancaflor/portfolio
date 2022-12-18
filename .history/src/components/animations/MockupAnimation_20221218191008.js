@@ -37,18 +37,18 @@ const Wrapper = styled.div`
 
   :hover div {
     transform: rotateY(0deg) rotateX(0deg);
-    .mockup1 {
+    &.mockup1 {
       transition-delay: 0.1s;
       transform: translate(-30px, -30px);
     }
-    .mockup2 {
+    &.mockup2 {
       transition-delay: 0s;
       transform: translate(0px, -30px);
     }
-    .mockup3 {
+    &.mockup3 {
       transition-delay: 0s;
     }
-    .mockup4 {
+    &.mockup4 {
       transition-delay: 0.1s;
       transform: translate(-120px, 30px);
     }
