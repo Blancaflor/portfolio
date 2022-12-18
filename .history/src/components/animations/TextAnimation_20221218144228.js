@@ -26,7 +26,6 @@ const Wrapper = styled.span`
     animation-duration: 6s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
   }
   span:nth-child(1) {
     animation-delay: 0.1s;
@@ -41,6 +40,6 @@ const Wrapper = styled.span`
     animation-delay: 0.4s;
   }
   span:nth-child(5) {
-    animation-delay: 0.5s;
+    animation-delay: 0.s;
   }
 `
