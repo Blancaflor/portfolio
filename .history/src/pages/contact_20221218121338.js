@@ -4,10 +4,10 @@ import Layout from "../components/layout/layout"
 import SEO from "../components/layout/seo"
 import styled, { keyframes } from "styled-components"
 
-import WaveBackground from "./components/backgrounds/WaveBackground"
-import PurchaseButton from "./components/buttons/PurchaseButton"
-import { themes } from "./components/styles/ColorStyles"
-import { H1, MediumText } from "./components/styles/TextStyles"
+import WaveBackground from "./componentbackgrounds/WaveBackground"
+import PurchaseButton from "./componentbuttons/PurchaseButton"
+import { themes } from "./componentstyles/ColorStyles"
+import { H1, MediumText } from "./componentstyles/TextStyles"
 
 export default function Contact() {
 
