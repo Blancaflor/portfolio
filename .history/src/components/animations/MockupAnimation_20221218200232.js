@@ -30,19 +30,7 @@ const Wrapper = styled.div`
     transform: rotateY(-20deg) rotateX(20deg);
     transform-origin: bottom left;
   }
-  div .mockup2 {
-    transform: rotateY(-20deg) rotateX(20deg);
-    transform-origin: bottom left;
-  }
-  div .mockup3 {
-    transform: rotateY(-20deg) rotateX(20deg);
-    transform-origin: bottom left;
-  }
-  div .mockup4 {
-    transform: rotateY(-20deg) rotateX(20deg);
-    transform-origin: bottom left;
-  }
-  div .mockup5 {
+  div .mockup1 {
     transform: rotateY(-20deg) rotateX(20deg);
     transform-origin: bottom left;
   }
