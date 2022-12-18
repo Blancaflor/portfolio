@@ -5,7 +5,6 @@ import WaveBackground from "../backgrounds/WaveBackground"
 import PurchaseButton from "../buttons/PurchaseButton"
 import { themes } from "../styles/ColorStyles"
 import { H1, MediumText } from "../styles/TextStyles"
-import TextAnimation from "../animations/TextAnimation"
 
 
 function HeroSection() {
@@ -18,7 +17,7 @@ function HeroSection() {
             We
             <br />
             design
-            <br /> and <TextAnimation />{/*<span>code</span> your <span>website</span>*/}.
+            <br /> and /*<span>code</span> your <span>website</span>*/.
           </Title>
           <Description>Welcome on our Digital Platform</Description>
           <PurchaseButton
