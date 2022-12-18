@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 export default function MockupAnimation() {
     return (
       <Wrapper>
-        <Link to="https://www.tupperwarelochristi.be/" target="_blank" ><div className="mockup1" /></Link>
+        <div><Link to="https://www.tupperwarelochristi.be/" target="_blank" ><div className="mockup1" /></Link>
         <Link to="https://prosteam.be/" target="_blank" ><div className="mockup2" /></Link>
         <Link to="https://slickcoin.netlify.com/" target="_blank" ><div className="mockup3" /></Link>
         <Link to="/" target="_blank" ><div className="mockup4" /></Link>
@@ -41,37 +41,17 @@ const Wrapper = styled.div`
       transition-delay: 0.1s;
       transform: translate(-30px, -30px);
     }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
-  }  
-  :hover div {
     &.mockup2 {
       transition-delay: 0s;
       transform: translate(0px, -30px);
     }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
-  }  
-  :hover div {
     &.mockup3 {
       transition-delay: 0s;
     }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
-  }  
-  :hover div {
     &.mockup4 {
       transition-delay: 0.1s;
       transform: translate(-120px, 30px);
     }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
-  } 
-  :hover div {
     &.mockup5 {
       transition-delay: 0.1s;
       transform: translate(-90px, 30px);
@@ -79,8 +59,7 @@ const Wrapper = styled.div`
     :hover {
       filter: brightness(150%) saturate(120%);
     }
-  } 
-  
+  }
 
   .mockup1 {
     width: 183px;

@@ -41,37 +41,12 @@ const Wrapper = styled.div`
       transition-delay: 0.1s;
       transform: translate(-30px, -30px);
     }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
-  }  
-  :hover div {
-    &.mockup2 {
-      transition-delay: 0s;
-      transform: translate(0px, -30px);
-    }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
-  }  
-  :hover div {
-    &.mockup3 {
-      transition-delay: 0s;
-    }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
-  }  
-  :hover div {
+    
+    
     &.mockup4 {
       transition-delay: 0.1s;
       transform: translate(-120px, 30px);
     }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
-  } 
-  :hover div {
     &.mockup5 {
       transition-delay: 0.1s;
       transform: translate(-90px, 30px);
@@ -79,8 +54,23 @@ const Wrapper = styled.div`
     :hover {
       filter: brightness(150%) saturate(120%);
     }
-  } 
-  
+  :hover div {
+    &.mockup2 {
+      transition-delay: 0s;
+      transform: translate(0px, -30px);
+    }
+  }  
+  :hover div {
+    &.mockup3 {
+      transition-delay: 0s;
+    }
+  }  
+  :hover div {
+    &.mockup4 {
+      transition-delay: 0.1s;
+      transform: translate(-120px, 30px);
+    }
+  }
 
   .mockup1 {
     width: 183px;

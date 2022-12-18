@@ -76,9 +76,6 @@ const Wrapper = styled.div`
       transition-delay: 0.1s;
       transform: translate(-90px, 30px);
     }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
   } 
   
 
