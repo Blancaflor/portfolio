@@ -149,25 +149,7 @@ const Wrapper = styled.div`
 `
 
 const Mockup = styled.div`
-  position: relative;
-  perspective: 5000;
 
-  @media (max-width: 768px) {
-    transform: scale(0.6);
-    transform-origin: top left;
-  }
-  @media (max-width: 450px) {
-    transform: scale(0.4);
-  }
-
-  div {
-    transform: rotateY(-20deg) rotateX(20deg);
-    transform-origin: bottom left;
-  }
-
-  * {
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
   :hover div {
     transform: rotateY(0deg) rotateX(0deg);
     &.mockup1 {
@@ -181,25 +163,7 @@ const Mockup = styled.div`
   `
 
 const Mockup2 = styled.div`
-  position: relative;
-  perspective: 5000;
 
-  @media (max-width: 768px) {
-    transform: scale(0.6);
-    transform-origin: top left;
-  }
-  @media (max-width: 450px) {
-    transform: scale(0.4);
-  }
-
-  div {
-    transform: rotateY(-20deg) rotateX(20deg);
-    transform-origin: bottom left;
-  }
-
-  * {
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
   :hover div {
     transform: rotateY(0deg) rotateX(0deg);
   &.mockup2 {
@@ -210,25 +174,7 @@ const Mockup2 = styled.div`
 `
 
 const Mockup3 = styled.div`
-  position: relative;
-  perspective: 5000;
 
-  @media (max-width: 768px) {
-    transform: scale(0.6);
-    transform-origin: top left;
-  }
-  @media (max-width: 450px) {
-    transform: scale(0.4);
-  }
-
-  div {
-    transform: rotateY(-20deg) rotateX(20deg);
-    transform-origin: bottom left;
-  }
-
-  * {
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
   :hover div {
     transform: rotateY(0deg) rotateX(0deg);
   &.mockup3 {
@@ -237,26 +183,7 @@ const Mockup3 = styled.div`
   }  
 `
 
-const Mockup4 = styled.div`
-  position: relative;
-  perspective: 5000;
 
-  @media (max-width: 768px) {
-    transform: scale(0.6);
-    transform-origin: top left;
-  }
-  @media (max-width: 450px) {
-    transform: scale(0.4);
-  }
-
-  div {
-    transform: rotateY(-20deg) rotateX(20deg);
-    transform-origin: bottom left;
-  }
-
-  * {
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
   :hover div {
     transform: rotateY(0deg) rotateX(0deg);
   &.mockup4 {
@@ -267,25 +194,7 @@ const Mockup4 = styled.div`
 `
 
 const Mockup5 = styled.div`
-  position: relative;
-  perspective: 5000;
 
-  @media (max-width: 768px) {
-    transform: scale(0.6);
-    transform-origin: top left;
-  }
-  @media (max-width: 450px) {
-    transform: scale(0.4);
-  }
-
-  div {
-    transform: rotateY(-20deg) rotateX(20deg);
-    transform-origin: bottom left;
-  }
-
-  * {
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
   :hover div {
     transform: rotateY(0deg) rotateX(0deg);
   &.mockup5 {
