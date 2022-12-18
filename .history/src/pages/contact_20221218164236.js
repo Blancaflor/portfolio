@@ -77,10 +77,10 @@ const ContentWrapper = styled.div`
   padding: 200px 30px;
   display: grid;
   grid-template-columns: 360px auto;
+  
 
   form {
     padding: 10px 0;
-    justify-content: space-around;
   }
 
   input {
