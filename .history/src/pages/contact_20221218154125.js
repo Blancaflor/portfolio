@@ -81,9 +81,7 @@ const ContentWrapper = styled.div`
 
   form {
     padding: 60px 0;
-    grid-template-columns: auto;
-    gap: 60px;
-
+    
   }
 
   @media (max-width: 450px) {
