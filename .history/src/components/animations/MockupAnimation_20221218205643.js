@@ -14,7 +14,39 @@ export default function MockupAnimation() {
   )
 }
 
-const Wrapper = styled.div` 
+const Wrapper = styled.div`
+  
+  
+  :hover div {
+    transform: rotateY(0deg) rotateX(0deg);
+    &.mockup3 {
+      transition-delay: 0s;
+    }
+    :hover {
+      filter: brightness(150%) saturate(120%);
+    }
+  }
+  :hover div {
+    transform: rotateY(0deg) rotateX(0deg);
+    &.mockup4 {
+      transition-delay: 0.1s;
+      transform: translate(-120px, 30px);
+    }
+    :hover {
+      filter: brightness(150%) saturate(120%);
+    }
+  }
+  :hover div {
+    transform: rotateY(0deg) rotateX(0deg);
+    &.mockup5 {
+      transition-delay: 0.1s;
+      transform: translate(-90px, 30px);
+    }
+    :hover {
+      filter: brightness(150%) saturate(120%);
+    }
+  }
+
   .mockup1 {
     width: 183px;
     height: 120px;
@@ -211,16 +243,6 @@ const Mockup3 = styled.div`
   * {
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
-
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
-    &.mockup3 {
-      transition-delay: 0s;
-    }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
-  }
 `
 
 const Mockup4 = styled.div`
@@ -243,17 +265,6 @@ const Mockup4 = styled.div`
   * {
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
-
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
-    &.mockup4 {
-      transition-delay: 0.1s;
-      transform: translate(-120px, 30px);
-    }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
-  }
 `
 
 const Mockup5 = styled.div`
@@ -275,16 +286,5 @@ const Mockup5 = styled.div`
 
   * {
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
-
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
-    &.mockup5 {
-      transition-delay: 0.1s;
-      transform: translate(-90px, 30px);
-    }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
   }
 `
