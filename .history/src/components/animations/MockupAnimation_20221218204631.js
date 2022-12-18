@@ -26,23 +26,7 @@ const Wrapper = styled.div`
     transform: scale(0.4);
   }
 
-  div .mockup1 {
-    transform: rotateY(-20deg) rotateX(20deg);
-    transform-origin: bottom left;
-  }
-  div .mockup2 {
-    transform: rotateY(-20deg) rotateX(20deg);
-    transform-origin: bottom left;
-  }
-  div .mockup3 {
-    transform: rotateY(-20deg) rotateX(20deg);
-    transform-origin: bottom left;
-  }
-  div .mockup4 {
-    transform: rotateY(-20deg) rotateX(20deg);
-    transform-origin: bottom left;
-  }
-  div .mockup5 {
+  div {
     transform: rotateY(-20deg) rotateX(20deg);
     transform-origin: bottom left;
   }
@@ -86,6 +70,7 @@ const Wrapper = styled.div`
     transform: rotateY(0deg) rotateX(0deg);
     transition-delay: 0.1s;
     transform: translate(-90px, 30px);
+
     :hover {
       filter: brightness(150%) saturate(120%);
     }
