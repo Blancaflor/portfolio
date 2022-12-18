@@ -5,11 +5,11 @@ import { Link } from "gatsby"
 export default function MockupAnimation() {
     return (
       <Wrapper>
-        <Link to="https://www.tupperwarelochristi.be/" target="_blank" ><div className="mockup1" /></Link>
-        <Link to="https://prosteam.be/" target="_blank" ><div className="mockup2" /></Link>
-        <Link to="https://slickcoin.netlify.com/" target="_blank" ><div className="mockup3" /></Link>
-        <Link to="/" target="_blank" ><div className="mockup4" /></Link>
-        <Link to="https://bikera.org/" target="_blank" ><div className="mockup5" /></Link>
+        <Link to="https://www.tupperwarelochristi.be/" target="_blank" ><div id="moc1 className="mockup1" /></Link>
+        <Link to="https://prosteam.be/" target="_blank" ><div id="moc2 className="mockup2" /></Link>
+        <Link to="https://slickcoin.netlify.com/" target="_blank" ><div id="moc3 className="mockup3" /></Link>
+        <Link to="/" target="_blank" ><div id="moc4 className="mockup4" /></Link>
+        <Link to="https://bikera.org/" target="_blank" ><div id="moc5 className="mockup5" /></Link>
       </Wrapper>
   )
 }
@@ -191,4 +191,5 @@ const Wrapper = styled.div`
     backdrop-filter: blur(27.3844px);
     /* Note: backdrop-filter has minimal browser support */
 
-    border-radius: 
+    border-radius: 14px;
+  }
