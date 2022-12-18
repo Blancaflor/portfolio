@@ -2,7 +2,6 @@ import React from 'react';
 import emailjs from "emailjs-com"
 import Layout from "../components/layout/layout"
 import SEO from "../components/layout/seo"
-import styled from "styled-components"
 
 export default function Contact() {
 
@@ -44,7 +43,7 @@ export default function Contact() {
   )
 }
 
-const Form = styled.div`
+const .Form = styled.div`
   max-width: 1234px;
   margin: 0 auto;
   padding: 200px 30px;
