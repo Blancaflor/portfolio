@@ -85,7 +85,7 @@ const Wrapper = styled.div`
 const MenuWrapper = styled.div`
   display: grid;
   gap: 30px;
-  grid-template-columns: repeat(${props => props.count}, center);
+  grid-template-columns: repeat(${props => props.count}, c);
 
   @media (max-width: 768px) {
     > a {
