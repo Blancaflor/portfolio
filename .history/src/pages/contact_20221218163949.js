@@ -77,7 +77,7 @@ const ContentWrapper = styled.div`
   padding: 200px 30px;
   display: grid;
   grid-template-columns: 360px auto;
-  justify-content: space-between;
+  justify-content: space-betw;
 
   form {
     padding: 10px 0;
