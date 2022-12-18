@@ -95,9 +95,12 @@ const ContentWrapper = styled.div`
     padding: 150px 20px 250px;
 
     form {
-    padding: 10px 0;
+    padding: 10px 0 0 200px;
+    display: grid;
+    grid-template-columns: 360px auto;
+    justify-content: space-around;
   }
- }
+}
 `
 
 const TextWrapper = styled.div`
