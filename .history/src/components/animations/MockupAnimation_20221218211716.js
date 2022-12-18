@@ -144,7 +144,7 @@ const Mockup1 = styled.div`
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 
-  :hover div Mockup1 {
+  :hover Mockup1 {
     transform: rotateY(0deg) rotateX(0deg);
     &.mockup1 {
       transition-delay: 0.1s;
