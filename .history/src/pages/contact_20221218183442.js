@@ -95,7 +95,7 @@ const ContentWrapper = styled.div`
     padding: 150px 20px 250px;
 
     form {
-    padding: 10px 0 30px 0;
+    padding: 10px 0 30;
   }
  }
 `
