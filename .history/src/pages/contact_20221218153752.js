@@ -80,7 +80,7 @@ const ContentWrapper = styled.div`
   justify-content: space-around;
 
   form {
-    padding: 30px 0;
+    padding
   }
 
   @media (max-width: 450px) {
