@@ -84,8 +84,7 @@ const ContentWrapper = styled.div`
   }
 
   input {
-    grid-template-columns: auto;
-    gap: 60px;
+    
   }
 
   @media (max-width: 450px) {
