@@ -21,7 +21,7 @@ export default function Contact() {
   return (
     <Layout>
       <SEO title="Contact" />
-      <form onSubmit={sendEmail}>
+      <form className="Form" onSubmit={sendEmail}>
         <div className="row pt-5 mx-auto">
           <div className="col-8 form-group mx-auto">
             <input type="text" className="form-control" placeholder="Name" name="name" />
@@ -44,7 +44,7 @@ export default function Contact() {
   )
 }
 
-const form = styled.div`
+conform = styled.div`
   max-width: 1234px;
   margin: 0 auto;
   padding: 200px 30px;
