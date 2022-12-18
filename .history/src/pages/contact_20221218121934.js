@@ -4,8 +4,8 @@ import Layout from "../components/layout/layout"
 import SEO from "../components/layout/seo"
 import styled, { keyframes } from "styled-components"
 
-import WaveBackground from "./components/backgrounds/WaveBackgroun"
-import PurchaseButton from "./components/buttons/PurchaseButton"
+import WaveBackground from "../components/backgrounds/WaveBackground"
+import PurchaseButton from "../components/buttons/PurchaseButton"
 import { themes } from "./components/styles/ColorStyles"
 import { H1, MediumText } from "./components/styles/TextStyles"
 

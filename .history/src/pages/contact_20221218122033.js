@@ -5,7 +5,7 @@ import SEO from "../components/layout/seo"
 import styled, { keyframes } from "styled-components"
 
 import WaveBackground from "./components/backgrounds/WaveBackgroun"
-import PurchaseButton from "./components/buttons/PurchaseButton"
+import PurchaseButton from ".Pur./components/buttons/PurchaseButton"
 import { themes } from "./components/styles/ColorStyles"
 import { H1, MediumText } from "./components/styles/TextStyles"
 
