@@ -1,10 +1,10 @@
 export const menuData = [
   { title: "Examples", icon: "/images/icons/courses.svg", link: "/examples" },
-  /* {
+  {
     title: "Work Done",
     icon: "/images/icons/tutorials.svg",
     link: "/workdone",
-  }, */
+  },
   { title: "Contact", icon: "/images/icons/pricing.svg", link: "/contact" },
   { title: "", icon: "/images/icons/search.svg", link: "/" },
   { title: "", icon: "/images/icons/account.svg", link: "/account" },

@@ -1,6 +1,6 @@
 export const menuData = [
   { title: "Examples", icon: "/images/icons/courses.svg", link: "/examples" },
-  /* {
+  {/* {
     title: "Work Done",
     icon: "/images/icons/tutorials.svg",
     link: "/workdone",
