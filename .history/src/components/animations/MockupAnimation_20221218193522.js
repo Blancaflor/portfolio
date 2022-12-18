@@ -35,8 +35,7 @@ const Wrapper = styled.div`
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 
-  Link {
-    :hover div {
+  :hover div {
     transform: rotateY(0deg) rotateX(0deg);
     &.mockup1 {
       transition-delay: 0.1s;
@@ -60,7 +59,6 @@ const Wrapper = styled.div`
     :hover {
       filter: brightness(150%) saturate(120%);
     }
-   }
   }
 
   .mockup1 {

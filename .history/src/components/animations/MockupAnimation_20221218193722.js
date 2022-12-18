@@ -60,7 +60,7 @@ const Wrapper = styled.div`
     :hover {
       filter: brightness(150%) saturate(120%);
     }
-   }
+  }
   }
 
   .mockup1 {
