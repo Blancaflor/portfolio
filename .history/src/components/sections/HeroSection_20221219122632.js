@@ -57,7 +57,7 @@ const ContentWrapper = styled.div`
   }
 
   @media (max-width: 1080px) {
-    max-width: 720px;
+    max-width: 0px;
   }
 `
 
