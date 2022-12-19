@@ -149,27 +149,39 @@ const Title = styled(H1)`
   }
 
   @media (max-width: 1280px) {
-    font-size: 40px;
+    grid-template-columns: 250px auto;
+    gap: 60px;
+    padding: 150px 20
   }
 
   @media (max-width: 960px) {
-    font-size: 36px;
+    grid-template-columns: auto;
+    gap: 60px;
+    padding: 150px 20
   }
 
   @media (max-width: 720px) {
-    font-size: 30px;
+    grid-template-columns: auto;
+    gap: 60px;
+    padding: 150px 20
   }
 
   @media (max-width: 540px) {
-    font-size: 27px;
+    grid-template-columns: auto;
+    gap: 60px;
+    padding: 150px 20
   }
 
   @media (max-width: 450px) {
-    font-size: 24px;
+    grid-template-columns: auto;
+    gap: 60px;
+    padding: 150px 20
   }
 
   @media (max-width: 338px) {
-    font-size: ;
+    grid-template-columns: auto;
+    gap: 60px;
+    padding: 150px 20
   }
 
 `

@@ -41,7 +41,7 @@ const animation = keyframes`
 `
 
 const Wrapper = styled.div`
-  overflow: hidden;
+  overflow: h;
 `
 const ContentWrapper = styled.div`
   max-width: 1234px;
@@ -148,29 +148,7 @@ const Title = styled(H1)`
     color: transparent;
   }
 
-  @media (max-width: 1280px) {
-    font-size: 40px;
-  }
-
-  @media (max-width: 960px) {
-    font-size: 36px;
-  }
-
-  @media (max-width: 720px) {
-    font-size: 30px;
-  }
-
-  @media (max-width: 540px) {
-    font-size: 27px;
-  }
-
-  @media (max-width: 450px) {
-    font-size: 24px;
-  }
-
-  @media (max-width: 338px) {
-    font-size: ;
-  }
+  
 
 `
 

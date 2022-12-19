@@ -149,27 +149,27 @@ const Title = styled(H1)`
   }
 
   @media (max-width: 1280px) {
-    font-size: 40px;
+    gri
   }
 
   @media (max-width: 960px) {
-    font-size: 36px;
+  
   }
 
   @media (max-width: 720px) {
-    font-size: 30px;
+  
   }
 
   @media (max-width: 540px) {
-    font-size: 27px;
+  
   }
 
   @media (max-width: 450px) {
-    font-size: 24px;
+  
   }
 
   @media (max-width: 338px) {
-    font-size: ;
+  
   }
 
 `
