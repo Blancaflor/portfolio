@@ -26,9 +26,7 @@ const Wrapper = styled.div`
     transform: scale(0.4);
   }
 
-  @media (max-width: 338px) {
-    transform: scale(0.3);
-  }
+  
 
   .mockup1 {
     width: 183px;
