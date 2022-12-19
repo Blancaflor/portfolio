@@ -73,12 +73,12 @@ const Wrapper = styled.div`
 
   @media (max-width: 768px) {
     top: 30px;
-    justify-content: space-around;
+    justify-content: space-;
   }
   @media (max-width: 450px) {
     top: 20px;
     padding: 0 20px;
-    justify-content: space-around;
+    justify-content: space-;
   }
 `
 
