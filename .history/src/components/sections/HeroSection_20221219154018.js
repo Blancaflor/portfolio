@@ -51,6 +51,7 @@ const ContentWrapper = styled.div`
   grid-template-columns: 360px auto;
 
   @media (max-width: 1080px) {
+    
   }
 
   @media (max-width: 960px) {
@@ -70,18 +71,10 @@ const ContentWrapper = styled.div`
     gap: 60px;
     padding: 150px 20px 250px;
   }
+`
 
-  @media (max-width: 450px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 150px 20px 250px;
-  }
-
-  @media (max-width: 338px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 150px 20px 250px;
-  }
+const MockupAnimation = styled.div`
+  
 `
 
 const TextWrapper = styled.div`

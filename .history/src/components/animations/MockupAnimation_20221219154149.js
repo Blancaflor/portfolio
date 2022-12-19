@@ -18,13 +18,7 @@ const Wrapper = styled.div`
   position: relative;
   perspective: 5000;
 
-  @media (max-width: 1080px) {
-    transform: scale(1);
-  }
-
-  @media (max-width: 960px) {
-    transform: scale(0.8);
-  }
+  
 
   @media (max-width: 768px) {
     transform: scale(0.6);
@@ -34,12 +28,29 @@ const Wrapper = styled.div`
     transform: scale(0.4);
   }
 
-  @media (max-width: 540px) {
+  @media (max-width: 338px) {
     transform: scale(0.3);
   }
 
+  
+  
+
+  @media (max-width: 540px) {
+    grid-template-columns: auto;
+    gap: 60px;
+    padding: 150px 20px 250px;
+  }
+
+  @media (max-width: 450px) {
+    grid-template-columns: auto;
+    gap: 60px;
+    padding: 150px 20px 250px;
+  }
+
   @media (max-width: 338px) {
-    transform: scale(0.2);
+    grid-template-columns: auto;
+    gap: 60px;
+    padding: 150px 20px 250px;
   }
 
   .mockup1 {

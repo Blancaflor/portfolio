@@ -51,6 +51,7 @@ const ContentWrapper = styled.div`
   grid-template-columns: 360px auto;
 
   @media (max-width: 1080px) {
+    
   }
 
   @media (max-width: 960px) {
