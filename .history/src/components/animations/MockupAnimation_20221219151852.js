@@ -24,11 +24,13 @@ const Wrapper = styled.div`
   }
   @media (max-width: 450px) {
     transform: scale(0.4);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: auto;
   }
 
   @media (max-width: 338px) {
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 60px;
+    padding: 150px 60px 250px;
   }
 
   .mockup1 {

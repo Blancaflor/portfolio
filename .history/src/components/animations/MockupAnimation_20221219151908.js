@@ -28,7 +28,7 @@ const Wrapper = styled.div`
   }
 
   @media (max-width: 338px) {
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: auto;
   }
 
   .mockup1 {
