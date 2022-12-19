@@ -32,11 +32,11 @@ const Wrapper = styled.div`
   }
 
   @media (max-width: 540px) {
-    transform: scale(0.5);
+    transform: scale(0.);
   }
 
   @media (max-width: 450px) {
-    transform: scale(0.3);
+    transform: scale(0.5);
   }
 
   @media (max-width: 338px) {
