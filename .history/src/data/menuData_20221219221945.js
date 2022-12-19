@@ -3,7 +3,7 @@ export const menuData = [
   {
     title: "About",
     icon: "/images/icons/tutorials.svg",
-    link: "/about",
+    link: "/workdone",
   },
   { title: "Contact", icon: "/images/icons/pricing.svg", link: "/contact" },
   { title: "", icon: "/images/icons/search.svg", link: "/" },
