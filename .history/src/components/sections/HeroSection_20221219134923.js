@@ -77,6 +77,13 @@ const ContentWrapper = styled.div`
     gap: 60px;
     padding: 150px 20px 250px;
   }
+
+  @media (max-width: 33px) {
+    grid-template-columns: 360px auto;
+    gap: 60px;
+    padding: 150px 20px 250px;
+  }
+
 `
 
 const TextWrapper = styled.div`
