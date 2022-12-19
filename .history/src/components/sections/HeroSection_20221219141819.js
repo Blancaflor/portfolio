@@ -43,11 +43,15 @@ const animation = keyframes`
 const Wrapper = styled.div`
   overflow: cover;
   @media (max-width: 450px) {
+    
     max-width: 280px;
   }
 
   @media (max-width: 338px) {
+    grid-template-columns: auto;
     max-width: 270px;
+    gap: 60px;
+    padding: 150px 20px 250px;
   }
 `
 const ContentWrapper = styled.div`
