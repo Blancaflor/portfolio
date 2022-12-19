@@ -17,10 +17,6 @@ export default function MockupAnimation() {
 const Wrapper = styled.div`
   position: relative;
   perspective: 5000;
-  
-  @media (max-width: 1600px) {
-    transform: scale(0.9);
-  }
 
   @media (max-width: 1440px) {
     transform: scale(0.8);
