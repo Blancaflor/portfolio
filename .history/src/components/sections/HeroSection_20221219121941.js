@@ -57,7 +57,7 @@ const ContentWrapper = styled.div`
   }
 
   @media (min-width: 1615px) {
-    max-width: 960px;
+    max-width: px;
   }
 `
 
