@@ -116,22 +116,10 @@ const Title = styled(H1)`
     color: transparent;
   }
 
-  @media (max-width: 960px) {
-    font-size: 54px;
-  }
-
-  @media (max-width: 720px) {
-    font-size: 52px;
-  }
-
-  @media (max-width: 540px) {
-    font-size: 50px;
-  }
-
   @media (max-width: 450px) {
     font-size: 48px;
   }
-
+  
 `
 
 const Description = styled(MediumText)``

@@ -117,15 +117,15 @@ const Title = styled(H1)`
   }
 
   @media (max-width: 960px) {
-    font-size: 54px;
+    grid-template-columns: 100px auto;
   }
 
   @media (max-width: 720px) {
-    font-size: 52px;
+    grid-template-columns: auto;
   }
 
   @media (max-width: 540px) {
-    font-size: 50px;
+    grid-template-columns: auto;
   }
 
   @media (max-width: 450px) {
