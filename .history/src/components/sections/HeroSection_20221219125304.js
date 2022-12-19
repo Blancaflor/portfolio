@@ -78,6 +78,9 @@ const ContentWrapper = styled.div`
     gap: 60px;
     padding: 150px 20px 250px;
   }
+
+ 
+  
 `
 
 const TextWrapper = styled.div`
