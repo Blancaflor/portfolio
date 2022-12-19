@@ -71,9 +71,7 @@ const ContentWrapper = styled.div`
     gap: 60px;
     padding: 150px 20px 250px;
   }
-`
 
-const MockupAnimation = styled.div`
   @media (max-width: 450px) {
     grid-template-columns: auto;
     gap: 60px;
@@ -82,7 +80,7 @@ const MockupAnimation = styled.div`
   }
 
   @media (max-width: 338px) {
-    grid-template-columns: auto;
+  
     gap: 60px;
     max-width: 250px;
     padding: 150px 20px 250px;
