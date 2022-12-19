@@ -42,6 +42,7 @@ const animation = keyframes`
 
 const Wrapper = styled.div`
   overflow: cover;
+
 `
 const ContentWrapper = styled.div`
   max-width: 1234px;
