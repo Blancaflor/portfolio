@@ -55,7 +55,7 @@ const ContentWrapper = styled.div`
   }
 
   @media (max-width: 960px) {
-    grid-template-columns: 100px auto;
+    grid-template-columns: 0px auto;
     gap: 60px;
     padding: 150px 20px 250px;
   }
@@ -98,17 +98,6 @@ const TextWrapper = styled.div`
     :nth-child(3) {
       animation-delay: 0.4s;
     }
-  }
-  @media (max-width: 960px) {
-    grid-template-columns: 100px auto;
-  }
-
-  @media (max-width: 720px) {
-    grid-template-columns: auto;
-  }
-
-  @media (max-width: 540px) {
-    grid-template-columns: auto;
   }
 `
 

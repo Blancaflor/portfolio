@@ -101,14 +101,17 @@ const TextWrapper = styled.div`
   }
   @media (max-width: 960px) {
     grid-template-columns: 100px auto;
+    gap: 6
   }
 
   @media (max-width: 720px) {
     grid-template-columns: auto;
+    gap: 6
   }
 
   @media (max-width: 540px) {
     grid-template-columns: auto;
+    gap: 6
   }
 `
 

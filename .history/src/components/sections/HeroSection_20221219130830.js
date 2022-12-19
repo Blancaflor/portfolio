@@ -99,17 +99,6 @@ const TextWrapper = styled.div`
       animation-delay: 0.4s;
     }
   }
-  @media (max-width: 960px) {
-    grid-template-columns: 100px auto;
-  }
-
-  @media (max-width: 720px) {
-    grid-template-columns: auto;
-  }
-
-  @media (max-width: 540px) {
-    grid-template-columns: auto;
-  }
 `
 
 const Title = styled(H1)`
