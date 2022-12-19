@@ -68,6 +68,7 @@ const ContentWrapper = styled.div`
     padding: 150px 20px 250px;
   }
 
+
   @media (max-width: 1080px) {
     max-width: 720px;
   }
