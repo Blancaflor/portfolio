@@ -19,19 +19,19 @@ const Wrapper = styled.div`
   perspective: 5000;
 
   @media (max-width: 1080px) {
-    transform: scale(0.5);
+    transform: scale(1);
   }
 
   @media (max-width: 960px) {
-    transform: scale(0.7);
+    transform: scale(0.8);
   }
 
   @media (max-width: 768px) {
-    transform: scale(0.7);
+    transform: scale(0.6);
     transform-origin: top left;
   }
   @media (max-width: 450px) {
-    transform: scale(0.5);
+    transform: scale(0.4);
   }
 
   @media (max-width: 540px) {
@@ -39,7 +39,7 @@ const Wrapper = styled.div`
   }
 
   @media (max-width: 338px) {
-    transform: scale(0.26);
+    transform: scale(0.25);
   }
 
   .mockup1 {

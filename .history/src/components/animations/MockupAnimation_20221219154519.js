@@ -19,11 +19,11 @@ const Wrapper = styled.div`
   perspective: 5000;
 
   @media (max-width: 1080px) {
-    transform: scale(0.5);
+    transform: scale(1);
   }
 
   @media (max-width: 960px) {
-    transform: scale(0.7);
+    transform: scale(0.8);
   }
 
   @media (max-width: 768px) {
