@@ -19,8 +19,9 @@ const Wrapper = styled.div`
   perspective: 5000;
 
   @media (max-width: 960px) {
-    transform: scale(0.6);
-    transform-origin: top left;
+    grid-template-columns: auto;
+    gap: 60px;
+    padding: 150px 20px 250px;
   }
 
   @media (max-width: 768px) {
