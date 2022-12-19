@@ -67,7 +67,7 @@ const ContentWrapper = styled.div`
   }
 
   @media (max-width: 540px) {
-    grid-template-columns: auto;
+    
     justify-content: space-between;
     gap: 60px;
     padding: 150px 20px 250px;
@@ -80,7 +80,6 @@ const ContentWrapper = styled.div`
   }
 
   @media (max-width: 338px) {
-    grid-template-columns: auto;
     justify-content: space-between;
     gap: 60px;
     padding: 150px 60px 250px;
