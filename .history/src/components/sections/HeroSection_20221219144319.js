@@ -73,6 +73,10 @@ const ContentWrapper = styled.div`
   }
 `
 
+const MockupAnimation = styled.div`
+  
+`
+
 const TextWrapper = styled.div`
   max-width: 360px;
   display: grid;

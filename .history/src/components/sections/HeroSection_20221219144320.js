@@ -73,6 +73,7 @@ const ContentWrapper = styled.div`
   }
 `
 
+
 const TextWrapper = styled.div`
   max-width: 360px;
   display: grid;
