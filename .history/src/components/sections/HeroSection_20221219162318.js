@@ -56,32 +56,32 @@ const ContentWrapper = styled.div`
     padding: 150px 20px 250px;
   }
   @media (max-width: 1920px) {
-    grid-template-columns: 360px auto;
+    grid-template-columns: 360 auto;
     gap: 60px;
     padding: 150px 20px 250px;
   }
   @media (max-width: 1600px) {
-    grid-template-columns: 360px auto;
+    grid-template-columns: 360 auto;
     gap: 60px;
     padding: 150px 20px 250px;
   }
   @media (max-width: 1440px) {
-    grid-template-columns: 360px auto;
+    grid-template-columns: 360 auto;
     gap: 60px;
     padding: 150px 20px 250px;
   }
   @media (max-width: 1360px) {
-    grid-template-columns: 360px auto;
+    grid-template-columns: 360 auto;
     gap: 60px;
     padding: 150px 20px 250px;
   }
   @media (max-width: 1280px) {
-    grid-template-columns: 360px auto;
+    grid-template-columns: 360 auto;
     gap: 60px;
     padding: 150px 20px 250px;
   }
   @media (max-width: 1024px) {
-    grid-template-columns: 360px auto;
+    grid-template-columns: 360 auto;
     gap: 60px;
     padding: 150px 20px 250px;
   }
