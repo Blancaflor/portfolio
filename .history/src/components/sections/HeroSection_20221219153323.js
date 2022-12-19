@@ -81,6 +81,7 @@ const ContentWrapper = styled.div`
   @media (max-width: 338px) {
     grid-template-rows: auto;
     gap: 60px;
+    
   }
 `
 
