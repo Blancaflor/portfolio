@@ -67,19 +67,19 @@ const ContentWrapper = styled.div`
   }
 
   @media (max-width: 540px) {
-    justify-content: space-between;
+    justify-content:
     gap: 60px;
     padding: 150px 20px 250px;
   }
 
   @media (max-width: 450px) {
-    justify-content: space-between;
+    justify-content:
     gap: 60px;
     padding: 150px 20px 250px;
   }
 
   @media (max-width: 338px) {
-    justify-content: space-between;
+    justify-content:
     gap: 60px;
     padding: 150px 60px 250px;
   }
