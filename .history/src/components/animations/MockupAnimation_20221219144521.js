@@ -26,20 +26,6 @@ const Wrapper = styled.div`
     transform: scale(0.4);
   }
 
-  @media (max-width: 450px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    max-width: auto;
-    padding: 150px 20px 250px;
-  }
-
-  @media (max-width: 338px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    max-width: auto;
-    padding: 150px 20px 250px;
-  }
-
   .mockup1 {
     width: 183px;
     height: 120px;
