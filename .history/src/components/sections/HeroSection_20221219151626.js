@@ -67,13 +67,13 @@ const ContentWrapper = styled.div`
   }
 
   @media (max-width: 540px) {
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: auto;
     gap: 60px;
     padding: 150px 20px 250px;
   }
 
   @media (max-width: 450px) {
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: auto;
     gap: 60px;
     padding: 150px 20px 250px;
   }
