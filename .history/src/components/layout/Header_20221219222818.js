@@ -67,18 +67,18 @@ const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 44px auto;
   width: 100%;
-  
+  justify-content: space-around;
   padding: 0 30px 0 22px;
   align-items: center;
 
   @media (max-width: 768px) {
     top: 30px;
-    justify-content: space-between;
+    justify-content: space-aroun;
   }
   @media (max-width: 450px) {
     top: 20px;
     padding: 0 20px;
-    justify-content: space-between;
+    justify-content: space-aroun;
   }
 `
 
