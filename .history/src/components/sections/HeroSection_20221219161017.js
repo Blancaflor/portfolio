@@ -50,40 +50,15 @@ const ContentWrapper = styled.div`
   display: grid;
   grid-template-columns: 360px auto;
 
-  @media (max-width: 2560px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 150px 20px 250px;
-  }
-  @media (max-width: 1920px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 150px 20px 250px;
-  }
-  @media (max-width: 1600px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 150px 20px 250px;
-  }
-  @media (max-width: 1440px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 150px 20px 250px;
-  }
-  @media (max-width: 1360px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 150px 20px 250px;
-  }
-  @media (max-width: 1280px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 150px 20px 250px;
+  @media (max-width: 1024px) {
   }
   @media (max-width: 1024px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 150px 20px 250px;
+  }
+  @media (max-width: 1024px) {
+  }
+  @media (max-width: 1024px) {
+  }
+  @media (max-width: 1024px) {
   }
 
   @media (max-width: 960px) {
