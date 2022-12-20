@@ -46,9 +46,3 @@ const Wrapper = styled.div`
     right: 60px;
   }    
 `
-
-const MenuButton = styled.div`
-  @media (max-width: 768px) {
-    display: none;
-  }
-`
