@@ -149,7 +149,7 @@ const ContentWrapper = styled.div`
       padding: 10px 0 0 0;
     }
     @media (max-width: 768px) {
-      padding: 10px 0 0 0;
+      
     }
   }
 
