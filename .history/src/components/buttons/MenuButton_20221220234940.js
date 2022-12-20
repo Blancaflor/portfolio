@@ -14,7 +14,7 @@ export default function MenuButton(props) {
   )
 }
 
-const MenuItem = styled.div`
+const MenuItem = styled.d`
   color: rgba(255,255, 255, 0.7);
   display:grid;
   grid-template-columns: 24px auto;
@@ -32,7 +32,7 @@ const MenuItem = styled.div`
   }
 `
 
-const MenuButton = styled.img`
+const MenuButton = styled.div`
   @media (min-width: 768px) {
   display: none;
 }
