@@ -14,6 +14,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-styled-components`,
+   
     "gatsby-plugin-sharp",
     // REMARK plugin needed to extract the markdown files and parses
     {
