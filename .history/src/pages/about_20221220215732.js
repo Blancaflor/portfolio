@@ -20,7 +20,8 @@ function About() {
             design
             <br /> and <TextAnimation /> your <TextAnimation2 />.
           </Title>
-          <Description>Where did it all start?</Description>
+          <Description>Welcome on our Digital Platform</Description>
+          
         </TextWrapper>
         <TextWrapper>
           <Text>
