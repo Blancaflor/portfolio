@@ -23,7 +23,7 @@ const MenuItem = styled.div`
   padding: 10px;
   transition: 0.5s ease-out;
   border-radius: 10px;
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
     display: none;
   }
 
