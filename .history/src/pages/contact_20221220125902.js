@@ -78,13 +78,7 @@ const ContentWrapper = styled.div`
   display: grid;
   grid-template-columns: 360px auto;
 
-  form {
-    padding: 10px 0 0 300px;
-    display: grid;
-    grid-template-columns: 360px auto;
-    justify-content: space-around;
-
-    @media (max-width: 2560px) {
+  @media (max-width: 2560px) {
     grid-template-columns: 400px auto;
     gap: 60px;
     padding: 150px 20px 250px;
@@ -144,6 +138,12 @@ const ContentWrapper = styled.div`
     gap: 60px;
     padding: 150px 20px 250px;
   }
+
+  form {
+    padding: 10px 0 0 300px;
+    display: grid;
+    grid-template-columns: 360px auto;
+    justify-content: space-around;
   }
 
   input {
