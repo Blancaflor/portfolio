@@ -41,7 +41,7 @@ function About() {
             <br />
             This is what NGS - Next Gen Solutions does every day.
             <br />
-            Day in and day out we want and strive for the best developments, code to consume
+            Day in and day out we want and strive for the bestevelopments, Code to consume
             and programming. 
             <br />
             <br />
