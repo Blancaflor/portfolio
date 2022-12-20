@@ -32,7 +32,7 @@ const MenuItem = styled.div`
   }
 `
 
-const MenuButton = styled(img)`
+const MenuButton = styledimg`
   @media (min-width: 768px) {
   display: none;
 }
