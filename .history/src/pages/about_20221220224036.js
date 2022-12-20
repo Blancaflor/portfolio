@@ -29,6 +29,7 @@ function About() {
             Dag in en dag uit willen we en streven we naar de beste: Ontwikkelingen, Code te consumeren en te programmeren.
             </ br>
             Onze filosofie is met de state of mind naar voornamelijk efficiëntie, technisch sterk onderbouwing en naar sterke management toegericht.
+    
           </Text>
       </ContentWrapper>
     </Wrapper>
