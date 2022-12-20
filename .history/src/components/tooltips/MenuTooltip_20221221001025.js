@@ -37,6 +37,7 @@ const Wrapper = styled.div`
     props.isOpen
       ? "skew(0deg) rotate(0deg) translateY(0px)" 
       : "skew(-3deg) rotate(5deg) translateY(-30px)"};
+  
 
   @media (max-width: 768px) {
     right: 120px;
