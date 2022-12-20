@@ -108,8 +108,6 @@ const HamburgerWrapper = styled.div`
   }
 
   .MenuButton {
-    @media (min-width: 768px) {
-    display: none;
+    
   }
-}
 `

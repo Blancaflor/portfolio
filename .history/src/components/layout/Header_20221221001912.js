@@ -107,9 +107,5 @@ const HamburgerWrapper = styled.div`
     display: block;
   }
 
-  .MenuButton {
-    @media (min-width: 768px) {
-    display: none;
-  }
-}
+  .Menut
 `
