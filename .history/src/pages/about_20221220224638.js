@@ -47,7 +47,7 @@ function About() {
             towards efficiency, strong technical support and strong management.
             <br />
             <br />
-            More Info To Come!
+            More Info To Come
           </Text>
         </ContentWrapper>
       </Wrapper>

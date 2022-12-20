@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react';
 import Layout from "../components/layout/layout"
 import SEO from "../components/layout/seo"
 import styled, { keyframes } from "styled-components"
@@ -11,46 +11,28 @@ import TextAnimation2 from "../components/animations/TextAnimation2"
 function About() {
   return (
     <Layout>
-      <Wrapper>
-        <SEO title="About" />
-        <WaveBackground />
-        <ContentWrapper>
-          <TextWrapper>
-            <Title>
-              We
-              <br />
-              design
-              <br /> and <TextAnimation /> your <TextAnimation2 />.
-            </Title>
-            <Description>Where did it all start?</Description>
-          </TextWrapper>
+    <Wrapper>
+      <SEO title="About" />
+      <WaveBackground />
+      <ContentWrapper>
+        <TextWrapper>
+          <Title>
+            We
+            <br />
+            design
+            <br /> and <TextAnimation /> your <TextAnimation2 />.
+          </Title>
+          <Description>Where did it all start?</Description>
+        </TextWrapper>
           <Text>
-            Dit is wat NGS - Next Gen Solutions dagdagelijks doet. Dag in en dag
-            uit willen we en streven we naar de beste: Ontwikkelingen, Code te
-            consumeren en te programmeren.
+            Dit is wat NGS - Next Gen Solutions dagdagelijks doet.
+            Dag in en dag uit willen we en streven we naar de beste: Ontwikkelingen, Code te consumeren en te programmeren.
             <br />
-            <br />
-            Onze filosofie is met de state of mind naar voornamelijk
-            efficiëntie, technisch sterk onderbouwing en naar sterke management
-            toegericht.
-            <br />
-            <br />
-            More Info To Come!
-            <br />
-            <br />
-            This is what NGS - Next Gen Solutions does every day. Day in and day
-            out we want and strive for the best: Developments, Code to consume
-            and programming. 
-            <br />
-            <br />
-            Our philosophy is with the state of mind mainly
-            towards efficiency, strong technical support and strong management.
-            <br />
-            <br />
-            More Info To Come!
+            Onze filosofie is met de state of mind naar voornamelijk efficiëntie, technisch sterk onderbouwing en naar sterke management toegericht.
+            
           </Text>
-        </ContentWrapper>
-      </Wrapper>
+      </ContentWrapper>
+    </Wrapper>
     </Layout>
   )
 }

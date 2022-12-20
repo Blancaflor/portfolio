@@ -35,7 +35,7 @@ function About() {
             toegericht.
             <br />
             <br />
-            More Info To Come!
+            More To Come
             <br />
             <br />
             This is what NGS - Next Gen Solutions does every day. Day in and day
@@ -47,7 +47,7 @@ function About() {
             towards efficiency, strong technical support and strong management.
             <br />
             <br />
-            More Info To Come!
+            
           </Text>
         </ContentWrapper>
       </Wrapper>
