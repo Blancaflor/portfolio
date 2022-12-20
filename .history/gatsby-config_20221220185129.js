@@ -14,6 +14,14 @@ module.exports = {
       },
     },
     `gatsby-plugin-styled-components`,
+    "gatsby-plugin-react-helmet",
+    {
+      resolve: "gatsby-source-contentful",
+      options: {
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
+      }
+    },
     "gatsby-plugin-sass",
     // this plugin will pull all the files in our project system
     {
@@ -21,7 +29,7 @@ module.exports = {
       options: {
         name: "src",
         path: `${__dirname}/src/`,
-        icon: `../src/images/favicon.png`
+        icon: `../src/images/logo/favicon.png`
       }
     },
     "gatsby-plugin-sharp",
@@ -52,7 +60,7 @@ module.exports = {
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: "standalone",
-        icon: "../src/images/logos/favicon.png" // This path is relative to the root of the site.
+        icon: "src/images/logos/favicon.png" // This path is relative to the root of the site.
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality

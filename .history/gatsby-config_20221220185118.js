@@ -21,7 +21,7 @@ module.exports = {
       options: {
         name: "src",
         path: `${__dirname}/src/`,
-        icon: `../src/images/favicon.png`
+        icon: `../src/images/logos/favicon.png`
       }
     },
     "gatsby-plugin-sharp",
