@@ -31,8 +31,6 @@ const MenuItem = styled.div`
     border-radius: 10px;
   }
   .Link {
-    @media (max-width: 768px) {
-    display: none;
-  }
+    
   }
 `
