@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React, { useEffect, useRef, useState } from "react"
 import styled from "styled-components"
-import { menuData } from "../../data/menuData"
+import {menuData} from "../../data/menuData"
 import MenuButton from "../buttons/MenuButton"
 import MenuTooltip from "../tooltips/MenuTooltip"
 
@@ -17,13 +17,9 @@ export default function Header() {
   }
 
   function handleClickOutside(event) {
-    if (
-      ref.current &&
-      !ref.current.contains(event.target) &&
-      !tooltipRef.current.contains(event.target)
-    ) {
-      console.log("Document is clicked")
-      setIsOpen(false)
+    if (ref.current && !ref.current.contains(event.target) && !tooltipRef.current.contains(event.target)) {
+        console.log("Document is clicked")
+        setIsOpen(false)
     }
   }
 
@@ -31,7 +27,7 @@ export default function Header() {
     document.addEventListener("mousedown", handleClickOutside)
 
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside)
+        document.removeEventListener("mousedown", handleClickOutside)
     }
   }, [])
 
@@ -39,25 +35,24 @@ export default function Header() {
     <Wrapper>
       <Link to="/">
         <img src="/images/logos/logo-ngs.png" alt="Logo" />
-      </Link>
+      </Link>  
       <MenuWrapper count={menuData.length} ref={ref}>
-        {menuData.map((item, index) =>
-          item.link === "/account" ? (
-            <MenuButton
-              item={item}
-              key={index}
-              onClick={event => handleClick(event)}
-            />
-          ) : (
-            <MenuButton item={item} key={index} />
-          )
-        )}
-        <HamburgerWrapper>
-          <MenuButton
-            item={{ title: "", icon: "/images/icons/hamburger.svg", link: "/" }}
-            onClick={event => handleClick(event)}
+        {menuData.map((item, index) => item.link === "/account" ? (
+        <MenuButton 
+          item={item} 
+          key={index} 
+          onClick={(event) => handleClick(event)} 
           />
-        </HamburgerWrapper>
+        ) : (
+          <MenuButton item={item} key={index} />
+        )
+      )}
+      <HamburgerWrapper>
+        <MenuButton
+        item={{title: "", icon: "/images/icons/hamburger.svg", link: "/" }} 
+        onClick={(event) => handleClick(event)}
+      />
+      </HamburgerWrapper>
       </MenuWrapper>
       <div ref={tooltipRef}>
         <MenuTooltip isOpen={isOpen} />
@@ -94,7 +89,7 @@ const MenuWrapper = styled.div`
 
   @media (max-width: 768px) {
     > a {
-      display: none;
+    display: none;
     }
     grid-template-columns: auto;
   }
@@ -106,7 +101,6 @@ const HamburgerWrapper = styled.div`
   @media (max-width: 768px) {
     display: block;
   }
-  @media (min-width: 768px) {
-    display: none;
-  }
+
+  
 `
