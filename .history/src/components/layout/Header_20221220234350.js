@@ -102,3 +102,8 @@ const HamburgerWrapper = styled.div`
     display: block;
   }
 `
+const MenuButton = styled.div`
+  @media (mi-width: 768px) {
+    display: none;
+  }
+`
