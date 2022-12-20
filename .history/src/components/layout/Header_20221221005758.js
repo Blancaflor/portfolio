@@ -98,6 +98,7 @@ const MenuWrapper = styled.div`
     }
     grid-template-columns: auto;
   }
+  
 `
 
 const HamburgerWrapper = styled.div`
