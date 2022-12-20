@@ -31,7 +31,6 @@ const MenuItem = styled.div`
     border-radius: 10px;
   }
 
-  @media (min-width: 768px) {
-    display: none;
-  }
+  
 `
+
