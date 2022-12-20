@@ -45,8 +45,4 @@ const Wrapper = styled.div`
   @media (max-width: 450px) {
     right: 60px;
   }    
-
-  @media (min-width: 768px) {
-    display: none;
-  }
 `
