@@ -27,27 +27,7 @@ function About() {
           />
         </TextWrapper>
         <TextWrapper>
-          <Text>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            semper laoreet ante nec aliquet. Curabitur ac risus velit. Mauris et
-            faucibus lacus. Nulla tempus massa ac lectus aliquet consequat.
-            Vivamus porttitor, turpis vel ultricies posuere, nunc ex pulvinar
-            ex, eu blandit ex nisi eget ante. Cras in quam quis orci dapibus
-            ultricies vitae ut tortor. Fusce at viverra tellus. Nulla vitae dui
-            sodales, imperdiet lacus et, tempus purus. Pellentesque a dictum
-            est. Nulla venenatis ac dolor ut interdum. Suspendisse lobortis
-            dolor quis libero blandit, ut blandit est venenatis. Fusce aliquam
-            laoreet consequat. Mauris sollicitudin lacinia eros non vehicula.
-            Vivamus mollis ultrices nunc, in tincidunt nisi elementum ut. Proin
-            egestas tempor enim, ut consectetur nibh vehicula ut. Mauris aliquam
-            pellentesque mi efficitur suscipit. Sed at mi sit amet eros tempor
-            tincidunt. Nulla at magna non lorem venenatis ultricies mollis a
-            libero. Nam ultricies mi et tristique volutpat. Nullam nec dui ex.
-            Nam feugiat odio eleifend augue scelerisque commodo. Curabitur
-            dictum sapien sed ipsum maximus, a imperdiet ex consequat. Sed a
-            arcu eget tortor convallis dapibus non ac quam. Quisque nisl turpis,
-            laoreet id lacinia non, iaculis vel nunc.
-          </Text>
+          <Text></Text>
         </TextWrapper>
       </ContentWrapper>
     </Wrapper>
@@ -191,10 +171,7 @@ const Title = styled(H1)`
 `
 
 const Text = styled.p`
-  color: ${themes.dark.text1};
-  background-clip: text;
-  -webkit-background-clip: text;
-  font-size: 24px;
+  
 `
 
 const Description = styled(MediumText)``
