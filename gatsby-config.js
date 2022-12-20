@@ -17,21 +17,6 @@ module.exports = {
     "gatsby-plugin-sharp",
     // REMARK plugin needed to extract the markdown files and parses
     {
-      resolve: "gatsby-transformer-remark",
-      options: {
-        plugins: [
-          "gatsby-remark-relative-images",
-          {
-            resolve: "gatsby-remark-images",
-            options: {
-              maxWidth: 750,
-              linkImagesOriginal: false
-            }
-          }
-        ]
-      }
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `GatsbyJS`,
