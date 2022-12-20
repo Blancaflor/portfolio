@@ -24,7 +24,6 @@ const MenuItem = styled.div`
   transition: 0.5s ease-out;
   border-radius: 10px;
   @media (min-width: 768px) {
-    display: none;
   }
 
   :hover {

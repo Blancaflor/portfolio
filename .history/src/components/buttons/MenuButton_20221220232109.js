@@ -23,9 +23,7 @@ const MenuItem = styled.div`
   padding: 10px;
   transition: 0.5s ease-out;
   border-radius: 10px;
-  @media (min-width: 768px) {
-    display: none;
-  }
+  @media (max-width: 720px)
 
   :hover {
     background: rgba(255, 255, 255, 0.1);
