@@ -193,7 +193,7 @@ const Text = styled.p`
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  font-size: 21px;
+  font-size: 24px;
 `
 
 const Description = styled(MediumText)``
