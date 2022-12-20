@@ -115,8 +115,8 @@ const ContentWrapper = styled.div`
     padding: 150px 20px 250px;
   }
 
-  @media (max-width: 768px) {
-    grid-template-columns: 200px auto;
+  @media (max-width: 76px) {
+    grid-template-columns: auto;
     gap: 60px;
     padding: 150px 20px 250px;
   }
