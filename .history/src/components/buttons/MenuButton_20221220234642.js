@@ -24,16 +24,11 @@ const MenuItem = styled.div`
   transition: 0.5s ease-out;
   border-radius: 10px;
 
+
   :hover {
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1), 
       inset 0px 0px 0px 0.5px rgba(255, 255, 255, 0.2);
     border-radius: 10px;
   }
-`
-
-const MenuButton = styled.div`
-  @media (min-width: 768px) {
-  display: none;
-}
 `
