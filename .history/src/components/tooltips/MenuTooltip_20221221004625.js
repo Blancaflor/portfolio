@@ -46,8 +46,6 @@ const Wrapper = styled.div`
     right: 60px;
   }    
   .MenuButton {
-    @media (min-width: 768px) {
-    display: none;
-  }
+    
   }
 `

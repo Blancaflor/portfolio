@@ -45,9 +45,5 @@ const Wrapper = styled.div`
   @media (max-width: 450px) {
     right: 60px;
   }    
-  .MenuButton {
-    @media (min-width: 768px) {
-    display: none;
-  }
-  }
+  .
 `
