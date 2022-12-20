@@ -1,32 +1,17 @@
-import React from 'react';
-import emailjs from "emailjs-com"
-import Layout from "../components/layout/layout"
-import SEO from "../components/layout/seo"
+import React from "react"
 import styled, { keyframes } from "styled-components"
-import WaveBackground from "../components/backgrounds/WaveBackground"
-import { themes } from "../components/styles/ColorStyles"
-import { H1, MediumText } from "../components/styles/TextStyles"
-import TextAnimation from "../components/animations/TextAnimation"
-import TextAnimation2 from "../components/animations/TextAnimation2"
+import MockupAnimation from "../animations/MockupAnimation"
+import WaveBackground from "../backgrounds/WaveBackground"
+import PurchaseButton from "../buttons/PurchaseButton"
+import { themes } from "../styles/ColorStyles"
+import { H1, MediumText } from "../styles/TextStyles"
+import TextAnimation from "../animations/TextAnimation"
+import TextAnimation2 from "../animations/TextAnimation2"
 
-export default function Contact() {
 
-  function sendEmail(e) {
-    e.preventDefault();
-
-    emailjs.sendForm('service_v7mx0pr', 'template_s8p11gi', e.target, 'U1ZKe3G9J3WB7krWW')
-      .then((result) => {
-        console.log(result.text);
-      }, (error) => {
-        console.log(error.text);
-      });
-    e.target.reset()
-  }
-
+function HeroSection() {
   return (
-    <Layout>
-      <SEO title="Contact" />
-      <Wrapper>
+    <Wrapper>
       <WaveBackground />
       <ContentWrapper>
         <TextWrapper>
@@ -36,32 +21,19 @@ export default function Contact() {
             design
             <br /> and <TextAnimation /> your <TextAnimation2 />.
           </Title>
-          <Description>Send us your message!</Description>
+          <Description>Welcome on our Digital Platform</Description>
+          <PurchaseButton
+            title="Make An Appointment"
+            subtitle="Send us an email!"
+          />
         </TextWrapper>
-        <form onSubmit={sendEmail}>
-        <div className="row pt-5 mx-auto">
-          <div className="col-8 form-group mx-auto">
-            <input type="text" className="form-control" placeholder="Name" name="name" />
-          </div>
-          <div className="col-8 form-group pt-2 mx-auto">
-            <input type="email" className="form-control" placeholder="Email Address" name="email" />
-          </div>
-          <div className="col-8 form-group pt-2 mx-auto">
-            <input type="text" className="form-control" placeholder="Subject" name="subject" />
-          </div>
-          <div className="col-8 form-group pt-2 mx-auto">
-            <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
-          </div>
-          <div className="col-8 pt-3 mx-auto">
-            <input type="submit" className="btn btn-info" value="Send Message"></input>
-          </div>
-        </div>
-      </form>
+        <MockupAnimation />
       </ContentWrapper>
     </Wrapper>
-    </Layout >
   )
 }
+
+export default HeroSection
 
 const animation = keyframes`
   from { opacity: 0; transform: translateY(-10px); filter: blur(10px); }
@@ -74,14 +46,14 @@ const Wrapper = styled.div`
 const ContentWrapper = styled.div`
   max-width: 1234px;
   margin: 0 auto;
-  padding: 250px 0;
+  padding: 200px 30px;
   display: grid;
   grid-template-columns: 360px auto;
 
   @media (max-width: 2560px) {
     grid-template-columns: 400px auto;
     gap: 60px;
-    padding: 150px 20px 250px;
+    padding: 50px 20px 250px;
   }
   @media (max-width: 1920px) {
     grid-template-columns: 360px auto;
@@ -138,27 +110,6 @@ const ContentWrapper = styled.div`
     gap: 60px;
     padding: 150px 20px 250px;
   }
-
-  form {
-    padding: 10px 0 0 300px;
-    display: grid;
-    grid-template-columns: 360px auto;
-    justify-content: space-around;
-  }
-
-  input {
-    margin: 10px 0;
-  }
-
-  @media (max-width: 450px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 150px 20px 250px;
-
-    form {
-    padding: 10px 0 30px 0;
-  }
- }
 `
 
 const TextWrapper = styled.div`
@@ -197,10 +148,26 @@ const Title = styled(H1)`
     color: transparent;
   }
 
-  @media (max-width: 450px) {
-    font-size: 48px;
+  @media (max-width: 1280px) {
+    font-size: 50px;
   }
+
+  @media (max-width: 960px) {
+    font-size: 45px;
+  }
+
+  @media (max-width: 720px) {
+    font-size: 40px;
+  }
+
+  @media (max-width: 540px) {
+    font-size: 35px;
+  }
+
+  @media (max-width: 450px) {
+    font-size: 30px;
+  }
+
 `
 
 const Description = styled(MediumText)``
-
