@@ -31,9 +31,5 @@ const MenuItem = styled.div`
     border-radius: 10px;
   }
 
-  .img {
-    @media (min-width: 768px) {
-    display: none;
-  }
-}
+  .
 `

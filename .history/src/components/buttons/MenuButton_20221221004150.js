@@ -35,5 +35,5 @@ const MenuItem = styled.div`
     @media (min-width: 768px) {
     display: none;
   }
-}
+  }
 `

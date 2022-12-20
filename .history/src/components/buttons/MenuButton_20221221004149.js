@@ -32,8 +32,6 @@ const MenuItem = styled.div`
   }
 
   .img {
-    @media (min-width: 768px) {
-    display: none;
+    
   }
-}
 `
