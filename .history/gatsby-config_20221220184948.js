@@ -14,6 +14,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-styled-components`,
+
     "gatsby-plugin-sass",
     // this plugin will pull all the files in our project system
     {
