@@ -32,7 +32,7 @@ const MenuItem = styled.div`
   }
 `
 
-const Link = styled.link`
+const Link = styled.`
   @media (max-width: 768px) {
     display: none;
   }
