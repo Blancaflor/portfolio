@@ -16,7 +16,9 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     "gatsby-plugin-react-helmet",
     {
-      resolve: `gatsby-source-contentful`,
+      resolve: "gatsby-source-contentful",
+      options: {
+        resolve: `gatsby-source-contentful`,
       options: {
         spaceId: "YOUR SPACE ID",
         accessToken:  "YOUR ACCESS TOKEN",
