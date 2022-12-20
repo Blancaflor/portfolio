@@ -26,7 +26,7 @@ function About() {
           </TextWrapper>
           <Text>
             Dit is wat NGS - Next Gen Solutions dagdagelijks doet. 
-            <br />
+            
             Dag in en dag uit willen we en streven we naar de beste: Ontwikkelingen, Code te
             consumeren en te programmeren.
             <br />
@@ -39,9 +39,8 @@ function About() {
             More Info To Come!
             <br />
             <br />
-            This is what NGS - Next Gen Solutions does every day.
-            <br />
-            Day in and day out we want and strive for the best: Developments, Code to consume
+            This is what NGS - Next Gen Solutions does every day. Day in and day
+            out we want and strive for the best: Developments, Code to consume
             and programming. 
             <br />
             <br />
