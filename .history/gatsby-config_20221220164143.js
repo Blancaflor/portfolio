@@ -1,4 +1,3 @@
-const dotenv = require("dotenv").config()
 module.exports = {
   siteMetadata: {
     title: `Next Gen Solutions| NGS | Official Website`,
@@ -19,8 +18,8 @@ module.exports = {
     {
       resolve: "gatsby-source-contentful",
       options: {
-        spaceId: process.env.CONTENTFUL_SPACE_ID,
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
+        spaceId: process.env.development,
+        accessToken: process.env.product
       }
     },
     "gatsby-plugin-sass",

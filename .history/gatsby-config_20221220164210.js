@@ -1,4 +1,4 @@
-const dotenv = require("dotenv").config()
+
 module.exports = {
   siteMetadata: {
     title: `Next Gen Solutions| NGS | Official Website`,
