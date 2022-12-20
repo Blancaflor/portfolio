@@ -49,8 +49,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
-        display: `standalone`,
-        icon: `public/images/logos/icon.ico`, // This path is relative to the root of the site.
+        display: `standalone`, This path is relative to 
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
