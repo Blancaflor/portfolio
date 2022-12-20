@@ -106,7 +106,5 @@ const HamburgerWrapper = styled.div`
   @media (max-width: 768px) {
     display: block;
   }
-  @media (max-width: 768px) {
-    display: none;
-  }
+  
 `
