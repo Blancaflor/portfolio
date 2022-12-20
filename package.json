@@ -19,6 +19,7 @@
     "gatsby-plugin-sharp": "^5.3.2",
     "gatsby-plugin-styled-components": "^6.3.0",
     "gatsby-react-router-scroll": "^6.3.0",
+    "gatsby-remark-relative-images": "^2.0.2",
     "gatsby-script": "^2.3.0",
     "gatsby-source-contentful": "^8.3.1",
     "gatsby-source-filesystem": "^5.3.1",
