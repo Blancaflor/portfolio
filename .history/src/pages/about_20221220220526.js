@@ -22,6 +22,7 @@ function About() {
           </Title>
           <Description>Where did it all start?</Description>
         </TextWrapper>
+        <TextWrapper>
           <Text>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
             semper laoreet ante nec aliquet. Curabitur ac risus velit. Mauris et
@@ -43,6 +44,7 @@ function About() {
             arcu eget tortor convallis dapibus non ac quam. Quisque nisl turpis,
             laoreet id lacinia non, iaculis vel nunc.
           </Text>
+        </TextWrapper>
       </ContentWrapper>
     </Wrapper>
   )
@@ -188,7 +190,7 @@ const Text = styled.p`
   color: ${themes.dark.text1};
   background-clip: text;
   -webkit-background-clip: text;
-  font-size: 21px;
+  font-size: 24px;
 `
 
 const Description = styled(MediumText)``

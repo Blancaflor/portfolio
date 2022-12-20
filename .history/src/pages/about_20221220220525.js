@@ -22,6 +22,7 @@ function About() {
           </Title>
           <Description>Where did it all start?</Description>
         </TextWrapper>
+        <TextWrapper>
           <Text>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
             semper laoreet ante nec aliquet. Curabitur ac risus velit. Mauris et
@@ -43,6 +44,7 @@ function About() {
             arcu eget tortor convallis dapibus non ac quam. Quisque nisl turpis,
             laoreet id lacinia non, iaculis vel nunc.
           </Text>
+        </TextWrapper>
       </ContentWrapper>
     </Wrapper>
   )
@@ -186,9 +188,12 @@ const Title = styled(H1)`
 
 const Text = styled.p`
   color: ${themes.dark.text1};
+  background: linear-gradient(180deg, #730040 0%, #301cbe 100%),
+    linear-gradient(180deg, #ffd7ff 0%, #ffb6ff 100%);
   background-clip: text;
   -webkit-background-clip: text;
-  font-size: 21px;
+  color: transparent;
+  font-size: 2px;
 `
 
 const Description = styled(MediumText)``

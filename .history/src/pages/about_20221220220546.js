@@ -43,6 +43,7 @@ function About() {
             arcu eget tortor convallis dapibus non ac quam. Quisque nisl turpis,
             laoreet id lacinia non, iaculis vel nunc.
           </Text>
+        </TextWrapper>
       </ContentWrapper>
     </Wrapper>
   )
