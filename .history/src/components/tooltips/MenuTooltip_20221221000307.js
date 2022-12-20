@@ -39,7 +39,7 @@ const Wrapper = styled.div`
       : "skew(-3deg) rotate(5deg) translateY(-30px)"};
   
   @media (min-width: 768px) {
-    display: none;
+  display: none;
   }
 
   @media (max-width: 768px) {
