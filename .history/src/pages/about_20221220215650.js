@@ -1,4 +1,5 @@
 import React from 'react';
+
 import SEO from "../components/layout/seo"
 import styled, { keyframes } from "styled-components"
 import WaveBackground from "../components/backgrounds/WaveBackground"

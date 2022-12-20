@@ -1,4 +1,6 @@
 import React from 'react';
+import emailjs from "emailjs-com"
+import Layout from "../components/layout/layout"
 import SEO from "../components/layout/seo"
 import styled, { keyframes } from "styled-components"
 import WaveBackground from "../components/backgrounds/WaveBackground"
@@ -10,7 +12,6 @@ import TextAnimation2 from "../components/animations/TextAnimation2"
 function About() {
   return (
     <Wrapper>
-      <SEO title="About" />
       <WaveBackground />
       <ContentWrapper>
         <TextWrapper>
