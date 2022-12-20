@@ -23,10 +23,6 @@ const MenuItem = styled.div`
   padding: 10px;
   transition: 0.5s ease-out;
   border-radius: 10px;
-  
-  @media (min-width: 768px) {
-  display: none;
-}
 
   :hover {
     background: rgba(255, 255, 255, 0.1);
@@ -34,4 +30,8 @@ const MenuItem = styled.div`
       inset 0px 0px 0px 0.5px rgba(255, 255, 255, 0.2);
     border-radius: 10px;
   }
+`
+
+const MenuButton = styled(img)`
+  
 `
