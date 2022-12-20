@@ -16,12 +16,13 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     "gatsby-plugin-react-helmet",
     {
-      resolve: "gatsby-source-contentful",
-      options: {
-        spaceId: process.env.CONTENTFUL_SPACE_ID,
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-      },
-    },
+  resolve: `gatsby-source-contentful`,
+  options: {
+    spaceId: "123456" // process.env.CONTENTFUL_SPACE_ID,
+    // Learn about environment variables: https://gatsby.dev/env-vars
+    accessToken: "123456" // process.env.CONTENTFUL_ACCESS_TOKEN,
+  },
+},
     "gatsby-plugin-sass",
     // this plugin will pull all the files in our project system
     {
