@@ -145,9 +145,7 @@ const ContentWrapper = styled.div`
     grid-template-columns: 300px auto;
     justify-content: space-around;
 
-    @media (max-width: 540px) {
-      padding: 10px 0 0 0;
-    }
+    @media (max-width: 540px) 
   }
 
   input {

@@ -146,7 +146,7 @@ const ContentWrapper = styled.div`
     justify-content: space-around;
 
     @media (max-width: 540px) {
-      padding: 10px 0 0 0;
+      padding: 10px 0 0 ;
     }
   }
 
