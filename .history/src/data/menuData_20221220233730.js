@@ -18,6 +18,7 @@ export const tooltipData = [
     link: "/about",
   },
   { title: "Contact", icon: "/images/icons/pricing.svg", link: "/contact" },
+  
 
   {/*  { title: "Profile", icon: "/images/icons/profile.svg", link: "/profile" },
   { title: "Settings", icon: "/images/icons/settings.svg", link: "/settings" },
