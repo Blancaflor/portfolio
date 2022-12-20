@@ -116,7 +116,7 @@ const ContentWrapper = styled.div`
   }
 
   @media (max-width: 768px) {
-    grid-template-columns: auto;
+    grid-template-columns: 200p auto;
     gap: 60px;
     padding: 150px 20px 250px;
   }
@@ -142,7 +142,7 @@ const ContentWrapper = styled.div`
   form {
     padding: 10px 0 0 300px;
     display: grid;
-    grid-template-columns: 300px auto;
+    grid-template-columns: 360px auto;
     justify-content: space-around;
   }
 
