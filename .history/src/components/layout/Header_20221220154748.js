@@ -34,7 +34,7 @@ export default function Header() {
   return (
     <Wrapper>
       <Link to="/">
-        <img src="/images/logos/logo-ngs.svg" alt="Logo" />
+        <img src="/images/logos/logo-ngs." alt="Logo" />
       </Link>  
       <MenuWrapper count={menuData.length} ref={ref}>
         {menuData.map((item, index) => item.link === "/account" ? (
