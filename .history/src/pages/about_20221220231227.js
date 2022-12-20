@@ -200,7 +200,7 @@ const Text = styled.p`
   font-size: 18px;
   line-height: 24px; 
   margin: 0 0 24px; 
-  text-align: left;
+  text-align: lef;
 `
 
 const Description = styled(MediumText)``
