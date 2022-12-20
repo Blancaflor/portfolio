@@ -16,11 +16,10 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     "gatsby-plugin-react-helmet",
     {
-      resolve: `gatsby-source-contentful`,
+      resolve: "gatsby-source-contentful",
       options: {
-        spaceId: "123456" // process.env.CONTENTFUL_SPACE_ID,
-        // Learn about environment variables: https://gatsby.dev/env-vars
-        accessToken: "123456" // process.env.CONTENTFUL_ACCESS_TOKEN,
+        spaceId: process.env.CONTENTFUL_SPACE_ID=env.production,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN=env.development,
       },
     },
     "gatsby-plugin-sass",
