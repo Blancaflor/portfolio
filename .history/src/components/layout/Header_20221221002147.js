@@ -108,7 +108,7 @@ const HamburgerWrapper = styled.div`
   }
 
   .MenuButton {
-    @media (max-width: 768px) {
+    @media (ma-width: 768px) {
     display: none;
   }
 }
