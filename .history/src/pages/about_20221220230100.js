@@ -199,6 +199,7 @@ const Text = styled.p`
   line-height: 24px; 
   margin: 0 0 24px; 
   text-align: center;
+
 `
 
 const Description = styled(MediumText)``

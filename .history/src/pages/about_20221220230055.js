@@ -196,9 +196,8 @@ const Text = styled.p`
   background-clip: text;
   -webkit-background-clip: text;
   font-size: 18px;
-  line-height: 24px; 
-  margin: 0 0 24px; 
-  text-align: center;
+  line-height: 24px; margin: 0 0 24px; text-align: center;
+
 `
 
 const Description = styled(MediumText)``
