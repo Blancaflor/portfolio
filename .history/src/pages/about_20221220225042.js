@@ -7,6 +7,7 @@ import { themes } from "../components/styles/ColorStyles"
 import { H1, MediumText } from "../components/styles/TextStyles"
 import TextAnimation from "../components/animations/TextAnimation"
 import TextAnimation2 from "../components/animations/TextAnimation2"
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
 
 function About() {
   return (
@@ -196,8 +197,6 @@ const Text = styled.p`
   background-clip: text;
   -webkit-background-clip: text;
   font-size: 18px;
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
-  font-family: 'Open Sans', sans-serif;
   
 `
 
