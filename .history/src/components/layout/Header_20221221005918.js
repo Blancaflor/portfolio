@@ -97,8 +97,6 @@ const MenuWrapper = styled.div`
       display: none;
     }
     grid-template-columns: auto;
-  }
-  @media (min-width: 768px) {
     display: none;
   }
 `

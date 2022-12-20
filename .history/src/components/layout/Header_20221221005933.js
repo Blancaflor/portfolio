@@ -98,9 +98,6 @@ const MenuWrapper = styled.div`
     }
     grid-template-columns: auto;
   }
-  @media (min-width: 768px) {
-    display: none;
-  }
 `
 
 const HamburgerWrapper = styled.div`
