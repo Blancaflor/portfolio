@@ -227,7 +227,7 @@ const TextTitle = styled(H1)`
   font-size: 24px;
   line-height: 24px; 
   margin: 0 0 24px; 
-  padding: 10px 0 10px 0;
+  padding: 30px 30px 0 30px;
   text-align: left;
 `
 
