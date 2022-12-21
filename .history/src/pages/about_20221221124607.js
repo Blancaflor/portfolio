@@ -229,8 +229,6 @@ const TextTitle = styled(H1)`
   line-height: 24px; 
   text-align: center;
   padding: 10px auto;
-  display: grid;
-  grid-template-columns: 360px auto;
 
   @media (max-width: 960px) {
     font-size: 30px;
