@@ -221,7 +221,7 @@ const Text = styled.p`
 
 const TextTitle = styled(H1)`
   color: ${themes.dark.text1};
-  background: #3E14A0;
+  background: 3E14A0;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
