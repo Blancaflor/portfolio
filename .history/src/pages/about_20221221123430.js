@@ -221,13 +221,14 @@ const Text = styled.p`
 
 const TextTitle = styled(H1)`
   color: ${themes.dark.text1};
-  background: black;
+  background: linear-gradient(180deg, #730040 50%, #301cbe 100%),
+    linear-gradient(180deg, #ffd7ff 70%, #FEC8FF 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   font-size: 27px;
   line-height: 70px; 
-  text-align: center;
+  text-align: cen;
   padding: 10px auto;
 
   @media (max-width: 960px) {
