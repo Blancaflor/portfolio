@@ -229,7 +229,7 @@ const TextTitle = styled(H1)`
   line-height: 70px; 
   text-align: center;
   padding: 10px auto;
-  opacity: 100%;
+  opacity: 80%;
 
   @media (max-width: 960px) {
     font-size: 30px;
