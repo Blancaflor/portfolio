@@ -195,10 +195,6 @@ const Title = styled(H1)`
   }
 `
 
-const TextBackGround = styled.div`
-  opacity: 50%;
-`
-
 const Text = styled.p`
   color: ${themes.dark.text1};
   background-clip: text;

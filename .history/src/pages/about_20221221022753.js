@@ -195,7 +195,7 @@ const Title = styled(H1)`
   }
 `
 
-const TextBackGround = styled.div`
+const Tex = styled.div`
   opacity: 50%;
 `
 

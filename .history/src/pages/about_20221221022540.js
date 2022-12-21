@@ -24,7 +24,6 @@ function About() {
             </Title>
             <Description>Where did it all start?</Description>
           </TextWrapper>
-          <TextBackGround>
           <Text>
             Dit is wat NGS - Next Gen Solutions dagdagelijks uitwerkt. 
             <br />
@@ -52,7 +51,6 @@ function About() {
             <br />
             More Info To Come!
           </Text>
-          </TextBackGround>
         </ContentWrapper>
       </Wrapper>
     </Layout>
@@ -193,10 +191,6 @@ const Title = styled(H1)`
   @media (max-width: 450px) {
     font-size: 30px;
   }
-`
-
-const TextBackGround = styled.div`
-  opacity: 50%;
 `
 
 const Text = styled.p`
