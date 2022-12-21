@@ -143,7 +143,7 @@ const ContentWrapper = styled.div`
     display: grid;
     grid-template-columns: 360px auto;
     justify-content: space-around;
-    width: 150px;
+    width: 300px;
 
     @media (max-width: 540px) {
       padding: 10px 0 0 0;
@@ -155,7 +155,6 @@ const ContentWrapper = styled.div`
 
   input {
     margin: 10px 0;
-    width: 100%;
   }
 
   @media (max-width: 450px) {
