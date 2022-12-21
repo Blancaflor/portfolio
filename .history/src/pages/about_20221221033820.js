@@ -213,7 +213,7 @@ const Text = styled.p`
   -webkit-background-clip: text;
   font-size: 15px;
   line-height: 24px; 
-  margin: 0 0 24px; 
+  margin: px 0 24px; 
   text-align: left;
 `
 
@@ -225,7 +225,7 @@ const TextTitle = styled(H1)`
   -webkit-background-clip: text;
   color: transparent;
   font-size: 27px;
-  line-height: 50px; 
+  line-height: 30px; 
   text-align: left;
   padding: 20px 0 0 0;
 `
