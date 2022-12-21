@@ -224,6 +224,7 @@ const TextTitle = styled(H1)`
   background: #3E14A0;
   background-clip: text;
   -webkit-background-clip: text;
+
   font-size: 27px;
   line-height: 70px; 
   text-align: center;
