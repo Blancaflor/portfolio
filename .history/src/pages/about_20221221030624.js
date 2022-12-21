@@ -220,7 +220,7 @@ const Text = styled.p`
 const TextTitle = styled(H1)`
   color: ${themes.dark.text1};
   background: linear-gradient(180deg, #730040 0%, #301cbe 100%),
-    linear-gradient(180deg, #ffd7ff 30%, #ffb6ff 100%);
+    linear-gradient(180deg, #ffd7ff 03%, #ffb6ff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;

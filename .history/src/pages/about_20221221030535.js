@@ -210,6 +210,7 @@ const Text = styled.p`
   color: ${themes.dark.text1};
   background-clip: text;
   -webkit-background-clip: text;
+
   font-size: 15px;
   line-height: 24px; 
   margin: 0 0 24px; 
@@ -220,7 +221,7 @@ const Text = styled.p`
 const TextTitle = styled(H1)`
   color: ${themes.dark.text1};
   background: linear-gradient(180deg, #730040 0%, #301cbe 100%),
-    linear-gradient(180deg, #ffd7ff 30%, #ffb6ff 100%);
+    linear-gradient(180deg, #ffd7ff 0%, #ffb6ff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
