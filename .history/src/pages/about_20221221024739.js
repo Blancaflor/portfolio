@@ -200,6 +200,7 @@ const TextBackGround = styled.div`
   box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
   backdrop-filter: blur(21.8507px);
   border-radius: 16px;
+  
   opacity: 85%;
 `
 
@@ -210,7 +211,6 @@ const Text = styled.p`
   font-size: 15px;
   line-height: 24px; 
   margin: 0 0 24px; 
-  padding: 30px 30px;
   text-align: left;
 `
 
