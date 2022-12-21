@@ -27,7 +27,7 @@ function About() {
           <Text>
             Dit is wat NGS - Next Gen Solutions dagdagelijks doet. 
             <br />
-            Dag in en dag uit willen we streven naar de beste ontwikkelingen, code te
+            Dag in en dag uit willen we streven w naar de beste ontwikkelingen, code te
             consumeren en te programmeren.
             <br />
             <br />
