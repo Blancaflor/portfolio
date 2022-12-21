@@ -8,7 +8,7 @@ export default function MockupAnimation() {
         <Mockup1><Link to="https://www.tupperwarelochristi.be/" target="_blank" ><div className="mockup1" /></Link></Mockup1>
         <Mockup2><Link to="https://prosteam.be/" target="_blank" ><div className="mockup2" /></Link></Mockup2>
         <Mockup3><Link to="https://slickcoin.netlify.com/" target="_blank" ><div className="mockup3" /></Link></Mockup3>
-        <Mockup4><div className="mockup4" /></Mockup4>
+        <Mockup4><Link to="/" target="_blank" ><div className="mockup4" /></Mockup4>
         <Mockup5><Link to="https://bikera.org/" target="_blank" ><div className="mockup5" /></Link></Mockup5>
       </Wrapper>
   )
