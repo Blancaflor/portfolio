@@ -51,8 +51,8 @@ function About() {
             <br />
             <br />
             More Info To Come!
+            
           </Text>
-          </TextBackGround>
         </ContentWrapper>
       </Wrapper>
     </Layout>
