@@ -203,7 +203,7 @@ const TextBackGround = styled.div`
   box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
   backdrop-filter: blur(21.8507px);
   border-radius: 16px;
-  padding: 0 20px 0 20px;
+  padding:  20px 0 20px;
   opacity: 85%;
 `
 
@@ -227,7 +227,6 @@ const TextTitle = styled(H1)`
   font-size: 27px;
   line-height: 30px; 
   text-align: left;
-  padding: 20px 0 0 0;
 `
 
 const Description = styled(MediumText)``
