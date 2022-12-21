@@ -154,7 +154,7 @@ const ContentWrapper = styled.div`
 
   input {
     margin: 10px 0;
-    width: auto;
+    width: a;
   }
 
   @media (max-width: 450px) {
