@@ -227,22 +227,7 @@ const TextTitle = styled(H1)`
   line-height: 70px; 
   text-align: left;
   padding: 10px 0 0 0;
-
-  @media (max-width: 960px) {
-    font-size: 45px;
-  }
-
-  @media (max-width: 720px) {
-    font-size: 40px;
-  }
-
-  @media (max-width: 540px) {
-    font-size: 35px;
-  }
-
-  @media (max-width: 450px) {
-    font-size: 30px;
-  }
+  
 `
 
 const Description = styled(MediumText)``
