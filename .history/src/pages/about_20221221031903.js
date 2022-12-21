@@ -226,7 +226,7 @@ const TextTitle = styled(H1)`
   color: transparent;
   font-size: 24px;
   line-height: 24px; 
-  margin: 10px 0 24px; 
+  margin: 10p 0 24px; 
   text-align: left;
 `
 
