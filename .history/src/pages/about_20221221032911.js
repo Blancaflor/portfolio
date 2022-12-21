@@ -201,7 +201,6 @@ const Title = styled(H1)`
 const TextBackGround = styled.div`
   background: rgba(46, 46, 46);
   box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
-  backdrop-filter: blur(21.8507px);
   border-radius: 16px;
   padding: 20px 20px 0 20px;
   opacity: 85%;
@@ -224,8 +223,9 @@ const TextTitle = styled(H1)`
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  font-size: 27px;
-  line-height: 30px; 
+  font-size: 24px;
+  line-height: 24px; 
+  margin: 0 0 24px; 
   text-align: left;
 `
 
