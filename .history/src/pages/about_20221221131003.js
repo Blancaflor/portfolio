@@ -206,7 +206,7 @@ const TextBackGround = styled.div`
   backdrop-filter: blur(21.8507px);
   border-radius: 16px;
   padding: 0 20px 0 20px;
-  opacity: 80%;
+  opacity: 8%;
 `
 
 const Text = styled.p`
@@ -224,7 +224,6 @@ const TextTitle = styled(H1)`
   background: black;
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent;
   font-size: 27px;
   line-height: 70px; 
   text-align: center;

@@ -206,7 +206,7 @@ const TextBackGround = styled.div`
   backdrop-filter: blur(21.8507px);
   border-radius: 16px;
   padding: 0 20px 0 20px;
-  opacity: 80%;
+  opacity: 75%;
 `
 
 const Text = styled.p`
