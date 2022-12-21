@@ -25,7 +25,7 @@ function About() {
             <Description>Where did it all start?</Description>
           </TextWrapper>
           <Text>
-          <TextBackGround>
+            
             Dit is wat NGS - Next Gen Solutions dagdagelijks uitwerkt. 
             <br />
             Dag in en dag uit willen we streven naar de beste ontwikkelingen, code te
@@ -51,8 +51,8 @@ function About() {
             <br />
             <br />
             More Info To Come!
-            </TextBackGround>
           </Text>
+          </TextBackGround>
         </ContentWrapper>
       </Wrapper>
     </Layout>
