@@ -206,7 +206,7 @@ const Text = styled.p`
   backdrop-filter: blur(21.8507px);
   border-radius: 16px;
   padding: 30px 30px;
-  opacity: 50%;
+  
 `
 
 const Description = styled(MediumText)``
