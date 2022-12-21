@@ -213,7 +213,7 @@ const Text = styled.p`
   font-size: 15px;
   line-height: 24px; 
   margin: 0 0 24px; 
-  padding: 20px 20px 0 20px;
+  padding: 20px 30px 0 30px;
   text-align: left;
 `
 
