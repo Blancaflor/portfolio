@@ -200,7 +200,7 @@ const TextBackGround = styled.div`
   box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
   backdrop-filter: blur(21.8507px);
   border-radius: 16px;
-  margin: 30px 30px;
+  ma: 30px 30px;
   opacity: 85%;
 `
 
