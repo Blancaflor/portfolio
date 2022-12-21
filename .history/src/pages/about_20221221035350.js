@@ -29,7 +29,7 @@ function About() {
             <TextTitle>
             This is what NGS - (Next Gen Solutions) does everyday.
             </TextTitle>
-            Dit is wat NGS - (Next Gen Solutions) dagdagelijks uitwerkt. 
+            Dit is wat NGS - (Next Gen Solutions dagdagelijks uitwerkt. 
             <br />
             Dag in en dag uit willen we streven naar de beste ontwikkelingen, code te
             consumeren en te programmeren.
