@@ -7,7 +7,7 @@ export const menuData = [
   },
   { title: "Contact", icon: "/images/icons/pricing.svg", link: "/contact" },
   {/* { title: "", icon: "/images/icons/search.svg", link: "/" }, */},
-  {/* { title: "", icon: "/images/icons/account.svg", link: "/account" },*/}
+  {/* { title: "", icon: "/images/icons/account.svg", link: "/account" },
 ]
 
 export const tooltipData = [
