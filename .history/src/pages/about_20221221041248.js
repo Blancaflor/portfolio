@@ -241,7 +241,7 @@ const TextTitle = styled(H1)`
   }
 
   @media (max-width: 450px) {
-    font-size: 18px;
+    font-size: px;
   }
 `
 

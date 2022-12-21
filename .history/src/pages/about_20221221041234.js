@@ -229,19 +229,19 @@ const TextTitle = styled(H1)`
   padding: 10px 0 0 0;
 
   @media (max-width: 960px) {
-    font-size: 30px;
+    font-size: px;
   }
 
   @media (max-width: 720px) {
-    font-size: 27px;
+    font-size: 40px;
   }
 
   @media (max-width: 540px) {
-    font-size: 21px;
+    font-size: 35px;
   }
 
   @media (max-width: 450px) {
-    font-size: 18px;
+    font-size: 30px;
   }
 `
 

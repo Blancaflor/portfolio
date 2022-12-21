@@ -237,11 +237,11 @@ const TextTitle = styled(H1)`
   }
 
   @media (max-width: 540px) {
-    font-size: 21px;
+    font-size: px;
   }
 
   @media (max-width: 450px) {
-    font-size: 18px;
+    font-size: 30px;
   }
 `
 
