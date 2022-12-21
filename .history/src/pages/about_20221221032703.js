@@ -201,6 +201,7 @@ const Title = styled(H1)`
 const TextBackGround = styled.div`
   background: rgba(46, 46, 46);
   box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
+  
   border-radius: 16px;
   padding: 20px 20px 0 20px;
   opacity: 85%;
@@ -220,7 +221,6 @@ const TextTitle = styled(H1)`
   color: ${themes.dark.text1};
   background: linear-gradient(180deg, #730040 50%, #301cbe 100%),
     linear-gradient(180deg, #ffd7ff 70%, #FEC8FF 100%);
-  backdrop-filter: blur(21.8507px);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
