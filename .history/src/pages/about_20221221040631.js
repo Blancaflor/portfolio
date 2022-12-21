@@ -7,6 +7,7 @@ import { themes } from "../components/styles/ColorStyles"
 import { H1, MediumText } from "../components/styles/TextStyles"
 import AboutAnimation from "../components/animations/AboutAnimation"
 
+
 function About() {
   return (
     <Layout>

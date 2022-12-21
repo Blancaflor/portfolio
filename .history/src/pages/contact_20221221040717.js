@@ -6,7 +6,8 @@ import styled, { keyframes } from "styled-components"
 import WaveBackground from "../components/backgrounds/WaveBackground"
 import { themes } from "../components/styles/ColorStyles"
 import { H1, MediumText } from "../components/styles/TextStyles"
-import ContactAnimation from "../components/animations/ContactAnimation"
+import ContactAnimation from "../components/animations/CAnimation"
+import TextAnimation2 from "../components/animations/TextAnimation2"
 
 export default function Contact() {
 

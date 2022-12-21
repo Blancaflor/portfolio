@@ -6,7 +6,8 @@ import styled, { keyframes } from "styled-components"
 import WaveBackground from "../components/backgrounds/WaveBackground"
 import { themes } from "../components/styles/ColorStyles"
 import { H1, MediumText } from "../components/styles/TextStyles"
-import ContactAnimation from "../components/animations/ContactAnimation"
+import TextAnimation from "../components/animations/TextAnimation"
+import TextAnimation2 from "../components/animations/TextAnimation2"
 
 export default function Contact() {
 
@@ -30,10 +31,10 @@ export default function Contact() {
       <ContentWrapper>
         <TextWrapper>
           <Title>
-            Send
+            S
             <br />
-            us
-            <br /> an <ContactAnimation />.
+            design
+            <br /> and <TextAnimation /> your <TextAnimation2 />.
           </Title>
           <Description>Send us your message!</Description>
         </TextWrapper>

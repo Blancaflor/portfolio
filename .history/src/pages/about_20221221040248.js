@@ -5,7 +5,8 @@ import styled, { keyframes } from "styled-components"
 import WaveBackground from "../components/backgrounds/WaveBackground"
 import { themes } from "../components/styles/ColorStyles"
 import { H1, MediumText } from "../components/styles/TextStyles"
-import AboutAnimation from "../components/animations/AboutAnimation"
+import TextAnimation from "../components/animations/TextAnimation"
+import TextAnimation2 from "../components/animations/TextAnimation2"
 
 function About() {
   return (
@@ -18,10 +19,10 @@ function About() {
             <Title>
               Where
               <br />
-              did
-              <br /> it all <AboutAnimation />.
+              
+              <br /> and <TextAnimation /> your <TextAnimation2 />.
             </Title>
-            <Description>From the beginning.</Description>
+            <Description>Where did it all start?</Description>
           </TextWrapper>
           <TextBackGround>
           <Text>
