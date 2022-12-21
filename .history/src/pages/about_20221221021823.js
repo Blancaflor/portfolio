@@ -197,15 +197,16 @@ const Text = styled.p`
   color: ${themes.dark.text1};
   background-clip: text;
   -webkit-background-clip: text;
-  font-size: 14px;
+  font-size: 1px;
   line-height: 24px; 
   margin: 0 0 24px; 
   text-align: left;
-  background: rgba(48,48,48) opacity(50%);
+  background: rgba(48,48,48);
   box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
   backdrop-filter: blur(21.8507px);
   border-radius: 16px;
   padding: 30px 30px;
+  opacity: 50%;
 `
 
 const Description = styled(MediumText)``
