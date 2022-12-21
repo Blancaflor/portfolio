@@ -227,7 +227,7 @@ const TextTitle = styled(H1)`
   font-size: 27px;
   line-height: 60px; 
   text-align: left;
-  padding: 10px 0 0 0;
+  padding: 20px 0 0 0;
 `
 
 const Description = styled(MediumText)``
