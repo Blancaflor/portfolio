@@ -19,10 +19,7 @@ function About() {
               Where
               <br />
               did
-              <br /> 
-              it 
-              <br /> 
-              all <AboutAnimation />.
+              <br /> it <all <AboutAnimation />.
             </Title>
             <Description>From the beginning.</Description>
           </TextWrapper>

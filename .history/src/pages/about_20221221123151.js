@@ -21,8 +21,7 @@ function About() {
               did
               <br /> 
               it 
-              <br /> 
-              all <AboutAnimation />.
+              <br /> all <AboutAnimation />.
             </Title>
             <Description>From the beginning.</Description>
           </TextWrapper>
