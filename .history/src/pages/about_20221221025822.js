@@ -27,7 +27,7 @@ function About() {
           <TextBackGround>
           <Text>
             <TextTitle>
-            This is what NGS - Next Gen Solutions does every day.
+              
             </TextTitle>
             Dit is wat NGS - Next Gen Solutions dagdagelijks uitwerkt. 
             <br />
