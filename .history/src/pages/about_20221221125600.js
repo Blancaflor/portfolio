@@ -226,8 +226,11 @@ const TextTitle = styled(H1)`
   -webkit-background-clip: text;
   color: transparent;
   font-size: 27px;
+  line-height: 24px; 
   text-align: center;
-  padding: 10px auto 20px;
+  padding: 10px auto;
+ 
+  grid-template-columns: 360px auto;
 
   @media (max-width: 960px) {
     font-size: 30px;

@@ -226,6 +226,7 @@ const TextTitle = styled(H1)`
   -webkit-background-clip: text;
   color: transparent;
   font-size: 27px;
+  l
   text-align: center;
   padding: 10px auto 20px;
 
