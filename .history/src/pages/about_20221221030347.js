@@ -224,7 +224,6 @@ const TextTitle = styled(H1)`
     linear-gradient(180deg, #ffd7ff 0%, #ffb6ff 100%);
   background-clip: text;
   -webkit-background-clip: text;
-  backdrop-filter: blur(21.8507px);
   color: transparent;
   font-size: 24px;
   line-height: 24px; 
