@@ -26,9 +26,7 @@ function About() {
           </TextWrapper>
           <TextBackGround>
           <Text>
-            <TextTitle>
-
-            </TextTitle>
+            <
             Dit is wat NGS - Next Gen Solutions dagdagelijks uitwerkt. 
             <br />
             Dag in en dag uit willen we streven naar de beste ontwikkelingen, code te
@@ -215,16 +213,7 @@ const Text = styled.p`
   margin: 0 0 24px; 
   padding: 30px 30px 0 30px;
   text-align: left;
-`
-
-const TextTitle = styled(H1)`
-  color: ${themes.dark.text1};
-  background: linear-gradient(180deg, #730040 0%, #301cbe 100%),
-    linear-gradient(180deg, #ffd7ff 0%, #ffb6ff 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  font-size: 24px;
+  
 `
 
 const Description = styled(MediumText)``

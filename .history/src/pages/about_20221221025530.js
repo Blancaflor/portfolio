@@ -224,7 +224,7 @@ const TextTitle = styled(H1)`
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  font-size: 24px;
+  font-size: ;
 `
 
 const Description = styled(MediumText)``
