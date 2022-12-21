@@ -201,9 +201,7 @@ const Text = styled.p`
   line-height: 24px; 
   margin: 0 0 24px; 
   text-align: left;
-  box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
-  backdrop-filter: blur(21.8507px);
-  border-radius: 16px;
+  
 `
 
 const Description = styled(MediumText)``
