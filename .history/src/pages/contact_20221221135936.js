@@ -139,7 +139,7 @@ const ContentWrapper = styled.div`
   }
 
   form {
-    padding: 10px 0 10px 240px;
+    padding: 10px 0 10px 250px;
     display: grid;
     grid-template-columns: 360px auto;
     justify-content: space-around;
