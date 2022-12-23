@@ -38,7 +38,7 @@ export default function Header() {
   return (
     <Wrapper>
       <Link to="/">
-        <img src="/images/logos/logo-ngs.png" alt="Logo" height="130px" width="130px" />
+        <img src="/images/logos/logo-ngs.png" alt="Logo" height="130px" width="10px" />
       </Link>
       <MenuWrapper count={menuData.length} ref={ref}>
         {menuData.map((item, index) =>
@@ -72,7 +72,7 @@ const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 44px auto;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 0 30px 0 22px;
   align-items: center;
 
