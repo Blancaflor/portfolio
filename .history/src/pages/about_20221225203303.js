@@ -31,7 +31,7 @@ function About() {
               <TextTitle>
                 This is what (Next Gen Solutions) does everyday.
               </TextTitle>
-              <h1>Dit is wat NGS - (Next Gen Solutions) dagdagelijks uitwerkt.</h1>
+              <h
               <br />
               Dag in en dag uit streven we naar de beste ontwikkelingen, code te
               consumeren en te programmeren.

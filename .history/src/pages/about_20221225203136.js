@@ -31,7 +31,7 @@ function About() {
               <TextTitle>
                 This is what (Next Gen Solutions) does everyday.
               </TextTitle>
-              <h1>Dit is wat NGS - (Next Gen Solutions) dagdagelijks uitwerkt.</h1>
+              Dit is wat NGS - (Next Gen Solutions) dagdagelijks uitwerkt.
               <br />
               Dag in en dag uit streven we naar de beste ontwikkelingen, code te
               consumeren en te programmeren.
@@ -52,17 +52,15 @@ function About() {
               <br />
               Design is ook een belangrijk aspect van webontwikkeling, omdat het de look en feel van een website of applicatie bepaalt.
               Webontwikkelaars werken nauw samen met ontwerpers om ervoor te zorgen dat de gebruikerservaring visueel aantrekkelijk en intuïtief is.
-              <br />
-              <br />
+
               Efficiëntie is van cruciaal belang bij webontwikkeling, omdat het ervoor zorgt dat websites en applicaties goed presteren en grote hoeveelheden verkeer aankunnen.
               Webontwikkelaars moeten code en systemen kunnen optimaliseren om de prestaties te maximaliseren en downtime te minimaliseren.
-              <br />
-              <br />
+
               Effectief beheer is ook de sleutel tot succesvolle webontwikkelingsprojecten.
               Dit omvat het coördineren met teamleden, het opstellen van tijdlijnen en budgetten en ervoor zorgen dat alle belanghebbenden op één lijn liggen met de projectdoelen.
               <br />
               <br />
-              <h1>This is what NGS - Next Gen Solutions does every day.</h1>
+              This is what NGS - Next Gen Solutions does every day.
               <br />
               Day in and day out we want to strive for the best developments, code to consume
               and programming.
@@ -72,19 +70,7 @@ function About() {
               towards efficiency, strong technical support and strong management.
               <br />
               <br />
-              Web development is the process of creating and maintaining websites and web applications. It involves a variety of technical skills, including coding languages such as HTML, CSS, and JavaScript, as well as database management and server-side scripting.
-              <br />
-              <br />
-              Having a strong technical foundation is essential for web developers, as it allows them to build and maintain websites that are reliable, scalable, and efficient. This includes an understanding of computer science principles, as well as the latest technologies and best practices in the field.
-              <br />
-              <br />
-              Design is also an important aspect of web development, as it determines the look and feel of a website or application. Web developers work closely with designers to ensure that the user experience is visually appealing and intuitive.
-              <br />
-              <br />
-              Efficiency is critical in web development, as it ensures that websites and applications perform well and can handle large amounts of traffic. Web developers must be able to optimize code and systems to maximize performance and minimize downtime.
-              <br />
-              <br />
-              Effective management is also key to successful web development projects. This includes coordinating with team members, setting timelines and budgets, and ensuring that all stakeholders are aligned on the project goals.
+              More Info To Come!
             </Text>
           </TextBackGround>
         </ContentWrapper>
