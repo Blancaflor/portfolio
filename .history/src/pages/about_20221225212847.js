@@ -243,12 +243,12 @@ const Text = styled.p`
   background-clip: text;
   -webkit-background-clip: text;
   font-size: 15px;
-  line-height: 21px; 
+  line-height: 2px; 
   margin: 0 0 24px; 
   text-align: left;
 `
 
-const TextTitle = styled(H1)`
+const TextTitle = styled(H2)`
   color: ${themes.dark.text1};
   background-clip: text;
   -webkit-background-clip: text;

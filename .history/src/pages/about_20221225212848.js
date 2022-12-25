@@ -248,7 +248,7 @@ const Text = styled.p`
   text-align: left;
 `
 
-const TextTitle = styled(H1)`
+const TextTitle = styled(H2)`
   color: ${themes.dark.text1};
   background-clip: text;
   -webkit-background-clip: text;
