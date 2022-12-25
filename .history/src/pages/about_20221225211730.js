@@ -295,7 +295,7 @@ const TextTitle2 = styled(H2)`
   }
 
   @media (max-width: 450px) {
-    font-size: 14px;
+    font-size: 18px;
   }
 `
 

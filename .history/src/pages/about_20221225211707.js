@@ -283,19 +283,19 @@ const TextTitle2 = styled(H2)`
   padding: 10px auto;
 
   @media (max-width: 960px) {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   @media (max-width: 720px) {
-    font-size: 16px;
+    font-size: 21px;
   }
 
   @media (max-width: 540px) {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   @media (max-width: 450px) {
-    font-size: 14px;
+    font-size: 18px;
   }
 `
 

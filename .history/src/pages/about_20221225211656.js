@@ -277,25 +277,25 @@ const TextTitle2 = styled(H2)`
   color: ${themes.dark.text1};
   background-clip: text;
   -webkit-background-clip: text;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 70px; 
   text-align: left;
   padding: 10px auto;
 
   @media (max-width: 960px) {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   @media (max-width: 720px) {
-    font-size: 16px;
+    font-size: 21px;
   }
 
   @media (max-width: 540px) {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   @media (max-width: 450px) {
-    font-size: 14px;
+    font-size: 18px;
   }
 `
 

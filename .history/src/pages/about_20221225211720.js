@@ -287,15 +287,15 @@ const TextTitle2 = styled(H2)`
   }
 
   @media (max-width: 720px) {
-    font-size: 16px;
+    font-size: 21px;
   }
 
   @media (max-width: 540px) {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   @media (max-width: 450px) {
-    font-size: 14px;
+    font-size: 18px;
   }
 `
 
