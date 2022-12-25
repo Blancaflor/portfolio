@@ -278,7 +278,7 @@ const TextTitle2 = styled(H2)`
   background-clip: text;
   -webkit-background-clip: text;
   font-size: 18px;
-  line-height: 10px; 
+  line-height: px; 
   text-align: left;
   padding: 10px auto;
   text-transform: uppercase;
