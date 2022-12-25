@@ -253,8 +253,9 @@ const TextTitle = styled(H1)`
   background-clip: text;
   -webkit-background-clip: text;
   font-size: 27px;
+  line-height: 80px; 
   text-align: center;
-  margin: 10px auto 50px;
+  marg: 10px auto 50px;
 
   @media (max-width: 960px) {
     font-size: 30px;
