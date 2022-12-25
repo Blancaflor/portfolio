@@ -4,7 +4,7 @@ import SEO from "../components/layout/seo"
 import styled, { keyframes } from "styled-components"
 import WaveBackground from "../components/backgrounds/WaveBackground"
 import { themes } from "../components/styles/ColorStyles"
-import { H1, H2, MediumText } from "../components/styles/TextStyles"
+import { H1, MediumText } from "../components/styles/TextStyles"
 import AboutAnimation from "../components/animations/AboutAnimation"
 
 function About() {
@@ -31,7 +31,7 @@ function About() {
               <TextTitle>
                 This is what (Next Gen Solutions) does everyday.
               </TextTitle>
-              <TextTitle2>Dit is wat NGS - (Next Gen Solutions) dagdagelijks uitwerkt.</TextTitle2>
+              <TextTitle>Dit is wat NGS - (Next Gen Solutions) dagdagelijks uitwerkt.</TextTitle>
               <br />
               Dag in en dag uit streven we naar de beste ontwikkelingen, code te
               consumeren en te programmeren.
@@ -62,7 +62,7 @@ function About() {
               Dit omvat het coördineren met teamleden, het opstellen van tijdlijnen en budgetten en ervoor zorgen dat alle belanghebbenden op één lijn liggen met de projectdoelen.
               <br />
               <br />
-              <TextTitle2>This is what NGS - Next Gen Solutions does every day.</TextTitle2>
+              <TextTitle>This is what NGS - Next Gen Solutions does every day.</TextTitle>
               <br />
               Day in and day out we want to strive for the best developments, code to consume
               and programming.
@@ -248,7 +248,7 @@ const Text = styled.p`
   text-align: left;
 `
 
-const TextTitle = styled(H2)`
+const TextTitle = styled(H1)`
   color: ${themes.dark.text1};
   background-clip: text;
   -webkit-background-clip: text;
@@ -273,25 +273,25 @@ const TextTitle = styled(H2)`
     font-size: 18px;
   }
 `
-const TextTitle2 = styled(H2)`
+const TextTitle2 = styled(H1)`
   color: ${themes.dark.text1};
   background-clip: text;
   -webkit-background-clip: text;
-  font-size: 24px;
+  font-size: 27px;
   line-height: 70px; 
   text-align: center;
   padding: 10px auto;
 
   @media (max-width: 960px) {
-    font-size: 24px;
+    font-size: 30px;
   }
 
   @media (max-width: 720px) {
-    font-size: 21px;
+    font-size: 27px;
   }
 
   @media (max-width: 540px) {
-    font-size: 18px;
+    font-size: 21px;
   }
 
   @media (max-width: 450px) {

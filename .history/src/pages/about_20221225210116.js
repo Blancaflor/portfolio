@@ -31,7 +31,7 @@ function About() {
               <TextTitle>
                 This is what (Next Gen Solutions) does everyday.
               </TextTitle>
-              <TextTitle2>Dit is wat NGS - (Next Gen Solutions) dagdagelijks uitwerkt.</TextTitle2>
+              <TextTitle>Dit is wat NGS - (Next Gen Solutions) dagdagelijks uitwerkt.</TextTitle>
               <br />
               Dag in en dag uit streven we naar de beste ontwikkelingen, code te
               consumeren en te programmeren.
@@ -62,7 +62,7 @@ function About() {
               Dit omvat het coördineren met teamleden, het opstellen van tijdlijnen en budgetten en ervoor zorgen dat alle belanghebbenden op één lijn liggen met de projectdoelen.
               <br />
               <br />
-              <TextTitle2>This is what NGS - Next Gen Solutions does every day.</TextTitle2>
+              <TextTitle>This is what NGS - Next Gen Solutions does every day.</TextTitle>
               <br />
               Day in and day out we want to strive for the best developments, code to consume
               and programming.
@@ -291,7 +291,7 @@ const TextTitle2 = styled(H2)`
   }
 
   @media (max-width: 540px) {
-    font-size: 18px;
+    font-size: 28px;
   }
 
   @media (max-width: 450px) {
