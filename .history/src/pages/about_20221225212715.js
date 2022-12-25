@@ -243,7 +243,7 @@ const Text = styled.p`
   background-clip: text;
   -webkit-background-clip: text;
   font-size: 15px;
-  line-height: 30px; 
+  line-height: px; 
   margin: 0 0 24px; 
   text-align: left;
 `
