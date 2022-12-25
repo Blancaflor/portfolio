@@ -31,7 +31,7 @@ function About() {
               <TextTitle>
                 This is what (Next Gen Solutions) does everyday.
               </TextTitle>
-              <TextTitle>Dit is wat NGS - (Next Gen Solutions) dagdagelijks uitwerkt.</TextTitle>
+              <TextTitle></TextTitle>Dit is wat NGS - (Next Gen Solutions) dagdagelijks uitwerkt.</h2>
               <br />
               Dag in en dag uit streven we naar de beste ontwikkelingen, code te
               consumeren en te programmeren.
@@ -62,7 +62,7 @@ function About() {
               Dit omvat het coördineren met teamleden, het opstellen van tijdlijnen en budgetten en ervoor zorgen dat alle belanghebbenden op één lijn liggen met de projectdoelen.
               <br />
               <br />
-              <TextTitle>This is what NGS - Next Gen Solutions does every day.</TextTitle>
+              <h2>This is what NGS - Next Gen Solutions does every day.</h2>
               <br />
               Day in and day out we want to strive for the best developments, code to consume
               and programming.

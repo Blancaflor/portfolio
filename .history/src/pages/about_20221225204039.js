@@ -62,7 +62,7 @@ function About() {
               Dit omvat het coördineren met teamleden, het opstellen van tijdlijnen en budgetten en ervoor zorgen dat alle belanghebbenden op één lijn liggen met de projectdoelen.
               <br />
               <br />
-              <TextTitle>This is what NGS - Next Gen Solutions does every day.</TextTitle>
+              <TextTitle>This is what NGS - Next Gen Solutions does every day.</TextTitle></
               <br />
               Day in and day out we want to strive for the best developments, code to consume
               and programming.
