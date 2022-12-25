@@ -255,7 +255,7 @@ const TextTitle = styled(H1)`
   font-size: 27px;
   line-height: 70px; 
   text-align: center;
-  padding: 10px auto 50px;
+  padding: 10px auto 40px;
 
   @media (max-width: 960px) {
     font-size: 30px;
