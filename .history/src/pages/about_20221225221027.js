@@ -280,7 +280,7 @@ const TextTitle2 = styled(H2)`
   font-size: 18px;
   line-height: 20px; 
   text-align: left;
-  margin: 30px auto 10px;
+  m: 30px auto 10px;
   text-transform: uppercase;
 
   @media (max-width: 960px) {
