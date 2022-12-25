@@ -252,7 +252,8 @@ const TextTitle = styled(H1)`
   color: ${themes.dark.text1};
   background-clip: text;
   -webkit-background-clip: text;
-  font-size: 27px; 
+  font-size: 27px;
+ 
   text-align: center;
   padding: 10px auto 50px;
 
