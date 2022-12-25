@@ -29,7 +29,7 @@ function About() {
           <TextBackGround>
             <Text>
               <TextTitle>
-                This is what (Next Gen Solutions) stands for.
+                This is what (Next Gen Solutions) stands .
               </TextTitle>
               <TextTitle2>Dit is wat NGS - (Next Gen Solutions) dagdagelijks uitwerkt.</TextTitle2>
               <br />
