@@ -255,7 +255,7 @@ const TextTitle = styled(H1)`
   font-size: 27px;
   line-height: 70px; 
   text-align: center;
-  padding: 10px auto 20px;
+  padding: 10px auto;
 
   @media (max-width: 960px) {
     font-size: 30px;
@@ -280,7 +280,7 @@ const TextTitle2 = styled(H2)`
   font-size: 18px;
   line-height: 10px; 
   text-align: left;
-  padding: 10px auto 10px;
+  padding: 10px auto ;
   text-transform: uppercase;
 
   @media (max-width: 960px) {
