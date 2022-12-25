@@ -63,7 +63,7 @@ function About() {
               <br />
               <br />
               <hr></hr>
-              <TextTitle2>This is what NGS - Next Gen Solutions stands for.</TextTitle2>
+              <TextTitle2>This is what NGS - Next Gen Solutions does.</TextTitle2>
               <br />
               Day in and day out we want to strive for the best developments, code to consume
               and programming.
