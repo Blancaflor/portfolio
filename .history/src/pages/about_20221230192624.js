@@ -28,7 +28,7 @@ function About() {
           </TextWrapper>
           <TextBackGround>
             <Mockupsvg>
-              TESTTESTTEST
+              TEST
             </Mockupsvg>
             <Text>
               <TextTitle>
