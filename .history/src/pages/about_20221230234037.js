@@ -29,7 +29,6 @@ function About() {
         
         </ContentWrapper>
 
-        <ContentWrapper2>
         <TextBackGround>
             <Mockupsvg>
               
@@ -95,7 +94,6 @@ function About() {
               Effective management is also key to successful web development projects. This includes coordinating with team members, setting timelines and budgets, and ensuring that all stakeholders are aligned on the project goals.
             </Text>
           </TextBackGround>
-        </ContentWrapper2>
           
       </Wrapper>
     </Layout>
@@ -181,74 +179,7 @@ const ContentWrapper = styled.div`
   }
 `
 
-const ContentWrapper2 = styled.div`
-  max-width: 1234px;
-  margin: 0 auto;
-  padding: 200px 30px;
-  display: grid;
-  grid-template-columns: 360px auto;
 
-  @media (max-width: 2560px) {
-    grid-template-columns: 400px auto;
-    gap: 60px;
-    padding: 250px 20px 250px;
-  }
-  @media (max-width: 1920px) {
-    grid-template-columns: 360px auto;
-    gap: 80px;
-    padding: 250px 0 250px;
-  }
-  @media (max-width: 1600px) {
-    grid-template-columns: 320px auto;
-    gap: 60px;
-    padding: 150px 20px 250px;
-  }
-  @media (max-width: 1440px) {
-    grid-template-columns: 300px auto;
-    gap: 60px;
-    padding: 150px 20px 250px;
-  }
-  @media (max-width: 1360px) {
-    grid-template-columns: 250px auto;
-    gap: 60px;
-    padding: 150px 20px 250px;
-  }
-  @media (max-width: 1280px) {
-    grid-template-columns: 200px auto;
-    gap: 60px;
-    padding: 150px 20px 250px;
-  }
-
-  @media (max-width: 960px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 150px 20px 250px;
-  }
-
-  @media (max-width: 720px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 150px 20px 250px;
-  }
-
-  @media (max-width: 540px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 150px 20px 250px;
-  }
-
-  @media (max-width: 450px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 150px 20px 250px;
-  }
-
-  @media (max-width: 338px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 150px 20px 250px;
-  }
-`
 
 const Mockupsvg = styled.div`
   width: 250px;
