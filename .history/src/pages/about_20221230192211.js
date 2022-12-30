@@ -27,9 +27,7 @@ function About() {
             {/*} <Description>From the beginning.</Description> */}
           </TextWrapper>
           <TextBackGround>
-            <Mockupsvg>
-
-            </Mockupsvg>
+            <Moc
             <Text>
               <TextTitle>
                 This is what (Next Gen Solutions) stands for.
@@ -174,10 +172,6 @@ const ContentWrapper = styled.div`
     gap: 60px;
     padding: 150px 20px 250px;
   }
-`
-
-const Mockupsvg = styled.div`
-  width: 250px;
 `
 
 const TextWrapper = styled.div`

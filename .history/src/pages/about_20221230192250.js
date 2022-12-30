@@ -176,9 +176,7 @@ const ContentWrapper = styled.div`
   }
 `
 
-const Mockupsvg = styled.div`
-  width: 250px;
-`
+const Mockup
 
 const TextWrapper = styled.div`
   max-width: 360px;

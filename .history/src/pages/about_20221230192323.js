@@ -176,7 +176,7 @@ const ContentWrapper = styled.div`
   }
 `
 
-const Mockupsvg = styled.div`
+const Mockupsvg = `
   width: 250px;
 `
 

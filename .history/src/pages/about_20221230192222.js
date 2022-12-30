@@ -28,7 +28,7 @@ function About() {
           </TextWrapper>
           <TextBackGround>
             <Mockupsvg>
-
+              
             </Mockupsvg>
             <Text>
               <TextTitle>
@@ -174,10 +174,6 @@ const ContentWrapper = styled.div`
     gap: 60px;
     padding: 150px 20px 250px;
   }
-`
-
-const Mockupsvg = styled.div`
-  width: 250px;
 `
 
 const TextWrapper = styled.div`
