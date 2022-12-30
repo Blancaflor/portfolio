@@ -94,7 +94,6 @@ function About() {
               Effective management is also key to successful web development projects. This includes coordinating with team members, setting timelines and budgets, and ensuring that all stakeholders are aligned on the project goals.
             </Text>
           </TextBackGround>
-          
       </Wrapper>
     </Layout>
   )
