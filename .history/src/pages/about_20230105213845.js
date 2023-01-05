@@ -31,7 +31,7 @@ function About() {
       <Wrapper2>
       <ContentWrapper2>
         <TextBackground>
-          <p>test</p>
+          <p<
         </TextBackground>
         <TextBackGround2>
             <Text>
