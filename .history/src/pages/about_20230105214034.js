@@ -299,7 +299,7 @@ const Title = styled(H1)`
   }
 `
 
-const TextBackGround = styled.div`
+const TextBackGround2 = styled.div`
   background: rgba(46, 46, 46);
   box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
   backdrop-filter: blur(21.8507px);
