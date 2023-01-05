@@ -30,9 +30,6 @@ function About() {
       </Wrapper>
       <Wrapper2>
       <ContentWrapper2>
-        <TextBackground>
-          test
-        </TextBackground>
         <TextBackGround2>
             <Text>
               <TextTitle>
@@ -94,7 +91,7 @@ function About() {
               <br />
               Effective management is also key to successful web development projects. This includes coordinating with team members, setting timelines and budgets, and ensuring that all stakeholders are aligned on the project goals.
             </Text>
-          </TextBackGround2>
+          </TextBackGround>
         </ContentWrapper2>
       </Wrapper2>
     </Layout>
@@ -299,7 +296,7 @@ const Title = styled(H1)`
   }
 `
 
-const TextBackGround2 = styled.div`
+const TextBackGround = styled.div`
   background: rgba(46, 46, 46);
   box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
   backdrop-filter: blur(21.8507px);
