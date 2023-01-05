@@ -189,57 +189,62 @@ const ContentWrapper2 = styled.div`
   grid-template-columns: auto;
 
   @media (max-width: 2560px) {
-    g
+    grid-template
     gap: 60px;
     padding: 250px 20px 250px;
   }
   @media (max-width: 1920px) {
-    g
+    grid-template
     gap: 80px;
     padding: 250px 0 250px;
   }
   @media (max-width: 1600px) {
-    g
+    grid-template
     gap: 60px;
     padding: 150px 20px 250px;
   }
   @media (max-width: 1440px) {
-    g
+    grid-template
     gap: 60px;
     padding: 150px 20px 250px;
   }
   @media (max-width: 1360px) {
-    g
+    grid-template
     gap: 60px;
     padding: 150px 20px 250px;
   }
   @media (max-width: 1280px) {
-    g
+    grid-template
     gap: 60px;
     padding: 150px 20px 250px;
   }
 
   @media (max-width: 960px) {
+    grid-
     gap: 60px;
     padding: 150px 20px 250px;
   }
 
   @media (max-width: 720px) {
+    grid-
     gap: 60px;
     padding: 150px 20px 250px;
   }
 
   @media (max-width: 540px) {
+    grid-
     gap: 60px;
     padding: 150px 20px 250px;
   }
 
   @media (max-width: 450px) {
+    grid-
     gap: 60px;
     padding: 150px 20px 250px;
   }
 
   @media (max-width: 338px) {
+    grid-
     gap: 60px;
     padding: 150px 20px 250px;
   }
