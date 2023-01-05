@@ -26,10 +26,8 @@ function About() {
             </Title>
             {/*} <Description>From the beginning.</Description> */}
           </TextWrapper>
-        </ContentWrapper>   
-      </Wrapper>
-      <Wrapper2>
-      <ContentWrapper2>
+        </ContentWrapper>
+        <ContentWrapper2>
         <TextBackGround>
             <Text>
               <TextTitle>
@@ -93,7 +91,9 @@ function About() {
             </Text>
           </TextBackGround>
         </ContentWrapper2>
-      </Wrapper2>
+          
+      </Wrapper>
+      <Wrapper2></Wrapper2>
     </Layout>
   )
 }

@@ -26,10 +26,9 @@ function About() {
             </Title>
             {/*} <Description>From the beginning.</Description> */}
           </TextWrapper>
-        </ContentWrapper>   
-      </Wrapper>
-      <Wrapper2>
-      <ContentWrapper2>
+        </ContentWrapper>
+
+        <ContentWrapper2>
         <TextBackGround>
             <Text>
               <TextTitle>
@@ -93,7 +92,8 @@ function About() {
             </Text>
           </TextBackGround>
         </ContentWrapper2>
-      </Wrapper2>
+          
+      </Wrapper>
     </Layout>
   )
 }
@@ -108,11 +108,6 @@ const animation = keyframes`
 const Wrapper = styled.div`
   overflow: hidden;
 `
-
-const Wrapper2 = styled.div`
-  overflow: hidden;
-`
-
 const ContentWrapper = styled.div`
   max-width: 1234px;
   margin: 0 auto;

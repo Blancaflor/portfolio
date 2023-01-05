@@ -26,11 +26,12 @@ function About() {
             </Title>
             {/*} <Description>From the beginning.</Description> */}
           </TextWrapper>
-        </ContentWrapper>   
-      </Wrapper>
-      <Wrapper2>
-      <ContentWrapper2>
+        
+        </ContentWrapper>
+
+        <ContentWrapper2>
         <TextBackGround>
+      
             <Text>
               <TextTitle>
                 This is what (Next Gen Solutions) stands for.
@@ -93,7 +94,8 @@ function About() {
             </Text>
           </TextBackGround>
         </ContentWrapper2>
-      </Wrapper2>
+          
+      </Wrapper>
     </Layout>
   )
 }
@@ -108,11 +110,6 @@ const animation = keyframes`
 const Wrapper = styled.div`
   overflow: hidden;
 `
-
-const Wrapper2 = styled.div`
-  overflow: hidden;
-`
-
 const ContentWrapper = styled.div`
   max-width: 1234px;
   margin: 0 auto;
@@ -248,6 +245,10 @@ const ContentWrapper2 = styled.div`
     gap: 60px;
     padding: 150px 20px 250px;
   }
+`
+
+const Mockupsvg = styled.div`
+  width: 250px;
 `
 
 const TextWrapper = styled.div`
