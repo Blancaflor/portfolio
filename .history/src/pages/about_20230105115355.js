@@ -189,26 +189,32 @@ const ContentWrapper2 = styled.div`
   grid-template-columns: auto;
 
   @media (max-width: 2560px) {
+    g
     gap: 60px;
     padding: 250px 20px 250px;
   }
   @media (max-width: 1920px) {
+    g
     gap: 80px;
     padding: 250px 0 250px;
   }
   @media (max-width: 1600px) {
+    g
     gap: 60px;
     padding: 150px 20px 250px;
   }
   @media (max-width: 1440px) {
+    g
     gap: 60px;
     padding: 150px 20px 250px;
   }
   @media (max-width: 1360px) {
+    g
     gap: 60px;
     padding: 150px 20px 250px;
   }
   @media (max-width: 1280px) {
+    g
     gap: 60px;
     padding: 150px 20px 250px;
   }
