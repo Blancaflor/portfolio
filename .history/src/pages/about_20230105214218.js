@@ -30,9 +30,9 @@ function About() {
       </Wrapper>
       <Wrapper2>
       <ContentWrapper2>
-        <TextBackGround>
+        <TextBackround>
           <p>test</p>
-        </TextBackGround>
+        </TextBackround>
         <TextBackGround2>
             <Text>
               <TextTitle>
