@@ -17,11 +17,11 @@ const Wrapper = styled.div`
   position: relative;
   perspective: 5000;
   top: 60px;
-  display: flex;
+  display:f;
   grid-template-columns: 20px auto;
   width: 100%;
   justify-content: space-around;
-  align-items: center;
+  align-items: left;
 
   @media (max-width: 1600px) {
     transform: scale(0.9);
