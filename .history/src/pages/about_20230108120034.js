@@ -294,7 +294,6 @@ const TextBackGround2 = styled.div`
 
   h1{
     font-size:30px;
-    padding: 30px 0 0 0;
   }
 `
 

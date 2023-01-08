@@ -291,11 +291,6 @@ const TextBackGround2 = styled.div`
   border-radius: 16px;
   padding: 0 20px 0 20px;
   opacity: 90%;
-
-  h1{
-    font-size:30px;
-    padding: 30px 0 0 0;
-  }
 `
 
 const Text = styled.p`
@@ -306,6 +301,8 @@ const Text = styled.p`
   line-height: 30px; 
   margin: 0 0 24px; 
   text-align: left;
+
+
 `
 
 const TextTitle = styled(H1)`

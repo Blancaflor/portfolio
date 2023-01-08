@@ -291,11 +291,6 @@ const TextBackGround2 = styled.div`
   border-radius: 16px;
   padding: 0 20px 0 20px;
   opacity: 90%;
-
-  h1{
-    font-size:30px;
-    padding: 30px 0 0 0;
-  }
 `
 
 const Text = styled.p`
