@@ -18,7 +18,7 @@ const Wrapper = styled.div`
   perspective: 5000;
   top: 60px;
   display: grid;
-  grid-template-columns: 30px auto;
+  grid-template-columns: px auto;
   width: 100%;
   justify-content: space-around;
   padding: 0 30px 0 22px;
