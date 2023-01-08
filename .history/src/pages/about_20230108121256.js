@@ -293,8 +293,8 @@ const TextBackGround2 = styled.div`
   opacity: 90%;
 
   h1{
-    font: caption;
     font-size: 20px;
+
     padding: 20px 0 10px 0;
   }
 `
