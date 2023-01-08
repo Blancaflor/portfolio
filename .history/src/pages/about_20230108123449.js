@@ -295,12 +295,6 @@ const TextBackGround2 = styled.div`
 
   h1{
     font-weight: bold;
-    font-size: 150%;
-    padding: 20px 0 5px 0;
-  }
-
-  h2{
-    font-weight: bold;
     font-size: 130%;
     padding: 20px 0 5px 0;
   }

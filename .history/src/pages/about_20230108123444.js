@@ -37,7 +37,7 @@ function About() {
         <TextBackGround2>
             <Text>
               <TextTitle>
-                <h1>This is what we use for your website.</h1>
+                <h1></h1>This is what we use for your website.
               </TextTitle>
               <br />
               <TextTitle2>Web Development: Crafting Digital Experiences.</TextTitle2>
@@ -294,12 +294,6 @@ const TextBackGround2 = styled.div`
   opacity: 90%;
 
   h1{
-    font-weight: bold;
-    font-size: 150%;
-    padding: 20px 0 5px 0;
-  }
-
-  h2{
     font-weight: bold;
     font-size: 130%;
     padding: 20px 0 5px 0;
