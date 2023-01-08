@@ -282,7 +282,7 @@ const TextBackGround = styled.div`
   border-radius: 16px;
   padding: 0 20px 0 20px;
   opacity: 90%;
-  height: 500px;
+  height: 500;
 `
 
 const TextBackGround2 = styled.div`
