@@ -3,30 +3,14 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 
 export default function AboutIcons() {
-  return (
-    <Wrapper>
-      <Icon1>
-        <Link to="#" target="_blank">
-          <div className="icon1" />
-        </Link>
-      </Icon1>
-      <Icon2>
-        <Link to="#" target="_blank">
-          <div className="icon2" />
-        </Link>
-      </Icon2>
-      <Icon3>
-        <Link to="#" target="_blank">
-          <div className="icon3" />
-        </Link>
-      </Icon3>
-      <Icon4>
-        <Link to="#" target="_blank">
-          <div className="icon4" />
-        </Link>
-      </Icon4>
-    </Wrapper>
-  )
+    return (
+        <Wrapper>
+            <Icon1><Link to="#" target="_blank" ><div className="icon1" /></Link></Icon1>
+            <Icon2><Link to="#" target="_blank" ><div className="icon2" /></Link></Icon2>
+            <Icon3><Link to="#" target="_blank" ><div className="icon3" /></Link></Icon3>
+            <Icon4><Link to="#" target="_blank" ><div className="icon4" /></Link></Icon4>
+        </Wrapper>
+    )
 }
 
 const Wrapper = styled.div`
@@ -142,84 +126,10 @@ const Wrapper = styled.div`
 `
 
 const Icon1 = styled.div`
-  div {
-    transform: rotateY(-20deg) rotateX(20deg);
-    transform-origin: bottom left;
-  }
-
-  * {
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
-    &.mockup1 {
-      transition-delay: 0.1s;
-      transform: translate(-30px, -30px);
-    }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
-  }
 `
 
-const Icon2 = styled.div`
-  div {
-    transform: rotateY(-20deg) rotateX(20deg);
-    transform-origin: bottom left;
-  }
+const Icon2 = styled.div``
 
-  * {
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
-    &.mockup2 {
-      transition-delay: 0s;
-      transform: translate(0px, -30px);
-    }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
-  }
-`
+const Icon3 = styled.div``
 
-const Icon3 = styled.div`
-  div {
-    transform: rotateY(-20deg) rotateX(20deg);
-    transform-origin: bottom left;
-  }
-
-  * {
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
-    &.mockup3 {
-      transition-delay: 0s;
-    }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
-  }
-`
-
-const Icon4 = styled.div`
-  div {
-    transform: rotateY(-20deg) rotateX(20deg);
-    transform-origin: bottom left;
-  }
-
-  * {
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
-    &.mockup4 {
-      transition-delay: 0.1s;
-      transform: translate(-120px, 30px);
-    }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
-  }
-`
+const Icon4 = styled.div``
