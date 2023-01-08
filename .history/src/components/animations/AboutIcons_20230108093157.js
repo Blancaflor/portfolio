@@ -21,6 +21,7 @@ const Wrapper = styled.div`
   grid-template-columns: 40px auto;
   width: 100%;
   justify-content: space-around;
+  padding: 0 30px 0 22px;
   align-items: center;
 
   @media (max-width: 1600px) {
