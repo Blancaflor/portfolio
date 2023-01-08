@@ -38,6 +38,7 @@ const Wrapper = styled.div`
 
   @media (max-width: 960px) {
     transform: scale(0.6);
+
   }
 
   @media (max-width: 768px) {
