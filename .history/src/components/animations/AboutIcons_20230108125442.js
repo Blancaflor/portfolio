@@ -81,7 +81,7 @@ const Wrapper = styled.div`
     position: absolute;
     width: 60px;
     height: 60px;
-    top: 200px;
+    top: 100px;
     background: url("/images/animations/html.png"), 
     rgba(23, 12, 61, 0.5);
     background-position: center;
