@@ -21,7 +21,7 @@ const Wrapper = styled.div`
   grid-template-columns: 44px auto;
   width: 100%;
   justify-content: space-around;
-  padding: 30px 0 0 0;
+  padding: 30px 0x0 0;
   align-items: center;
 
   .icon1 {
