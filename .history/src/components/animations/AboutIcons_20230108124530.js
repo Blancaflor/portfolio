@@ -37,7 +37,7 @@ const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 20px 20px;
   grid-auto-columns: 1fr;
-  gap: 40px;
+  gap: 30px;
   padding: 20px;
   width: 100%;
   justify-content: space-around;
