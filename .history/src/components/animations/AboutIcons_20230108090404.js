@@ -44,7 +44,7 @@ const Wrapper = styled.div`
     position: absolute;
     width: 48px;
     height: 48px;
-    top: 60px;
+    top: 0px;
     background: url("/images/animations/css.png")
     , 
     rgba(23, 12, 61, 0.5);
