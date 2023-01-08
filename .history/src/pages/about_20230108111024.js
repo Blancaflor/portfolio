@@ -37,20 +37,42 @@ function About() {
         <TextBackGround2>
             <Text>
               <TextTitle>
-                This is what we use for your website.
+                This is what (Next Gen Solutions) stands for.
               </TextTitle>
+              <TextTitle2>Dit is wat NGS - (Next Gen Solutions) dagdagelijks uitwerkt.</TextTitle2>
+              <br />
+              Dag in en dag uit streven we naar de beste ontwikkelingen, code te
+              consumeren en te programmeren.
               <br />
               <br />
-              <TextTitle2>Web Development: Crafting Digital Experiences.</TextTitle2>
-              <p>HTML (HyperText Markup Language) is a markup language used to create the structure and layout of a webpage. It uses tags to define elements such as headings, paragraphs, and links.</p>
-              <p>CSS (Cascading Style Sheets) is a stylesheet language used to control the appearance of the content on a webpage. It is used to define things like colors, fonts, and layout.</p>
-              <p>JavaScript is a programming language that is used to add interactive features to websites. It is often used to create things like drop-down menus, pop-ups, and other interactive elements.</p>
-              <p>React.js is a JavaScript library for building user interfaces. It is used to create reusable UI components and improve the performance of web applications. React allows developers to create large web applications that can change data, without reloading the page. It is often used for building single-page applications and mobile applications.</p>
-              <TextTitle2>Webontwikkeling: digitale ervaringen creëren.</TextTitle2>
-              <p>HTML (HyperText Markup Language) is een opmaaktaal die wordt gebruikt om de structuur en lay-out van een webpagina te creëren. Het gebruikt tags om elementen zoals koppen, alinea's en links te definiëren.</p>
-              <p>CSS (Cascading Style Sheets) is een stijlbladtaal die wordt gebruikt om het uiterlijk van de inhoud op een webpagina te bepalen. Het wordt gebruikt om zaken als kleuren, lettertypen en lay-out te definiëren.</p>
-              <p>JavaScript is een programmeertaal die wordt gebruikt om interactieve functies aan websites toe te voegen. Het wordt vaak gebruikt om zaken als vervolgkeuzemenu's, pop-ups en andere interactieve elementen te maken.</p>
-              <p>JavaScript-bibliotheek voor het bouwen van gebruikersinterfaces. Het wordt gebruikt om herbruikbare UI-componenten te maken en de prestaties van webapplicaties te verbeteren. Met React kunnen ontwikkelaars grote webapplicaties maken die gegevens kunnen wijzigen, zonder de pagina opnieuw te laden. Het wordt vaak gebruikt voor het bouwen van single-page applicaties en mobiele applicaties.</p>
+              Onze filosofie is met de state of mind naar voornamelijk
+              efficiëntie, technisch sterk onderbouwing en naar sterke management
+              toegericht.
+              <br />
+              <br />
+              Webontwikkeling is het proces van het maken en onderhouden van websites en webapplicaties.
+              Het omvat een verscheidenheid aan technische vaardigheden, waaronder codeertalen zoals HTML, CSS en JavaScript, evenals databasebeheer en server-side scripting.
+              <br />
+              <br />
+              Het hebben van een sterke technische basis is essentieel voor webontwikkelaars, omdat ze hiermee websites kunnen bouwen en onderhouden die betrouwbaar, schaalbaar en efficiënt zijn.
+              Dit omvat een goed begrip van computerwetenschappelijke principes, evenals de nieuwste technologieën en best practices in het veld.
+              <br />
+              <br />
+              Design is ook een belangrijk aspect van webontwikkeling, omdat het de look en feel van een website of applicatie bepaalt.
+              Webontwikkelaars werken nauw samen met ontwerpers om ervoor te zorgen dat de gebruikerservaring visueel aantrekkelijk en intuïtief is.
+              <br />
+              <br />
+              Efficiëntie is van cruciaal belang bij webontwikkeling, omdat het ervoor zorgt dat websites en applicaties goed presteren en grote hoeveelheden verkeer aankunnen.
+              Webontwikkelaars moeten code en systemen kunnen optimaliseren om de prestaties te maximaliseren en downtime te minimaliseren.
+              <br />
+              <br />
+              Effectief beheer is ook de sleutel tot succesvolle webontwikkelingsprojecten.
+              Dit omvat het coördineren met teamleden, het opstellen van tijdlijnen en budgetten en ervoor zorgen dat alle belanghebbenden op één lijn liggen met de projectdoelen.
+              <br />
+              <br />
+              <hr></hr>
+              <TextTitle2>This is what NGS - Next Gen Solutions stands for.</TextTitle2>
+              
             </Text>
           </TextBackGround2>
         </ContentWrapper2>

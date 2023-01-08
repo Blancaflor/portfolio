@@ -37,20 +37,12 @@ function About() {
         <TextBackGround2>
             <Text>
               <TextTitle>
-                This is what we use for your website.
+                This is what we use for your websitr stands for.
               </TextTitle>
-              <br />
-              <br />
-              <TextTitle2>Web Development: Crafting Digital Experiences.</TextTitle2>
-              <p>HTML (HyperText Markup Language) is a markup language used to create the structure and layout of a webpage. It uses tags to define elements such as headings, paragraphs, and links.</p>
-              <p>CSS (Cascading Style Sheets) is a stylesheet language used to control the appearance of the content on a webpage. It is used to define things like colors, fonts, and layout.</p>
-              <p>JavaScript is a programming language that is used to add interactive features to websites. It is often used to create things like drop-down menus, pop-ups, and other interactive elements.</p>
-              <p>React.js is a JavaScript library for building user interfaces. It is used to create reusable UI components and improve the performance of web applications. React allows developers to create large web applications that can change data, without reloading the page. It is often used for building single-page applications and mobile applications.</p>
-              <TextTitle2>Webontwikkeling: digitale ervaringen creëren.</TextTitle2>
-              <p>HTML (HyperText Markup Language) is een opmaaktaal die wordt gebruikt om de structuur en lay-out van een webpagina te creëren. Het gebruikt tags om elementen zoals koppen, alinea's en links te definiëren.</p>
-              <p>CSS (Cascading Style Sheets) is een stijlbladtaal die wordt gebruikt om het uiterlijk van de inhoud op een webpagina te bepalen. Het wordt gebruikt om zaken als kleuren, lettertypen en lay-out te definiëren.</p>
-              <p>JavaScript is een programmeertaal die wordt gebruikt om interactieve functies aan websites toe te voegen. Het wordt vaak gebruikt om zaken als vervolgkeuzemenu's, pop-ups en andere interactieve elementen te maken.</p>
-              <p>JavaScript-bibliotheek voor het bouwen van gebruikersinterfaces. Het wordt gebruikt om herbruikbare UI-componenten te maken en de prestaties van webapplicaties te verbeteren. Met React kunnen ontwikkelaars grote webapplicaties maken die gegevens kunnen wijzigen, zonder de pagina opnieuw te laden. Het wordt vaak gebruikt voor het bouwen van single-page applicaties en mobiele applicaties.</p>
+              <TextTitle2>Dit is wat NGS - (Next Gen Solutions) dagdagelijks uitwerkt.</TextTitle2>
+              
+              <TextTitle2>This is what NGS - Next Gen Solutions stands for.</TextTitle2>
+              
             </Text>
           </TextBackGround2>
         </ContentWrapper2>

@@ -49,8 +49,9 @@ function About() {
               <TextTitle2>Webontwikkeling: digitale ervaringen creëren.</TextTitle2>
               <p>HTML (HyperText Markup Language) is een opmaaktaal die wordt gebruikt om de structuur en lay-out van een webpagina te creëren. Het gebruikt tags om elementen zoals koppen, alinea's en links te definiëren.</p>
               <p>CSS (Cascading Style Sheets) is een stijlbladtaal die wordt gebruikt om het uiterlijk van de inhoud op een webpagina te bepalen. Het wordt gebruikt om zaken als kleuren, lettertypen en lay-out te definiëren.</p>
-              <p>JavaScript is een programmeertaal die wordt gebruikt om interactieve functies aan websites toe te voegen. Het wordt vaak gebruikt om zaken als vervolgkeuzemenu's, pop-ups en andere interactieve elementen te maken.</p>
-              <p>JavaScript-bibliotheek voor het bouwen van gebruikersinterfaces. Het wordt gebruikt om herbruikbare UI-componenten te maken en de prestaties van webapplicaties te verbeteren. Met React kunnen ontwikkelaars grote webapplicaties maken die gegevens kunnen wijzigen, zonder de pagina opnieuw te laden. Het wordt vaak gebruikt voor het bouwen van single-page applicaties en mobiele applicaties.</p>
+              <p>JavaScript is een programmeertaal die wordt gebruikt om interactieve functies aan websites toe te voegen. Het wordt vaak gebruikt om zaken als vervolgkeuzemenu's, pop-ups en andere interactieve elementen te maken.
+</p>
+              <p></p>
             </Text>
           </TextBackGround2>
         </ContentWrapper2>
