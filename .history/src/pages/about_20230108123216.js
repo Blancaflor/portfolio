@@ -290,7 +290,7 @@ const TextBackGround2 = styled.div`
   backdrop-filter: blur(21.8507px);
   border-radius: 16px;
   padding: 0 20px 0 20px;
-  margin: : 0 20px 0 20px;
+  margin: 
   opacity: 90%;
 
   h1{
