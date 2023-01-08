@@ -35,6 +35,7 @@ const Wrapper = styled.div`
   top: 60px;
   height: 100px;
   display: grid;
+  
   grid-auto-columns: 1fr;
   gap: 30px;
   padding: 20px;
