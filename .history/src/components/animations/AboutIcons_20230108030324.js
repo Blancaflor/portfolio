@@ -83,8 +83,65 @@ const Wrapper = styled.div`
 
 const Icon1 = styled.div``
 
-const Icon2 = styled.div``
+const Icon2 = styled.div`
+div {
+  transform: rotateY(-20deg) rotateX(20deg);
+  transform-origin: bottom left;
+}
 
-const Icon3 = styled.div``
+* {
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+:hover div {
+  transform: rotateY(0deg) rotateX(0deg);
+  &.mockup1 {
+    transition-delay: 0.1s;
+    transform: translate(-30px, -30px);
+  }
+  :hover {
+    filter: brightness(150%) saturate(120%);
+  }
+}
+`
 
-const Icon4 = styled.div``
+const Icon3 = styled.div`
+  div {
+    transform: rotateY(-20deg) rotateX(20deg);
+    transform-origin: bottom left;
+  }
+
+  * {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  :hover div {
+    transform: rotateY(0deg) rotateX(0deg);
+    &.mockup1 {
+      transition-delay: 0.1s;
+      transform: translate(-30px, -30px);
+    }
+    :hover {
+      filter: brightness(150%) saturate(120%);
+    }
+  }
+  `
+
+const Icon4 = styled.div`
+div {
+  transform: rotateY(-20deg) rotateX(20deg);
+  transform-origin: bottom left;
+}
+
+* {
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+:hover div {
+  transform: rotateY(0deg) rotateX(0deg);
+  &.mockup1 {
+    transition-delay: 0.1s;
+    transform: translate(-30px, -30px);
+  }
+  :hover {
+    filter: brightness(150%) saturate(120%);
+  }
+}
+`

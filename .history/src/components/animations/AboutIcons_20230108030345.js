@@ -87,4 +87,6 @@ const Icon2 = styled.div``
 
 const Icon3 = styled.div``
 
-const Icon4 = styled.div``
+const Icon4 = styled.div`
+
+`
