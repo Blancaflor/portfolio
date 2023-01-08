@@ -324,7 +324,7 @@ const TextTitle = styled(H1)`
   font-size: 24px;
   text-align: center;
   text-transform: uppercase;
-  margin: 10px auto 0 0;
+  margin: 10px auto 0 ;
 
   @media (max-width: 960px) {
     font-size: 30px;
