@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 
-export default function AboutIcons() {
+export default function AboutIco() {
     return (
         <Wrapper>
             <Icon1><Link to="#" target="_blank" ><div className="icon1" /></Link></Icon1>
