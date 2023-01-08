@@ -303,7 +303,7 @@ const TextBackGround2 = styled.div`
   h2{
     font-weight: bold;
     font-size: 130%;
-    padding: 10px 0 5px 0;
+    padding: px 0 5px 0;
   }
 `
 
