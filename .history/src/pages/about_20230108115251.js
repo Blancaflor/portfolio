@@ -301,11 +301,16 @@ const Text = styled.p`
   line-height: 30px; 
   margin: 0 0 24px; 
   text-align: left;
+`
 
-  .h1{
-    font-size: 20px;
-    padding: 30px 0 0 0;
-  }
+const Text = styled.p`
+  color: ${themes.dark.text1};
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 15px;
+  line-height: 30px; 
+  margin: 0 0 24px; 
+  text-align: left;
 `
 
 const TextTitle = styled(H1)`

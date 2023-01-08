@@ -302,9 +302,8 @@ const Text = styled.p`
   margin: 0 0 24px; 
   text-align: left;
 
-  .h1{
-    font-size: 20px;
-    padding: 30px 0 0 0;
+  #h1{
+
   }
 `
 
