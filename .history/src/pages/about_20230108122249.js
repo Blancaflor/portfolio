@@ -41,9 +41,9 @@ function About() {
               </TextTitle>
               <br />
               <TextTitle2>Web Development: Crafting Digital Experiences.</TextTitle2>
-              <h1>HTML (HyperText Markup Language)</h1>
+              <h1><caption>HTML (HyperText Markup Language)</caption></h1>
               <p>is a markup language used to create the structure and layout of a webpage. It uses tags to define elements such as headings, paragraphs, and links.</p>
-              <h1>CSS (Cascading Style Sheets) </h1>
+              <h1><caption>CSS (Cascading Style Sheets) <cap</caption></h1>
               <p>Is a stylesheet language used to control the appearance of the content on a webpage. It is used to define things like colors, fonts, and layout.</p>
               <h1>JavaScript</h1>
               <p>Is a programming language that is used to add interactive features to websites. It is often used to create things like drop-down menus, pop-ups, and other interactive elements.</p>

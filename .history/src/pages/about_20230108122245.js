@@ -41,16 +41,16 @@ function About() {
               </TextTitle>
               <br />
               <TextTitle2>Web Development: Crafting Digital Experiences.</TextTitle2>
-              <h1>HTML (HyperText Markup Language)</h1>
+              <h1><caption>HTML (HyperText Markup Language)</caption></h1>
               <p>is a markup language used to create the structure and layout of a webpage. It uses tags to define elements such as headings, paragraphs, and links.</p>
-              <h1>CSS (Cascading Style Sheets) </h1>
+              <h1><caption>CSS (Cascading Style Sheets)</caption></h1>
               <p>Is a stylesheet language used to control the appearance of the content on a webpage. It is used to define things like colors, fonts, and layout.</p>
-              <h1>JavaScript</h1>
+              <h1><caption>JavaScript</caption></h1>
               <p>Is a programming language that is used to add interactive features to websites. It is often used to create things like drop-down menus, pop-ups, and other interactive elements.</p>
-              <h1>React.js</h1>
+              <h1><caption>React.js</caption></h1>
               <p>Is a JavaScript library for building user interfaces. It is used to create reusable UI components and improve the performance of web applications. React allows developers to create large web applications that can change data, without reloading the page. It is often used for building single-page applications and mobile applications.</p>
               <TextTitle2>Webontwikkeling: digitale ervaringen creëren.</TextTitle2>
-              <h1>HTML (HyperText Markup Language)</h1>
+              <h1><caption>HTML (HyperText Markup Language)<caption</caption></h1>
               <p>Is een opmaaktaal die wordt gebruikt om de structuur en lay-out van een webpagina te creëren. Het gebruikt tags om elementen zoals koppen, alinea's en links te definiëren.</p>
               <h1>CSS (Cascading Style Sheets) </h1>
               <p>Is een stijlbladtaal die wordt gebruikt om het uiterlijk van de inhoud op een webpagina te bepalen. Het wordt gebruikt om zaken als kleuren, lettertypen en lay-out te definiëren.</p>
