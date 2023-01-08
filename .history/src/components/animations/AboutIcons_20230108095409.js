@@ -44,15 +44,15 @@ const Wrapper = styled.div`
   }
 
   @media (max-width: 1440px) {
-    transform: scale(0.9);
+    transform: scale(0.8);
   }
 
   @media (max-width: 1280px) {
-    transform: scale(0.8);
+    transform: scale(0.6);
   }
 
   @media (max-width: 960px) {
-    transform: scale(0.8);
+    transform: scale(0.6);
     transform-origin: top left;
   }
 
