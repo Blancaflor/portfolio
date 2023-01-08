@@ -285,12 +285,12 @@ const TextBackGround2 = styled.div`
   opacity: 90%;
 `
 
-const Text = styled.p`
+const Text = styled.(p)`
   color: ${themes.dark.text1};
   background-clip: text;
   -webkit-background-clip: text;
   font-size: 15px;
-  line-height: 30px; 
+  line-height: 21px; 
   margin: 0 0 24px; 
   text-align: left;
 `

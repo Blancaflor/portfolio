@@ -290,9 +290,18 @@ const Text = styled.p`
   background-clip: text;
   -webkit-background-clip: text;
   font-size: 15px;
-  line-height: 30px; 
+  line-height: 21px; 
   margin: 0 0 24px; 
   text-align: left;
+`
+
+const TextTitle = styled(H1)`
+  color: ${themes.dark.text1};
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 27px;
+  text-align: center;
+  margin: 10px auto 10px;
 `
 
 const TextTitle = styled(H1)`

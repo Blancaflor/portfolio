@@ -40,6 +40,7 @@ function About() {
                 This is what we use for your website.
               </TextTitle>
               <br />
+              
               <TextTitle2>Web Development: Crafting Digital Experiences.</TextTitle2>
               <p>HTML (HyperText Markup Language) is a markup language used to create the structure and layout of a webpage. It uses tags to define elements such as headings, paragraphs, and links.</p>
               <p>CSS (Cascading Style Sheets) is a stylesheet language used to control the appearance of the content on a webpage. It is used to define things like colors, fonts, and layout.</p>
@@ -290,7 +291,7 @@ const Text = styled.p`
   background-clip: text;
   -webkit-background-clip: text;
   font-size: 15px;
-  line-height: 30px; 
+  line-height: 21px; 
   margin: 0 0 24px; 
   text-align: left;
 `
