@@ -20,8 +20,8 @@ const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 44px auto;
   width: 100%;
-  justify-content: space-between;
-  padding: 0 30px 0 22px;
+  justify-content: space-around;
+  padding: 30px 0px 0 2px;
   align-items: center;
 
   .icon1 {

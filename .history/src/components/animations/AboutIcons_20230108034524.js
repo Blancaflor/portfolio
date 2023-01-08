@@ -16,11 +16,11 @@ export default function AboutIcons() {
 const Wrapper = styled.div`
   position: relative;
   perspective: 5000;
-  top: 60px;
+  top: 6px;
   display: grid;
   grid-template-columns: 44px auto;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0 30px 0 22px;
   align-items: center;
 

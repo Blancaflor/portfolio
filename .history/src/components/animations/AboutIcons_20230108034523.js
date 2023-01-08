@@ -20,7 +20,7 @@ const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 44px auto;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0 30px 0 22px;
   align-items: center;
 
