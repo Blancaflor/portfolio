@@ -192,66 +192,7 @@ const ContentWrapper2 = styled.div`
   display: grid;
   grid-template-columns: 360px auto;
 
-  @media (max-width: 2560px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 100px 20px 250px;
-  }
-  @media (max-width: 1920px) {
-    grid-template-columns: auto;
-    gap: 80px;
-    padding: 100px 0 250px;
-  }
-  @media (max-width: 1600px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 100px 20px 250px;
-  }
-  @media (max-width: 1440px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 100px 20px 250px;
-  }
-  @media (max-width: 1360px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 100px 20px 250px;
-  }
-  @media (max-width: 1280px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 100px 20px 250px;
-  }
-
-  @media (max-width: 960px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 100px 20px 250px;
-  }
-
-  @media (max-width: 720px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 100px 20px 250px;
-  }
-
-  @media (max-width: 540px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 100px 20px 250px;
-  }
-
-  @media (max-width: 450px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 100px 20px 250px;
-  }
-
-  @media (max-width: 338px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 100px 20px 250px;
-  }
+  
 `
 
 const TextWrapper = styled.div`
