@@ -17,25 +17,13 @@ const Wrapper = styled.div`
   position: relative;
   perspective: 5000;
 
-  .icon1 {
+  .Icon1 {
     position: absolute;
-    width: 183px;
-    height: 120px;
-    background: url("/images/animations/html.png"), 
-    rgba(23, 12, 61, 0.5);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
-    backdrop-filter: blur(21.8507px);
-    /* Note: backdrop-filter has minimal browser support */
-    border-radius: 16px;
+    background: url("/images/animations/html.png");
   }
 
-  .icon2 {
+  .Icon2 {
     position: absolute;
-    width: 183px;
-    height: 120px;
     background: url("/images/animations/css.png")
     , 
     rgba(23, 12, 61, 0.5);
@@ -48,7 +36,7 @@ const Wrapper = styled.div`
     border-radius: 16px;
   }
 
-  .icon3 {
+  .Icon3 {
     position: absolute;
     width: 183px;
     height: 120px;
@@ -64,7 +52,7 @@ const Wrapper = styled.div`
     border-radius: 16px;
   }
 
-  .icon4 {
+  .Icon4 {
     position: absolute;
     width: 183px;
     height: 120px;

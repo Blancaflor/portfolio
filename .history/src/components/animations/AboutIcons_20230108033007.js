@@ -17,7 +17,7 @@ const Wrapper = styled.div`
   position: relative;
   perspective: 5000;
 
-  .icon1 {
+  .Icon1 {
     position: absolute;
     width: 183px;
     height: 120px;
@@ -32,7 +32,7 @@ const Wrapper = styled.div`
     border-radius: 16px;
   }
 
-  .icon2 {
+  .Icon2 {
     position: absolute;
     width: 183px;
     height: 120px;
@@ -48,7 +48,7 @@ const Wrapper = styled.div`
     border-radius: 16px;
   }
 
-  .icon3 {
+  .Icon3 {
     position: absolute;
     width: 183px;
     height: 120px;
@@ -64,7 +64,7 @@ const Wrapper = styled.div`
     border-radius: 16px;
   }
 
-  .icon4 {
+  .Icon4 {
     position: absolute;
     width: 183px;
     height: 120px;
