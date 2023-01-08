@@ -16,18 +16,13 @@ export default function AboutIcons() {
 const Wrapper = styled.div`
   position: relative;
   perspective: 5000;
-  top: 30px;
-  display: grid;
-  grid-template-columns: 44px auto;
-  width: 100%;
-  justify-content: space-around;
-  padding: 0 30px 0 22px;
-  align-items: center;
 
-  .icon1 {
+  .con1 {
     position: absolute;
-    width: 48px;
-    height: 48px;
+    width: 183px;
+    height: 120px;
+    right: 0px;
+    top: 0px;
     background: url("/images/animations/html.png"), 
     rgba(23, 12, 61, 0.5);
     background-position: center;
@@ -39,10 +34,12 @@ const Wrapper = styled.div`
     border-radius: 16px;
   }
 
-  .icon2 {
+  .con2 {
     position: absolute;
-    width: 48px;
-    height: 48px;
+    width: 183px;
+    height: 120px;
+    left: 214px;
+    top: 0px;
     background: url("/images/animations/css.png")
     , 
     rgba(23, 12, 61, 0.5);
@@ -55,10 +52,12 @@ const Wrapper = styled.div`
     border-radius: 16px;
   }
 
-  .icon3 {
+  .con3 {
     position: absolute;
-    width: 48px;
-    height: 48px;
+    width: 183px;
+    height: 120px;
+    left: 37px;
+    top: 60px;
     background: url("/images/animations/js.png")
     , 
     rgba(23, 12, 61, 0.5);
@@ -71,10 +70,12 @@ const Wrapper = styled.div`
     border-radius: 16px;
   }
 
-  .icon4 {
+  .con4 {
     position: absolute;
-    width: 48px;
-    height: 48px;
+    width: 183px;
+    height: 120px;
+    left: 194px;
+    top: 262px;
     background: url("/images/animations/react.png")
     , 
     rgba(23, 12, 61, 0.5);

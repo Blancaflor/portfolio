@@ -16,18 +16,11 @@ export default function AboutIcons() {
 const Wrapper = styled.div`
   position: relative;
   perspective: 5000;
-  top: 30px;
-  display: grid;
-  grid-template-columns: 44px auto;
-  width: 100%;
-  justify-content: space-around;
-  padding: 0 30px 0 22px;
-  align-items: center;
 
   .icon1 {
     position: absolute;
-    width: 48px;
-    height: 48px;
+    width: 183px;
+    height: 120px;
     background: url("/images/animations/html.png"), 
     rgba(23, 12, 61, 0.5);
     background-position: center;
@@ -41,8 +34,8 @@ const Wrapper = styled.div`
 
   .icon2 {
     position: absolute;
-    width: 48px;
-    height: 48px;
+    width: 183px;
+    height: 120px;
     background: url("/images/animations/css.png")
     , 
     rgba(23, 12, 61, 0.5);
@@ -57,8 +50,8 @@ const Wrapper = styled.div`
 
   .icon3 {
     position: absolute;
-    width: 48px;
-    height: 48px;
+    width: 183px;
+    height: 120px;
     background: url("/images/animations/js.png")
     , 
     rgba(23, 12, 61, 0.5);
@@ -73,8 +66,9 @@ const Wrapper = styled.div`
 
   .icon4 {
     position: absolute;
-    width: 48px;
-    height: 48px;
+    width: 183px;
+    height: 120px;
+
     background: url("/images/animations/react.png")
     , 
     rgba(23, 12, 61, 0.5);
