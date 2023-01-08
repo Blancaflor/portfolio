@@ -18,7 +18,7 @@ const Wrapper = styled.div`
   perspective: 5000;
   top: 60px;
   display: grid;
-  grid-template-columns: 50px auto;
+  grid-template-columns: 30px auto;
   width: 100%;
   justify-content: space-around;
   padding: 0 30px 0 22px;
@@ -63,6 +63,7 @@ const Wrapper = styled.div`
     width: 48px;
     height: 48px;
     top: 60px;
+    
     background: url("/images/animations/html.png"), 
     rgba(23, 12, 61, 0.5);
     background-position: center;
@@ -79,6 +80,7 @@ const Wrapper = styled.div`
     width: 48px;
     height: 48px;
     top: 60px;
+    
     background: url("/images/animations/css.png")
     , 
     rgba(23, 12, 61, 0.5);
@@ -96,6 +98,7 @@ const Wrapper = styled.div`
     width: 48px;
     height: 48px;
     top: 180px;
+    
     background: url("/images/animations/js.png")
     , 
     rgba(23, 12, 61, 0.5);
@@ -113,6 +116,7 @@ const Wrapper = styled.div`
     width: 48px;
     height: 48px;
     top: 180px;
+    
     background: url("/images/animations/react.png")
     , 
     rgba(23, 12, 61, 0.5);
