@@ -348,6 +348,7 @@ const TextTitle2 = styled(H2)`
   -webkit-background-clip: text;
   font-size: 18px;
   text-align: left;
+
   text-transform: uppercase;
 
   @media (max-width: 960px) {
