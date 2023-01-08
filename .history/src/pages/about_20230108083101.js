@@ -191,6 +191,8 @@ const ContentWrapper2 = styled.div`
   margin: 0 auto;
   display: grid;
   grid-template-columns: 360px auto;
+
+  
 `
 
 const TextWrapper = styled.div`
