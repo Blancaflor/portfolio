@@ -35,7 +35,7 @@ const Wrapper = styled.div`
   }
 `
 
-const Icon1 = styled.div`
+const I1 = styled.div`
   div {
     transform: rotateY(-20deg) rotateX(20deg);
     transform-origin: bottom left;
@@ -56,7 +56,7 @@ const Icon1 = styled.div`
   }
   `
 
-const Icon2 = styled.div`
+const I2 = styled.div`
 div {
   transform: rotateY(-20deg) rotateX(20deg);
   transform-origin: bottom left;
@@ -77,7 +77,7 @@ div {
 }
 `
 
-const Icon3 = styled.div`
+const I3 = styled.div`
   div {
     transform: rotateY(-20deg) rotateX(20deg);
     transform-origin: bottom left;
@@ -98,7 +98,7 @@ const Icon3 = styled.div`
   }
   `
 
-const Icon4 = styled.div`
+const I4 = styled.div`
 div {
   transform: rotateY(-20deg) rotateX(20deg);
   transform-origin: bottom left;
