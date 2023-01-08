@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 
-export default function AboutIcons() {
+export default function AboutIc() {
     return (
         <Wrapper>
             <Icon1><Link to="#" target="_blank" ><div className="icon1" /></Link></Icon1>
@@ -21,8 +21,6 @@ const Wrapper = styled.div`
     position: absolute;
     width: 183px;
     height: 120px;
-    right: 0px;
-    top: 0px;
     background: url("/images/animations/html.png"), 
     rgba(23, 12, 61, 0.5);
     background-position: center;
@@ -38,8 +36,6 @@ const Wrapper = styled.div`
     position: absolute;
     width: 183px;
     height: 120px;
-    left: 214px;
-    top: 0px;
     background: url("/images/animations/css.png")
     , 
     rgba(23, 12, 61, 0.5);
@@ -56,8 +52,6 @@ const Wrapper = styled.div`
     position: absolute;
     width: 183px;
     height: 120px;
-    left: 37px;
-    top: 60px;
     background: url("/images/animations/js.png")
     , 
     rgba(23, 12, 61, 0.5);
@@ -74,8 +68,6 @@ const Wrapper = styled.div`
     position: absolute;
     width: 183px;
     height: 120px;
-    left: 194px;
-    top: 262px;
     background: url("/images/animations/react.png")
     , 
     rgba(23, 12, 61, 0.5);

@@ -17,12 +17,44 @@ const Wrapper = styled.div`
   position: relative;
   perspective: 5000;
 
+  @media (max-width: 1600px) {
+    transform: scale(0.9);
+  }
+
+  @media (max-width: 1440px) {
+    transform: scale(0.8);
+  }
+
+  @media (max-width: 1280px) {
+    transform: scale(0.6);
+  }
+
+  @media (max-width: 960px) {
+    transform: scale(0.6);
+    transform-origin: top left;
+  }
+
+  @media (max-width: 768px) {
+    transform: scale(0.5);
+    transform-origin: top left;
+  }
+
+  @media (max-width: 540px) {
+    transform: scale(0.35);
+  }
+
+  @media (max-width: 450px) {
+    transform: scale(0.26);
+  }
+
+  @media (max-width: 338px) {
+    transform: scale(0.26);
+  }
+
   .Icon1 {
     position: absolute;
     width: 183px;
     height: 120px;
-    right: 0px;
-    top: 0px;
     background: url("/images/animations/html.png"), 
     rgba(23, 12, 61, 0.5);
     background-position: center;
@@ -38,8 +70,6 @@ const Wrapper = styled.div`
     position: absolute;
     width: 183px;
     height: 120px;
-    left: 214px;
-    top: 0px;
     background: url("/images/animations/css.png")
     , 
     rgba(23, 12, 61, 0.5);
@@ -56,8 +86,6 @@ const Wrapper = styled.div`
     position: absolute;
     width: 183px;
     height: 120px;
-    left: 37px;
-    top: 60px;
     background: url("/images/animations/js.png")
     , 
     rgba(23, 12, 61, 0.5);
@@ -74,8 +102,6 @@ const Wrapper = styled.div`
     position: absolute;
     width: 183px;
     height: 120px;
-    left: 194px;
-    top: 262px;
     background: url("/images/animations/react.png")
     , 
     rgba(23, 12, 61, 0.5);

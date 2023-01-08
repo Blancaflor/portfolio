@@ -74,8 +74,7 @@ const Wrapper = styled.div`
     position: absolute;
     width: 183px;
     height: 120px;
-    left: 194px;
-    top: 262px;
+    
     background: url("/images/animations/react.png")
     , 
     rgba(23, 12, 61, 0.5);
