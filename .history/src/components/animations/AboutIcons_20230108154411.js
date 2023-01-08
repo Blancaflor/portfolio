@@ -79,8 +79,8 @@ const Wrapper = styled.div`
 
   .icon1 {
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 8px;
+    height: 8px;
     top: 470px;
     background: url("/images/animations/html.png"), 
     rgba(23, 12, 61, 0.5);
@@ -95,8 +95,8 @@ const Wrapper = styled.div`
 
   .icon2 {
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 8px;
+    height: 8px;
     top: 470px;
     background: url("/images/animations/css.png")
     , 
@@ -112,8 +112,8 @@ const Wrapper = styled.div`
 
   .icon3 {
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 8px;
+    height: 8px;
     top: 660px;
     background: url("/images/animations/js.png")
     , 
@@ -129,8 +129,8 @@ const Wrapper = styled.div`
 
   .icon4 {
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 8px;
+    height: 8px;
     top: 660px;
     background: url("/images/animations/react.png")
     , 
