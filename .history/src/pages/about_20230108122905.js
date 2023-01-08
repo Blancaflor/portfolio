@@ -294,9 +294,10 @@ const TextBackGround2 = styled.div`
 
   h1{
     text-transform: lowercase;
+    
     font-weight: bold;
-    font-size: 130%;
-    padding: 20px 0 5px 0;
+    font-size: 150%;
+    padding: 20px 0 10px 0;
   }
 `
 
