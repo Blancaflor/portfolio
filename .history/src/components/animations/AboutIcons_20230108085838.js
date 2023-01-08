@@ -24,6 +24,8 @@ const Wrapper = styled.div`
   padding: 0 30px 0 22px;
   align-items: center;
 
+  
+
   .icon1 {
     position: absolute;
     width: 48px;

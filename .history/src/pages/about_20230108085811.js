@@ -184,6 +184,8 @@ const ContentWrapper = styled.div`
     gap: 30px;
     padding: 100px 20px 250px;
   }
+
+
 `
 
 const ContentWrapper2 = styled.div`
