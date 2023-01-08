@@ -16,6 +16,7 @@ export default function AboutIcons() {
 const Wrapper = styled.div`
   position: relative;
 
+
   @media (max-width: 1600px) {
     transform: scale(0.9);
   }
