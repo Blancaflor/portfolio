@@ -57,7 +57,7 @@ function About() {
               <h1>JavaScript</h1>
               <p>Is een programmeertaal die wordt gebruikt om interactieve functies aan websites toe te voegen. Het wordt vaak gebruikt om zaken als vervolgkeuzemenu's, pop-ups en andere interactieve elementen te maken.</p>
               <h1>React.js</h1>
-              <p>wordt gebruikt voor het bouwen van gebruikersinterfaces. Het wordt gebruikt om herbruikbare UI-componenten te maken en de prestaties van webapplicaties te verbeteren. Met React kunnen ontwikkelaars grote webapplicaties maken die gegevens kunnen wijzigen, zonder de pagina opnieuw te laden. Het wordt vaak gebruikt voor het bouwen van single-page applicaties en mobiele applicaties.</p>
+              <p>wordt gebruiktvoor het bouwen van gebruikersinterfaces. Het wordt gebruikt om herbruikbare UI-componenten te maken en de prestaties van webapplicaties te verbeteren. Met React kunnen ontwikkelaars grote webapplicaties maken die gegevens kunnen wijzigen, zonder de pagina opnieuw te laden. Het wordt vaak gebruikt voor het bouwen van single-page applicaties en mobiele applicaties.</p>
             </Text>
           </TextBackGround2>
         </ContentWrapper2>

@@ -52,12 +52,9 @@ function About() {
               <TextTitle2>Webontwikkeling: digitale ervaringen creëren.</TextTitle2>
               <h1>HTML (HyperText Markup Language)</h1>
               <p>Is een opmaaktaal die wordt gebruikt om de structuur en lay-out van een webpagina te creëren. Het gebruikt tags om elementen zoals koppen, alinea's en links te definiëren.</p>
-              <h1>CSS (Cascading Style Sheets) </h1>
-              <p>Is een stijlbladtaal die wordt gebruikt om het uiterlijk van de inhoud op een webpagina te bepalen. Het wordt gebruikt om zaken als kleuren, lettertypen en lay-out te definiëren.</p>
-              <h1>JavaScript</h1>
-              <p>Is een programmeertaal die wordt gebruikt om interactieve functies aan websites toe te voegen. Het wordt vaak gebruikt om zaken als vervolgkeuzemenu's, pop-ups en andere interactieve elementen te maken.</p>
-              <h1>React.js</h1>
-              <p>wordt gebruikt voor het bouwen van gebruikersinterfaces. Het wordt gebruikt om herbruikbare UI-componenten te maken en de prestaties van webapplicaties te verbeteren. Met React kunnen ontwikkelaars grote webapplicaties maken die gegevens kunnen wijzigen, zonder de pagina opnieuw te laden. Het wordt vaak gebruikt voor het bouwen van single-page applicaties en mobiele applicaties.</p>
+              <p>s een stijlbladtaal die wordt gebruikt om het uiterlijk van de inhoud op een webpagina te bepalen. Het wordt gebruikt om zaken als kleuren, lettertypen en lay-out te definiëren.</p>
+              <p>JavaScript is een programmeertaal die wordt gebruikt om interactieve functies aan websites toe te voegen. Het wordt vaak gebruikt om zaken als vervolgkeuzemenu's, pop-ups en andere interactieve elementen te maken.</p>
+              <p>React.js voor het bouwen van gebruikersinterfaces. Het wordt gebruikt om herbruikbare UI-componenten te maken en de prestaties van webapplicaties te verbeteren. Met React kunnen ontwikkelaars grote webapplicaties maken die gegevens kunnen wijzigen, zonder de pagina opnieuw te laden. Het wordt vaak gebruikt voor het bouwen van single-page applicaties en mobiele applicaties.</p>
             </Text>
           </TextBackGround2>
         </ContentWrapper2>
