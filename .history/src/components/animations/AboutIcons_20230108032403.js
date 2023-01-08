@@ -36,7 +36,8 @@ const Wrapper = styled.div`
   .Icon4 {
     position: absolute;
     
-    background: url("/images/animations/react.png");
+    background: url("/images/animations/react.png")
+
   }
 `
 
