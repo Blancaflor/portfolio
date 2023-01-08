@@ -34,6 +34,7 @@ const Wrapper = styled.div`
   perspective: 5000;
   top: 60px;
   display: grid;
+
   gap: 30px;
   width: 100%;
   justify-content: space-around;
