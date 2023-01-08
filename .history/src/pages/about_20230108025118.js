@@ -6,7 +6,6 @@ import WaveBackground from "../components/backgrounds/WaveBackground"
 import { themes } from "../components/styles/ColorStyles"
 import { H1, H2, MediumText } from "../components/styles/TextStyles"
 import AboutAnimation from "../components/animations/AboutAnimation"
-import AboutIcons from "../components/animations/AboutIcons"
 
 function About() {
   return (
@@ -32,7 +31,7 @@ function About() {
       <Wrapper2>
       <ContentWrapper2>
         <TextBackGround>
-          <AboutIcons />
+          <AboutIcon
         </TextBackGround>
         <TextBackGround2>
             <Text>
