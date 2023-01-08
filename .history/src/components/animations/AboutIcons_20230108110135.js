@@ -33,9 +33,9 @@ const Wrapper = styled.div`
   position: relative;
   perspective: 5000;
   top: 60px;
-  height: 100px;
   display: grid;
   grid-template-columns: 20px 20px;
+  height: 100px;
   grid-template-rows: 30px 1fr;
   gap: 30px;
   padding: 20px;
