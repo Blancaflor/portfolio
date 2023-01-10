@@ -98,7 +98,8 @@ const Wrapper = styled.div`
     width: 60px;
     height: 60px;
     top: 470px;
-    background: url("/images/animations/css.png"), 
+    background: url("/images/animations/css.png")
+, 
     rgba(23, 12, 61, 0.5);
     background-position: center;
     background-repeat: no-repeat;
