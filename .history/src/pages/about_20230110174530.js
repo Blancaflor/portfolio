@@ -49,6 +49,7 @@ function About() {
               <p>Is a programming language that is used to add interactive features to websites. It is often used to create things like drop-down menus, pop-ups, and other interactive elements.</p>
               <h2>React.js</h2>
               <p>Is a JavaScript library for building user interfaces. It is used to create reusable UI components and improve the performance of web applications. React allows developers to create large web applications that can change data, without reloading the page. It is often used for building single-page applications and mobile applications.</p>
+        
             </Text>
           </TextBackGround2>
         </ContentWrapper2>
