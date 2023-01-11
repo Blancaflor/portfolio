@@ -53,6 +53,7 @@ const Wrapper = styled.div`
     color: white;
     font-weight: bold;
     font-size: 100%;
+    margin: 40px 0 0 50px;
   }
 
   @media (max-width: 1600px) {
