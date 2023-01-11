@@ -45,6 +45,18 @@ const Wrapper = styled.div`
   justify-content: space-around;
   align-items: left;
 
+  h1{
+    color: white;
+    font-weight: bold;
+    font-size: 140%;
+  }
+
+  p{
+    color: white;
+    font-weight: bold;
+    font-size: 100%;
+  }
+
   @media (max-width: 1600px) {
     transform: scale(0.9);
   }
