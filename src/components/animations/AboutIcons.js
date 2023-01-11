@@ -36,9 +36,6 @@ const Wrapper = styled.div`
   perspective: 5000;
   top: 60px;
   height: 100px;
-  display: grid;
-  grid-template-columns: 20px 20px;
-  grid-auto-columns: 1fr;
   gap: 50px;
   padding: 20px;
   width: 100%;
@@ -49,7 +46,6 @@ const Wrapper = styled.div`
     color: white;
     font-weight: bold;
     font-size: 140%;
-    grid-template-columns: 20px 0 0 0;
   }
 
   @media (max-width: 1600px) {
