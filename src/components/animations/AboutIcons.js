@@ -45,7 +45,7 @@ const Wrapper = styled.div`
   h1{
     color: white;
     font-weight: bold;
-    font-size: 140%;
+    font-size: 120%;
     margin: 20px 0 0 50px;
   }
 
