@@ -12,22 +12,16 @@ export default function AboutIcons() {
           <div className="icon1" />
         </Link>
       </Icon1>
-      <h1>Our</h1>
-      <p>Values</p>
       <Icon2>
         <Link to="#" target="_blank">
           <div className="icon2" />
         </Link>
       </Icon2>
-      <h1>Our</h1>
-      <p>Values</p>
       <Icon3>
         <Link to="#" target="_blank">
           <div className="icon3" />
         </Link>
       </Icon3>
-      <h1>Our</h1>
-      <p>Values</p>
       <Icon4>
         <Link to="#" target="_blank">
           <div className="icon4" />
