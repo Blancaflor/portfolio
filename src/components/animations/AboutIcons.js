@@ -55,7 +55,7 @@ const Wrapper = styled.div`
     color: white;
     font-weight: bold;
     font-size: 100%;
-    padding: 10px 0 0 0;
+    margin: 10px 0 0 0;
   }
 
   @media (max-width: 1600px) {
