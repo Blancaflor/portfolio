@@ -87,7 +87,7 @@ const Wrapper = styled.div`
     width: 60px;
     height: 60px;
     top: 150px;
-    left: 180px;
+    left: 160px;
     background: url("/images/animations/html.png"), 
     rgba(23, 12, 61, 0.5);
     background-position: center;
@@ -104,7 +104,7 @@ const Wrapper = styled.div`
     width: 60px;
     height: 60px;
     top: 270px;
-    left: 180px;
+    left: 160px;
     margin: 0;
     background: url("/images/animations/css.png"), 
     rgba(23, 12, 61, 0.5);
@@ -122,7 +122,7 @@ const Wrapper = styled.div`
     width: 60px;
     height: 60px;
     top: 380px;
-    left: 180px;
+    left: 160px;
     background: url("/images/animations/js.png")
     , 
     rgba(23, 12, 61, 0.5);
@@ -140,7 +140,7 @@ const Wrapper = styled.div`
     width: 60px;
     height: 60px;
     top: 480px;
-    left: 180px;
+    left: 160px;
     margin: 0;
     background: url("/images/animations/react.png")
     , 
