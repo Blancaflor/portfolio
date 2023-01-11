@@ -46,6 +46,7 @@ const Wrapper = styled.div`
     color: white;
     font-weight: bold;
     font-size: 140%;
+    margin: 30px 0 0 50px;
   }
 
   p{
