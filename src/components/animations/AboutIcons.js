@@ -36,7 +36,7 @@ const Wrapper = styled.div`
   height: 100px;
   display: grid;
   grid-template-columns: 20px 20px;
-  grid-auto-columns: 1fr;
+  grid-auto-columns: 2fr;
   gap: 50px;
   padding: 20px;
   width: 100%;
@@ -84,7 +84,7 @@ const Wrapper = styled.div`
     top: 120px;
     background: url("/images/animations/html.png"), 
     rgba(23, 12, 61, 0.5);
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
@@ -100,7 +100,7 @@ const Wrapper = styled.div`
     top: 120px;
     background: url("/images/animations/css.png"), 
     rgba(23, 12, 61, 0.5);
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
@@ -117,7 +117,7 @@ const Wrapper = styled.div`
     background: url("/images/animations/js.png")
     , 
     rgba(23, 12, 61, 0.5);
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
@@ -134,7 +134,7 @@ const Wrapper = styled.div`
     background: url("/images/animations/react.png")
     , 
     rgba(23, 12, 61, 0.5);
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
