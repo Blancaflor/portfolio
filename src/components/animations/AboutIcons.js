@@ -6,7 +6,7 @@ export default function AboutIcons() {
   return (
     <Wrapper>
       <h1>Our</h1>
-      <h1>Values</h1>
+      <p>Values</p>
       <Icon1>
         <Link to="#" target="_blank">
           <div className="icon1" />
@@ -46,6 +46,12 @@ const Wrapper = styled.div`
     color: white;
     font-weight: bold;
     font-size: 140%;
+  }
+
+  p{
+    color: white;
+    font-weight: bold;
+    font-size: 100%;
   }
 
   @media (max-width: 1600px) {
