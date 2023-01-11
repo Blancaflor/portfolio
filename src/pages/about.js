@@ -32,6 +32,8 @@ function About() {
       <Wrapper2>
       <ContentWrapper2>
         <TextBackGround>
+          <TextTitle2>Our</TextTitle2>
+          <TextTitle2>Values</TextTitle2>
           <AboutIcons />
         </TextBackGround>
         <TextBackGround2>

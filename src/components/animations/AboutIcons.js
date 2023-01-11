@@ -5,21 +5,25 @@ import { Link } from "gatsby"
 export default function AboutIcons() {
   return (
     <Wrapper>
+      <p></p>
       <Icon1>
         <Link to="#" target="_blank">
           <div className="icon1" />
         </Link>
       </Icon1>
+      <p></p>
       <Icon2>
         <Link to="#" target="_blank">
           <div className="icon2" />
         </Link>
       </Icon2>
+      <p></p>
       <Icon3>
         <Link to="#" target="_blank">
           <div className="icon3" />
         </Link>
       </Icon3>
+      <p></p>
       <Icon4>
         <Link to="#" target="_blank">
           <div className="icon4" />
