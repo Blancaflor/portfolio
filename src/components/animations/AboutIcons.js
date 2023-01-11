@@ -49,6 +49,7 @@ const Wrapper = styled.div`
     color: white;
     font-weight: bold;
     font-size: 140%;
+    grid-template-columns: 20px 0 0 0;
   }
 
   @media (max-width: 1600px) {
