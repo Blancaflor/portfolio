@@ -35,13 +35,9 @@ const Wrapper = styled.div`
   gap: 50px;
   padding: 20px;
   width: 100%;
-  align-items: left;
-  display: grid;
   justify-content: center;
   align-content: center;
-  justify-self: center;
-  position: relative;
-  
+
   h1{
     color: white;
     font-weight: bold;
@@ -115,6 +111,11 @@ const IconWrapper = styled.div`
   height: 45px;
   background: linear-gradient(200.44deg, #4316DB 13.57%, #9076E7 98.38%);
   border-radius: 50%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-self: center;
+  position: relative;
 
   *,
   & {
