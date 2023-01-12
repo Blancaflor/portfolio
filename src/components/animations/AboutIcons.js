@@ -8,20 +8,20 @@ export default function AboutIcons() {
       <h1>Our</h1>
       <p>Values</p>
       <IconWrapper>
-          <Icon1 src="/images/animations/html.png" className="icon1" />
-          <Ring src="/images/icons/icon-ring.svg" />
+          <Icon1 src="/images/animations/html.png" className="icon" />
+          <Ring1 src="/images/icons/icon-ring.svg" />
         </IconWrapper>
         <IconWrapper>
-          <Icon2 src="/images/animations/css.png" className="icon2" />
-          <Ring src="/images/icons/icon-ring.svg" />
+          <Icon2 src="/images/animations/css.png" className="icon" />
+          <Ring2 src="/images/icons/icon-ring.svg" />
         </IconWrapper>
         <IconWrapper>
-          <Icon3 src="/images/animations/js.png" className="icon3" />
-          <Ring src="/images/icons/icon-ring.svg" />
+          <Icon3 src="/images/animations/js.png" className="icon" />
+          <Ring3 src="/images/icons/icon-ring.svg" />
         </IconWrapper>
         <IconWrapper>
-          <Icon4 src="/images/animations/react.png" className="icon4" />
-          <Ring src="/images/icons/icon-ring.svg" />
+          <Icon4 src="/images/animations/react.png" className="icon" />
+          <Ring4 src="/images/icons/icon-ring.svg" />
         </IconWrapper>
     </Wrapper>
   )
@@ -106,7 +106,37 @@ const Icon4 = styled.img`
   height: 29px;
 `
 
-const Ring = styled.img`
+const Ring1 = styled.img`
+  position: absolute;
+  top: -15px;
+  left: -16px;
+
+  ${Wrapper}:hover & {
+    transform: rotate(30deg) scale(1.2) translate(1px, 1px);
+  }
+`
+
+const Ring2 = styled.img`
+  position: absolute;
+  top: -15px;
+  left: -16px;
+
+  ${Wrapper}:hover & {
+    transform: rotate(30deg) scale(1.2) translate(1px, 1px);
+  }
+`
+
+const Ring3 = styled.img`
+  position: absolute;
+  top: -15px;
+  left: -16px;
+
+  ${Wrapper}:hover & {
+    transform: rotate(30deg) scale(1.2) translate(1px, 1px);
+  }
+`
+
+const Ring4 = styled.img`
   position: absolute;
   top: -15px;
   left: -16px;
@@ -138,19 +168,7 @@ const IconWrapper = styled.div`
     inset 0px 0px 0px 0.5px rgba(255, 255, 255, 0.5);
     transform: translateY(-3px);
 
-    .icon1 {
-        transform: scale(1.2);
-    }
-
-    .icon2 {
-        transform: scale(1.2);
-    }
-
-    .icon3 {
-        transform: scale(1.2);
-    }
-
-    .icon4 {
+    .icon {
         transform: scale(1.2);
     }
   }
