@@ -345,6 +345,7 @@ const TextTitle2 = styled(H2)`
   font-size: 18px;
   text-align: left;
   text-transform: uppercase;
+  padding-bottom: 20px;
 
   @media (max-width: 960px) {
     font-size: 18px;
