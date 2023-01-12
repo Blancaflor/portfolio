@@ -41,27 +41,6 @@ const Wrapper = styled.div`
   width: 100%;
   justify-content: space-around;
   align-items: left;
-  border-radius: 20px;
-  display: grid;
-  grid-template-columns: 53px auto;
-  align-items: center;
-  gap: 20px;
-
-  *,
-  & {
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
-
-  :hover {
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1),
-    0px 30px 60px rgba(23, 0, 102, 0.5),
-    inset 0px 0px 0px 0.5px rgba(255, 255, 255, 0.5);
-    transform: translateY(-3px);
-
-    .icon {
-        transform: scale(1.2);
-    }
-  }
 
   h1{
     color: white;
@@ -125,7 +104,17 @@ const Wrapper = styled.div`
     box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
     backdrop-filter: blur(21.8507px);
     /* Note: backdrop-filter has minimal browser support */
+    background: linear-gradient(200.44deg, #4316DB 13.57%, #9076E7 98.38%);
     border-radius: 50%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    position: relative;
+
+    ${Wrapper}:hover & {
+    filter: hue-rotate(10deg) brightness(150%) saturate(120%);
+    }
   }
 
   .icon2 {
@@ -143,7 +132,17 @@ const Wrapper = styled.div`
     box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
     backdrop-filter: blur(21.8507px);
     /* Note: backdrop-filter has minimal browser support */
-    border-radius: 50%;
+    background: linear-gradient(200.44deg, #4316DB 13.57%, #9076E7 98.38%);
+  border-radius: 50%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-self: center;
+  position: relative;
+
+  ${Wrapper}:hover & {
+    filter: hue-rotate(10deg) brightness(150%) saturate(120%);
+  }
   }
 
   .icon3 {
@@ -161,7 +160,17 @@ const Wrapper = styled.div`
     box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
     backdrop-filter: blur(21.8507px);
     /* Note: backdrop-filter has minimal browser support */
-    border-radius: 50%;
+    background: linear-gradient(200.44deg, #4316DB 13.57%, #9076E7 98.38%);
+  border-radius: 50%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-self: center;
+  position: relative;
+
+  ${Wrapper}:hover & {
+    filter: hue-rotate(10deg) brightness(150%) saturate(120%);
+  }
   }
 
   .icon4 {
@@ -180,7 +189,17 @@ const Wrapper = styled.div`
     box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
     backdrop-filter: blur(21.8507px);
     /* Note: backdrop-filter has minimal browser support */
-    border-radius: 50%;
+    background: linear-gradient(200.44deg, #4316DB 13.57%, #9076E7 98.38%);
+  border-radius: 50%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-self: center;
+  position: relative;
+
+  ${Wrapper}:hover & {
+    filter: hue-rotate(10deg) brightness(150%) saturate(120%);
+  }
   }
 `
 
