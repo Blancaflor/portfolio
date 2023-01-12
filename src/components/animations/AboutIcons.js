@@ -9,19 +9,19 @@ export default function AboutIcons() {
       <p>Values</p>
       <IconWrapper>
           <Icon1 src="/images/animations/html.png" className="icon" />
-          <Ring1 src="/images/icons/icon-ring.svg" />
+          <Ring src="/images/icons/icon-ring.svg" />
         </IconWrapper>
         <IconWrapper>
           <Icon2 src="/images/animations/css.png" className="icon" />
-          <Ring2 src="/images/icons/icon-ring.svg" />
+          <Ring src="/images/icons/icon-ring.svg" />
         </IconWrapper>
         <IconWrapper>
           <Icon3 src="/images/animations/js.png" className="icon" />
-          <Ring3 src="/images/icons/icon-ring.svg" />
+          <Ring src="/images/icons/icon-ring.svg" />
         </IconWrapper>
         <IconWrapper>
           <Icon4 src="/images/animations/react.png" className="icon" />
-          <Ring4 src="/images/icons/icon-ring.svg" />
+          <Ring src="/images/icons/icon-ring.svg" />
         </IconWrapper>
     </Wrapper>
   )
@@ -106,37 +106,7 @@ const Icon4 = styled.img`
   height: 29px;
 `
 
-const Ring1 = styled.img`
-  position: absolute;
-  top: -15px;
-  left: -16px;
-
-  ${Wrapper}:hover & {
-    transform: rotate(30deg) scale(1.2) translate(1px, 1px);
-  }
-`
-
-const Ring2 = styled.img`
-  position: absolute;
-  top: -15px;
-  left: -16px;
-
-  ${Wrapper}:hover & {
-    transform: rotate(30deg) scale(1.2) translate(1px, 1px);
-  }
-`
-
-const Ring3 = styled.img`
-  position: absolute;
-  top: -15px;
-  left: -16px;
-
-  ${Wrapper}:hover & {
-    transform: rotate(30deg) scale(1.2) translate(1px, 1px);
-  }
-`
-
-const Ring4 = styled.img`
+const Ring = styled.img`
   position: absolute;
   top: -15px;
   left: -16px;
@@ -157,7 +127,6 @@ const IconWrapper = styled.div`
   justify-self: center;
   position: relative;
 
-  *,
   & {
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
