@@ -42,14 +42,14 @@ const Wrapper = styled.div`
     color: white;
     font-weight: bold;
     font-size: 120%;
-    margin: 40px 0 0 50px;
+    text-align: center;
   }
 
   p{
     color: white;
     font-weight: bold;
     font-size: 90%;
-    margin: 10px 0 0 50px;
+    text-align: center;
   }
 
   @media (max-width: 1600px) {
