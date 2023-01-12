@@ -106,16 +106,6 @@ const Icon4 = styled.img`
   height: 29px;
 `
 
-const Ring = styled.img`
-  position: absolute;
-  top: -15px;
-  left: -16px;
-
-  ${IconWrapper}:hover & {
-    transform: rotate(30deg) scale(1.2) translate(1px, 1px);
-  }
-`
-
 const IconWrapper = styled.div`
   width: 45px;
   height: 45px;
@@ -145,5 +135,15 @@ const IconWrapper = styled.div`
 
   ${Wrapper}:hover & {
     filter: hue-rotate(10deg) brightness(150%) saturate(120%);
+  }
+`
+
+const Ring = styled.img`
+  position: absolute;
+  top: -15px;
+  left: -16px;
+
+  ${IconWrapper}:hover & {
+    transform: rotate(30deg) scale(1.2) translate(1px, 1px);
   }
 `
