@@ -37,11 +37,6 @@ const Wrapper = styled.div`
   width: 100%;
   justify-content: space-around;
   align-items: left;
-  
-  *,
-  & {
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
 
   :hover {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1),
@@ -51,6 +46,7 @@ const Wrapper = styled.div`
 
     .icon {
         transform: scale(1.2);
+        transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
     }
   }
 
