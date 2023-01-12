@@ -33,10 +33,10 @@ const Wrapper = styled.div`
   top: 60px;
   height: 100px;
   gap: 50px;
-  padding: 20px;
+  padding: 20px auto;
   width: 100%;
   justify-content: space-around;
-  align-items: center;
+  align-items: left;
   
   h1{
     color: white;
