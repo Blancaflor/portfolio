@@ -8,19 +8,19 @@ export default function AboutIcons() {
       <h1>Our</h1>
       <p>Values</p>
       <IconWrapper>
-          <Icon1 src="/images/animations/html.png" className="icon" />
+          <Icon1 src="/images/animations/html.png" className="icon1" />
           <Ring src="/images/icons/icon-ring.svg" />
         </IconWrapper>
         <IconWrapper>
-          <Icon2 src="/images/animations/css.png" className="icon" />
+          <Icon2 src="/images/animations/css.png" className="icon2" />
           <Ring src="/images/icons/icon-ring.svg" />
         </IconWrapper>
         <IconWrapper>
-          <Icon3 src="/images/animations/js.png" className="icon" />
+          <Icon3 src="/images/animations/js.png" className="icon3" />
           <Ring src="/images/icons/icon-ring.svg" />
         </IconWrapper>
         <IconWrapper>
-          <Icon4 src="/images/animations/react.png" className="icon" />
+          <Icon4 src="/images/animations/react.png" className="icon4" />
           <Ring src="/images/icons/icon-ring.svg" />
         </IconWrapper>
     </Wrapper>
@@ -138,7 +138,19 @@ const IconWrapper = styled.div`
     inset 0px 0px 0px 0.5px rgba(255, 255, 255, 0.5);
     transform: translateY(-3px);
 
-    .icon {
+    .icon1 {
+        transform: scale(1.2);
+    }
+
+    .icon2 {
+        transform: scale(1.2);
+    }
+
+    .icon3 {
+        transform: scale(1.2);
+    }
+
+    .icon4 {
         transform: scale(1.2);
     }
   }
