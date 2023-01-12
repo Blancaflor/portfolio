@@ -88,22 +88,22 @@ const Wrapper = styled.div`
 `
 
 const Icon1 = styled.img`
-  width: 29px;
-  height: 29px;
+  width: 64px;
+  height: 64px;
 `
 
 const Icon2 = styled.img`
-  width: 29px;
-  height: 29px;
+  width: 64px;
+  height: 64px;
 `
 
 const Icon3 = styled.img`
-  width: 23px;
-  height: 23px;
+  width: 64px;
+  height: 64px;
 `
 const Icon4 = styled.img`
-  width: 29px;
-  height: 29px;
+  width: 64px;
+  height: 64px;
 `
 
 const IconWrapper = styled.div`
