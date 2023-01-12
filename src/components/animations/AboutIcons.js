@@ -91,24 +91,20 @@ const Wrapper = styled.div`
 const Icon1 = styled.img`
   width: 29px;
   height: 29px;
-  padding: 20px 0 30px 350px;
 `
 
 const Icon2 = styled.img`
   width: 29px;
   height: 29px;
-  padding: 20px 0 30px 350px;
 `
 
 const Icon3 = styled.img`
   width: 29px;
   height: 29px;
-  padding: 20px 0 30px 350px;
 `
 const Icon4 = styled.img`
   width: 29px;
   height: 29px;
-  padding: 20px 0 30px 350px;
 `
 
 const IconWrapper = styled.div`
@@ -147,6 +143,7 @@ const Ring = styled.img`
   position: absolute;
   top: -15px;
   left: -16px;
+  padding: 20px 0 30px 350px;
 
   ${IconWrapper}:hover & {
     transform: rotate(30deg) scale(1.2) translate(1px, 1px);
