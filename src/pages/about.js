@@ -23,7 +23,7 @@ function About() {
               <br />
               it
               <br />
-              all <AboutAnimation />.
+              all <AboutAnimation />
             </Title>
             {/*} <Description>From the beginning.</Description> */}
           </TextWrapper>

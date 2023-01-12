@@ -33,7 +33,7 @@ export default function Contact() {
             Send
             <br />
             us
-            <br /> an <ContactAnimation />.
+            <br /> an <ContactAnimation />
           </Title>
           <Description>Send us your message!</Description>
         </TextWrapper>
