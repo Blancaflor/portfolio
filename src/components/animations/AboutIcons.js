@@ -91,7 +91,6 @@ const Icon1 = styled.img`
   width: 29px;
   height: 29px;
 
-  *,
   & {
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
@@ -112,7 +111,6 @@ const Icon2 = styled.img`
   width: 29px;
   height: 29px;
 
-  *,
   & {
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
@@ -133,7 +131,6 @@ const Icon3 = styled.img`
   width: 29px;
   height: 29px;
 
-  *,
   & {
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
@@ -153,7 +150,6 @@ const Icon4 = styled.img`
   width: 29px;
   height: 29px;
 
-  *,
   & {
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
