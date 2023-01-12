@@ -33,9 +33,9 @@ const Wrapper = styled.div`
   top: 60px;
   height: 100px;
   gap: 50px;
-  padding: 20px auto;
+  padding: 20px;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: left;
   
   h1{
