@@ -7,26 +7,22 @@ export default function AboutIcons() {
     <Wrapper>
       <h1>Our</h1>
       <p>Values</p>
-      <Icon1>
-        <Link to="#" target="_blank">
-          <div className="icon1" />
-        </Link>
-      </Icon1>
-      <Icon2>
-        <Link to="#" target="_blank">
-          <div className="icon2" />
-        </Link>
-      </Icon2>
-      <Icon3>
-        <Link to="#" target="_blank">
-          <div className="icon3" />
-        </Link>
-      </Icon3>
-      <Icon4>
-        <Link to="#" target="_blank">
-          <div className="icon4" />
-        </Link>
-      </Icon4>
+      <IconWrapper>
+          <Icon src="/images/icons/credit.svg" className="icon" />
+          <Ring src="/images/icons/icon-ring.svg" />
+        </IconWrapper>
+        <IconWrapper>
+          <Icon src="/images/icons/credit.svg" className="icon" />
+          <Ring src="/images/icons/icon-ring.svg" />
+        </IconWrapper>
+        <IconWrapper>
+          <Icon src="/images/icons/credit.svg" className="icon" />
+          <Ring src="/images/icons/icon-ring.svg" />
+        </IconWrapper>
+        <IconWrapper>
+          <Icon src="/images/icons/credit.svg" className="icon" />
+          <Ring src="/images/icons/icon-ring.svg" />
+        </IconWrapper>
     </Wrapper>
   )
 }
@@ -89,159 +85,35 @@ const Wrapper = styled.div`
   @media (max-width: 338px) {
     transform: scale(0.6);
   }
+`
 
-  .icon1 {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    top: 150px;
-    left: 160px;
-    background: url("/images/animations/html.png"), 
-    rgba(23, 12, 61, 0.5);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
-    backdrop-filter: blur(21.8507px);
-    /* Note: backdrop-filter has minimal browser support */
-    border-radius: 50%;
-  }
+const Icon = styled.img`
+  width: 29px;
+  height: 29px;
+`
 
-  .icon2 {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    top: 270px;
-    left: 160px;
-    margin: 0;
-    background: url("/images/animations/css.png"), 
-    rgba(23, 12, 61, 0.5);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
-    backdrop-filter: blur(21.8507px);
-    /* Note: backdrop-filter has minimal browser support */
-    border-radius: 50%;
-  }
+const Ring = styled.img`
+  position: absolute;
+  top: -15px;
+  left: -16px;
 
-  .icon3 {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    top: 380px;
-    left: 160px;
-    background: url("/images/animations/js.png")
-    , 
-    rgba(23, 12, 61, 0.5);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
-    backdrop-filter: blur(21.8507px);
-    /* Note: backdrop-filter has minimal browser support */
-    border-radius: 50%;
-  }
-
-  .icon4 {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    top: 480px;
-    left: 160px;
-    margin: 0;
-    background: url("/images/animations/react.png")
-    , 
-    rgba(23, 12, 61, 0.5);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
-    backdrop-filter: blur(21.8507px);
-    /* Note: backdrop-filter has minimal browser support */
-    border-radius: 50%;
+  ${Wrapper}:hover & {
+    transform: rotate(30deg) scale(1.2) translate(1px, 1px);
   }
 `
 
-const Icon1 = styled.div`
-  div {
-    transform: rotateY(-10deg) rotateX(10deg);
-    transform-origin: bottom left;
-  }
+const IconWrapper = styled.div`
+  width: 45px;
+  height: 45px;
+  background: linear-gradient(200.44deg, #4316DB 13.57%, #9076E7 98.38%);
+  border-radius: 50%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-self: center;
+  position: relative;
 
-  * {
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
-    &.mockup1 {
-      transition-delay: 0.1s;
-      transform: translate(-30px, -30px);
-    }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
-  }
-`
-
-const Icon2 = styled.div`
-  div {
-    transform: rotateY(-10deg) rotateX(10deg);
-    transform-origin: bottom left;
-  }
-
-  * {
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
-    &.mockup2 {
-      transition-delay: 0s;
-      transform: translate(0px, -30px);
-    }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
-  }
-`
-
-const Icon3 = styled.div`
-  div {
-    transform: rotateY(-10deg) rotateX(10deg);
-    transform-origin: bottom left;
-  }
-
-  * {
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
-    &.mockup3 {
-      transition-delay: 0s;
-    }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
-  }
-`
-
-const Icon4 = styled.div`
-  div {
-    transform: rotateY(-10deg) rotateX(10deg);
-    transform-origin: bottom left;
-  }
-
-  * {
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
-  :hover div {
-    transform: rotateY(0deg) rotateX(0deg);
-    &.mockup4 {
-      transition-delay: 0.1s;
-      transform: translate(-120px, 30px);
-    }
-    :hover {
-      filter: brightness(150%) saturate(120%);
-    }
+  ${Wrapper}:hover & {
+    filter: hue-rotate(10deg) brightness(150%) saturate(120%);
   }
 `
