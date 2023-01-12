@@ -90,10 +90,7 @@ const Wrapper = styled.div`
 const Icon1 = styled.img`
   width: 29px;
   height: 29px;
-
-  & {
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 
   :hover {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1),
@@ -110,10 +107,7 @@ const Icon1 = styled.img`
 const Icon2 = styled.img`
   width: 29px;
   height: 29px;
-
-  & {
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 
   :hover {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1),
@@ -130,10 +124,7 @@ const Icon2 = styled.img`
 const Icon3 = styled.img`
   width: 29px;
   height: 29px;
-
-  & {
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 
   :hover {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1),
@@ -149,10 +140,7 @@ const Icon3 = styled.img`
 const Icon4 = styled.img`
   width: 29px;
   height: 29px;
-
-  & {
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 
   :hover {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1),
