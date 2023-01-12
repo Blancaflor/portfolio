@@ -161,8 +161,7 @@ const IconWrapper = styled.div`
   }
 
   @media (max-width: 338px) {
-    margin: 80px 0 30px -10px;
-    padding: 100px 0 0 0;
+    margin: 600px 0 30px -10px;
   }
 
   *,
