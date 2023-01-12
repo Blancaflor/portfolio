@@ -133,35 +133,35 @@ const IconWrapper = styled.div`
   }
 
   @media (max-width: 1440px) {
-    margin: 80px 0 30px 110px;
+    margin: 100px 0 30px 110px;
   }
 
   @media (max-width: 1360px) {
-    margin: 80px 0 30px 100px;
+    margin: 100px 0 30px 100px;
   }
 
   @media (max-width: 1280px) {
-    margin: 80px 0 30px 90px;
+    margin: 120px 0 30px 90px;
   }
 
   @media (max-width: 960px) {
-    margin: 80px 0 30px 50px;
+    margin: 140px 0 30px 50px;
   }
 
   @media (max-width: 720px) {
-    margin: 80px 0 30px 30px;
+    margin: 160px 0 30px 30px;
   }
 
   @media (max-width: 540px) {
-    margin: 80px 0 30px 10px;
+    margin: 180px 0 30px 10px;
   }
 
   @media (max-width: 450px) {
-    margin: 80px 0 30px 0;
+    margin: 220px 0 30px 0;
   }
 
   @media (max-width: 338px) {
-    margin: 80px 0 30px -10px;
+    margin: 260px 0 30px -10px;
   }
 
   *,
