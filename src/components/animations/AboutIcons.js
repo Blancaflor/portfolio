@@ -186,7 +186,7 @@ const IconWrapper = styled.div`
 `
 
 const Ring = styled.img`
-  position: absolute;
+  position: relative;
   top: -15px;
   left: -16px;
   width: 128px;
