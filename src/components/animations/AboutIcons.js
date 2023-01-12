@@ -34,7 +34,7 @@ const Wrapper = styled.div`
   gap: 50px;
   padding: 20px;
   width: 100%;
-  justify-content: justify;
+  justify-content: center;
   align-content: center;
   align-items: left;
 
@@ -189,6 +189,8 @@ const Ring = styled.img`
   position: absolute;
   top: -15px;
   left: -16px;
+  width: 64px;
+  height: 64px;
 
   ${IconWrapper}:hover & {
     transform: rotate(30deg) scale(1.2) translate(1px, 1px);
