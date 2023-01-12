@@ -188,8 +188,8 @@ const Ring = styled.img`
   position: absolute;
   top: -15px;
   left: -16px;
-  width: 64px;
-  height: 64px;
+  width: 128px;
+  height: 128px;
   display: grid;
   align-content: justify;
 
