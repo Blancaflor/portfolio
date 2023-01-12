@@ -8,19 +8,19 @@ export default function AboutIcons() {
       <h1>Our</h1>
       <p>Values</p>
       <IconWrapper>
-          <Icon src="/images/icons/credit.svg" className="icon" />
+          <Icon src="/images/animations/html.png" className="icon" />
           <Ring src="/images/icons/icon-ring.svg" />
         </IconWrapper>
         <IconWrapper>
-          <Icon src="/images/icons/credit.svg" className="icon" />
+          <Icon src="/images/animations/css.png" className="icon" />
           <Ring src="/images/icons/icon-ring.svg" />
         </IconWrapper>
         <IconWrapper>
-          <Icon src="/images/icons/credit.svg" className="icon" />
+          <Icon src="/images/animations/js.png" className="icon" />
           <Ring src="/images/icons/icon-ring.svg" />
         </IconWrapper>
         <IconWrapper>
-          <Icon src="/images/icons/credit.svg" className="icon" />
+          <Icon src="/images/animations/react.png" className="icon" />
           <Ring src="/images/icons/icon-ring.svg" />
         </IconWrapper>
     </Wrapper>
