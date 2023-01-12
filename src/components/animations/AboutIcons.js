@@ -30,7 +30,6 @@ export default function AboutIcons() {
 const Wrapper = styled.div`
   position: relative;
   perspective: 5000;
-  top: 60px;
   height: 100px;
   gap: 50px;
   padding: 20px;
