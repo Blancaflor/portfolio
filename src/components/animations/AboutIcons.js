@@ -43,6 +43,7 @@ const Wrapper = styled.div`
     font-weight: bold;
     font-size: 120%;
     text-align: center;
+    margin-top: 20px;
   }
 
   p{
@@ -50,6 +51,7 @@ const Wrapper = styled.div`
     font-weight: bold;
     font-size: 90%;
     text-align: center;
+    margin-top: 10px;
   }
 
   @media (max-width: 1600px) {
@@ -107,8 +109,8 @@ const Icon4 = styled.img`
 `
 
 const IconWrapper = styled.div`
-  width: 45px;
-  height: 45px;
+  width: 64px;
+  height: 64px;
   background: linear-gradient(200.44deg, #4316DB 13.57%, #9076E7 98.38%);
   border-radius: 50%;
   display: grid;
