@@ -95,7 +95,6 @@ const Icon1 = styled.img`
   justify-content: center;
   align-content: center;
   justify-self: center;
-  position: relative;
 `
 
 const Icon2 = styled.img`
@@ -105,7 +104,6 @@ const Icon2 = styled.img`
   justify-content: center;
   align-content: center;
   justify-self: center;
-  position: relative;
 `
 
 const Icon3 = styled.img`
@@ -115,7 +113,6 @@ const Icon3 = styled.img`
   justify-content: center;
   align-content: center;
   justify-self: center;
-  position: relative;
 `
 const Icon4 = styled.img`
   width: 29px;
@@ -124,7 +121,6 @@ const Icon4 = styled.img`
   justify-content: center;
   align-content: center;
   justify-self: center;
-  position: relative;
 `
 
 const IconWrapper = styled.div`
