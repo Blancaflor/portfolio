@@ -1,32 +1,41 @@
 import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
+import PurchaseButton from "../buttons/PurchaseButton"
 
 export default function AboutIcons() {
   return (
     <Wrapper>
       <h1>Our</h1>
       <p>Values</p>
+      <PurchaseButton>
       <Icon1>
         <Link to="#" target="_blank">
           <div className="icon1" />
         </Link>
       </Icon1>
+      </PurchaseButton>
+      <PurchaseButton>
       <Icon2>
         <Link to="#" target="_blank">
           <div className="icon2" />
         </Link>
       </Icon2>
+      </PurchaseButton>
+      <PurchaseButton>
       <Icon3>
         <Link to="#" target="_blank">
           <div className="icon3" />
         </Link>
       </Icon3>
+      </PurchaseButton>
+      <PurchaseButton>
       <Icon4>
         <Link to="#" target="_blank">
           <div className="icon4" />
         </Link>
       </Icon4>
+      </PurchaseButton>
     </Wrapper>
   )
 }
