@@ -34,7 +34,7 @@ const Wrapper = styled.div`
   gap: 50px;
   padding: 20px;
   width: 100%;
-  justify-content: center;
+  justify-content: justify;
   align-content: center;
   align-items: left;
 
