@@ -37,6 +37,7 @@ const Wrapper = styled.div`
   width: 100%;
   justify-content: center;
   align-content: center;
+  align-items: left;
 
   h1{
     color: white;
