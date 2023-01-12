@@ -118,7 +118,6 @@ const IconWrapper = styled.div`
   align-content: justify;
   justify-self: center;
   position: relative;
-  margin: 80px 0 30px 150px;
 
   @media (max-width: 2560px) {
     margin: 80px 0 30px 150px;
