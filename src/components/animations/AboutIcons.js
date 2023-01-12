@@ -36,7 +36,7 @@ const Wrapper = styled.div`
   padding: 20px;
   width: 100%;
   justify-content: space-around;
-  align-items: left;
+  align-items: center;
   
   h1{
     color: white;
