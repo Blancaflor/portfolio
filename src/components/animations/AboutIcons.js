@@ -189,8 +189,8 @@ const Ring = styled.img`
   position: absolute;
   top: -15px;
   left: -16px;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
 
   ${IconWrapper}:hover & {
     transform: rotate(30deg) scale(1.2) translate(1px, 1px);
