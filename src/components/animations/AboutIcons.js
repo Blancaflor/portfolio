@@ -100,8 +100,9 @@ const Icon2 = styled.img`
 `
 
 const Icon3 = styled.img`
-  width: 54px;
-  height: 54px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
 `
 const Icon4 = styled.img`
   width: 64px;
