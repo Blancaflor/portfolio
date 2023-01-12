@@ -104,17 +104,7 @@ const Wrapper = styled.div`
     box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
     backdrop-filter: blur(21.8507px);
     /* Note: backdrop-filter has minimal browser support */
-    background: linear-gradient(200.44deg, #4316DB 13.57%, #9076E7 98.38%);
     border-radius: 50%;
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    justify-self: center;
-    position: relative;
-
-    ${Icon1, Icon2, Icon3, Icon4}:hover & {
-    filter: hue-rotate(10deg) brightness(150%) saturate(120%);
-    }
   }
 
   .icon2 {
@@ -132,17 +122,7 @@ const Wrapper = styled.div`
     box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
     backdrop-filter: blur(21.8507px);
     /* Note: backdrop-filter has minimal browser support */
-    background: linear-gradient(200.44deg, #4316DB 13.57%, #9076E7 98.38%);
-  border-radius: 50%;
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  justify-self: center;
-  position: relative;
-
-  ${Wrapper}:hover & {
-    filter: hue-rotate(10deg) brightness(150%) saturate(120%);
-  }
+    border-radius: 50%;
   }
 
   .icon3 {
@@ -160,17 +140,7 @@ const Wrapper = styled.div`
     box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
     backdrop-filter: blur(21.8507px);
     /* Note: backdrop-filter has minimal browser support */
-    background: linear-gradient(200.44deg, #4316DB 13.57%, #9076E7 98.38%);
-  border-radius: 50%;
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  justify-self: center;
-  position: relative;
-
-  ${Wrapper}:hover & {
-    filter: hue-rotate(10deg) brightness(150%) saturate(120%);
-  }
+    border-radius: 50%;
   }
 
   .icon4 {
@@ -189,17 +159,7 @@ const Wrapper = styled.div`
     box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
     backdrop-filter: blur(21.8507px);
     /* Note: backdrop-filter has minimal browser support */
-    background: linear-gradient(200.44deg, #4316DB 13.57%, #9076E7 98.38%);
-  border-radius: 50%;
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  justify-self: center;
-  position: relative;
-
-  ${Wrapper}:hover & {
-    filter: hue-rotate(10deg) brightness(150%) saturate(120%);
-  }
+    border-radius: 50%;
   }
 `
 
