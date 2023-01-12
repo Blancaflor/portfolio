@@ -121,47 +121,47 @@ const IconWrapper = styled.div`
   position: relative;
 
   @media (max-width: 2560px) {
-    margin: 80px 0 30px 150px;
+    margin: 40px 0 30px 150px;
   }
   
   @media (max-width: 1920px) {
-    margin: 80px 0 30px 130px;
+    margin: 40px 0 30px 130px;
   }
 
   @media (max-width: 1600px) {
-    margin: 80px 0 30px 130px;
+    margin: 40px 0 30px 130px;
   }
 
   @media (max-width: 1440px) {
-    margin: 80px 0 30px 110px;
+    margin: 40px 0 30px 110px;
   }
 
   @media (max-width: 1360px) {
-    margin: 80px 0 30px 100px;
+    margin: 40px 0 30px 100px;
   }
 
   @media (max-width: 1280px) {
-    margin: 80px 0 30px 90px;
+    margin: 40px 0 30px 90px;
   }
 
   @media (max-width: 960px) {
-    margin: 80px 0 30px 50px;
+    margin: 40px 0 30px 50px;
   }
 
   @media (max-width: 720px) {
-    margin: 80px 0 30px 30px;
+    margin: 40px 0 30px 30px;
   }
 
   @media (max-width: 540px) {
-    margin: 80px 0 30px 10px;
+    margin: 40px 0 30px 10px;
   }
 
   @media (max-width: 450px) {
-    margin: 80px 0 30px 0;
+    margin: 40px 0 30px 0;
   }
 
   @media (max-width: 338px) {
-    margin: 80px 0 30px -10px;
+    margin: 40px 0 30px -10px;
   }
 
   *,
