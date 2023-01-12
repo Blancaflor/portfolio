@@ -310,6 +310,7 @@ const Text = styled.p`
   line-height: 30px; 
   margin: 0 0 24px; 
   text-align: left;
+  padding-bottom: 20px;
 `
 
 const TextTitle = styled(H1)`
@@ -345,7 +346,6 @@ const TextTitle2 = styled(H2)`
   font-size: 18px;
   text-align: left;
   text-transform: uppercase;
-  padding-bottom: 20px;
 
   @media (max-width: 960px) {
     font-size: 18px;
