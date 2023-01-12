@@ -99,8 +99,8 @@ const Icon2 = styled.img`
 `
 
 const Icon3 = styled.img`
-  width: 29px;
-  height: 29px;
+  width: 23px;
+  height: 23px;
 `
 const Icon4 = styled.img`
   width: 29px;
@@ -117,7 +117,7 @@ const IconWrapper = styled.div`
   align-content: center;
   justify-self: center;
   position: relative;
-  margin: 40px 0 30px 150px;
+  margin: 60px 0 30px 150px;
 
   *,
   & {
