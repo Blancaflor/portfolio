@@ -21,7 +21,7 @@ function HeroSection() {
             design
             <br /> and <TextAnimation /> your <TextAnimation2 />.
           </Title>
-          <Description>Welcome on our Digital Platform</Description>
+          <Description>Welcome on The Digital Platform</Description>
           <PurchaseButton
             title="Make An Appointment"
             subtitle="Send us an email!"
