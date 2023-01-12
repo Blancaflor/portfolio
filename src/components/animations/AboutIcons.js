@@ -91,24 +91,24 @@ const Wrapper = styled.div`
 const Icon1 = styled.img`
   width: 29px;
   height: 29px;
-  padding: 20px 0 30px 250px;
+  padding: 20px 0 30px 350px;
 `
 
 const Icon2 = styled.img`
   width: 29px;
   height: 29px;
-  padding: 20px 0 30px 250px;
+  padding: 20px 0 30px 350px;
 `
 
 const Icon3 = styled.img`
   width: 29px;
   height: 29px;
-  padding: 20px 0 30px 250px;
+  padding: 20px 0 30px 350px;
 `
 const Icon4 = styled.img`
   width: 29px;
   height: 29px;
-  padding: 20px 0 30px 250px;
+  padding: 20px 0 30px 350px;
 `
 
 const IconWrapper = styled.div`
