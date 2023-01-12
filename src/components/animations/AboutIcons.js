@@ -112,7 +112,7 @@ const Wrapper = styled.div`
     justify-self: center;
     position: relative;
 
-    ${Wrapper}:hover & {
+    ${Icon1, Icon2, Icon3, Icon4}:hover & {
     filter: hue-rotate(10deg) brightness(150%) saturate(120%);
     }
   }
