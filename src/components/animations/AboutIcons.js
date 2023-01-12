@@ -91,36 +91,24 @@ const Wrapper = styled.div`
 const Icon1 = styled.img`
   width: 29px;
   height: 29px;
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  justify-self: center;
+  margin: 20px auto;
 `
 
 const Icon2 = styled.img`
   width: 29px;
   height: 29px;
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  justify-self: center;
+  margin: 20px auto;
 `
 
 const Icon3 = styled.img`
   width: 29px;
   height: 29px;
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  justify-self: center;
+  margin: 20px auto;
 `
 const Icon4 = styled.img`
   width: 29px;
   height: 29px;
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  justify-self: center;
+  margin: 20px auto;
 `
 
 const IconWrapper = styled.div`
