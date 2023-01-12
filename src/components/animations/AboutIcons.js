@@ -8,19 +8,19 @@ export default function AboutIcons() {
       <h1>Our</h1>
       <p>Values</p>
       <IconWrapper>
-          <Icon src="/images/animations/html.png" className="icon" />
+          <Icon1 src="/images/animations/html.png" className="icon" />
           <Ring src="/images/icons/icon-ring.svg" />
         </IconWrapper>
         <IconWrapper>
-          <Icon src="/images/animations/css.png" className="icon" />
+          <Icon2 src="/images/animations/css.png" className="icon" />
           <Ring src="/images/icons/icon-ring.svg" />
         </IconWrapper>
         <IconWrapper>
-          <Icon src="/images/animations/js.png" className="icon" />
+          <Icon3 src="/images/animations/js.png" className="icon" />
           <Ring src="/images/icons/icon-ring.svg" />
         </IconWrapper>
         <IconWrapper>
-          <Icon src="/images/animations/react.png" className="icon" />
+          <Icon4 src="/images/animations/react.png" className="icon" />
           <Ring src="/images/icons/icon-ring.svg" />
         </IconWrapper>
     </Wrapper>
@@ -87,25 +87,23 @@ const Wrapper = styled.div`
   }
 `
 
-const Icon = styled.img`
+const Icon1 = styled.img`
   width: 29px;
   height: 29px;
+`
 
-  *,
-  & {
-    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
+const Icon2 = styled.img`
+  width: 29px;
+  height: 29px;
+`
 
-  :hover {
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1),
-    0px 30px 60px rgba(23, 0, 102, 0.5),
-    inset 0px 0px 0px 0.5px rgba(255, 255, 255, 0.5);
-    transform: translateY(-3px);
-
-    .icon {
-        transform: scale(1.2);
-    }
-  }
+const Icon3 = styled.img`
+  width: 29px;
+  height: 29px;
+`
+const Icon4 = styled.img`
+  width: 29px;
+  height: 29px;
 `
 
 const Ring = styled.img`
@@ -128,6 +126,22 @@ const IconWrapper = styled.div`
   align-content: center;
   justify-self: center;
   position: relative;
+
+  *,
+  & {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+  :hover {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1),
+    0px 30px 60px rgba(23, 0, 102, 0.5),
+    inset 0px 0px 0px 0.5px rgba(255, 255, 255, 0.5);
+    transform: translateY(-3px);
+
+    .icon {
+        transform: scale(1.2);
+    }
+  }
 
   ${Wrapper}:hover & {
     filter: hue-rotate(10deg) brightness(150%) saturate(120%);
