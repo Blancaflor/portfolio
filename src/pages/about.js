@@ -25,7 +25,6 @@ function About() {
               all 
               <AboutAnimation />
             </Title>
-            {/*} <Description>From the beginning.</Description> */}
           </TextWrapper>
         </ContentWrapper>
       </Wrapper>
