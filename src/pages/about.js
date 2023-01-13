@@ -319,6 +319,7 @@ const TextBackGround = styled.div`
   justify-content: space-between;
   display: grid;
   grid-template-columns: 320px auto;
+  grid-column-start: 1;
 
   h1{
     color: white;
