@@ -190,7 +190,6 @@ const ContentWrapper2 = styled.div`
   padding: 200px 30px;
   display: grid;
   grid-template-columns: 360px auto;
-  justify-content: center;
 
   @media (max-width: 2560px) {
     grid-template-columns: 400px auto;
@@ -318,6 +317,9 @@ const TextBackGround = styled.div`
   padding: 0 20px 0 0px;
   opacity: 90%;
   height: 810px;
+  display: grid;
+  grid-template-columns: 360px auto;
+  justify-content: center;
 
   h1{
     color: white;
