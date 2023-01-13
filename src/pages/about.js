@@ -413,13 +413,11 @@ const TextBackGround2 = styled.div`
   h1{
     font-weight: bold;
     font-size: 140%;
-    padding: 10px 0 5px 0;
   }
 
   h2{
     font-weight: bold;
     font-size: 110%;
-    padding: 10px 0 5px 0;
   }
 `
 
@@ -430,7 +428,7 @@ const Text = styled.p`
   font-size: 15px;
   line-height: 30px;
   margin: 0 0 24px;
-  text-align: center;
+  text-align: left;
   padding-bottom: 20px;
 `
 
@@ -441,7 +439,6 @@ const TextTitle = styled(H1)`
   font-size: 24px;
   text-align: center;
   text-transform: uppercase;
-  margin: 10px auto 0 0;
 
   @media (max-width: 960px) {
     font-size: 30px;
