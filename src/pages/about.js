@@ -27,28 +27,66 @@ function About() {
             </Title>
             {/*} <Description>From the beginning.</Description> */}
           </TextWrapper>
-        </ContentWrapper>   
+        </ContentWrapper>
       </Wrapper>
       <Wrapper2>
-      <ContentWrapper2>
-        <TextBackGround>
-          <AboutIcons />
-        </TextBackGround>
-        <TextBackGround2>
+        <ContentWrapper2>
+          <TextBackGround>
+            <h1>Our</h1>
+            <p>Values</p>
+            <IconWrapper>
+              <Icon1 src="/images/animations/html.png" className="icon" />
+              <Ring src="/images/icons/icon-ring.svg" />
+            </IconWrapper>
+            <IconWrapper>
+              <Icon2 src="/images/animations/css.png" className="icon" />
+              <Ring src="/images/icons/icon-ring.svg" />
+            </IconWrapper>
+            <IconWrapper>
+              <Icon3 src="/images/animations/js.png" className="icon" />
+              <Ring src="/images/icons/icon-ring.svg" />
+            </IconWrapper>
+            <IconWrapper>
+              <Icon4 src="/images/animations/react.png" className="icon" />
+              <Ring src="/images/icons/icon-ring.svg" />
+            </IconWrapper>
+          </TextBackGround>
+          <TextBackGround2>
             <Text>
               <TextTitle>
-              <h1>We use these tools to make your website.</h1>
+                <h1>We use these tools to make your website.</h1>
               </TextTitle>
               <br />
-              <TextTitle2>Web Development: Crafting Digital Experiences.</TextTitle2>
+              <TextTitle2>
+                Web Development: Crafting Digital Experiences.
+              </TextTitle2>
               <h2>HTML (HyperText Markup Language)</h2>
-              <p>Is a markup language used to create the structure and layout of a webpage. It uses tags to define elements such as headings, paragraphs, and links.</p>
+              <p>
+                Is a markup language used to create the structure and layout of
+                a webpage. It uses tags to define elements such as headings,
+                paragraphs, and links.
+              </p>
               <h2>CSS (Cascading Style Sheets) </h2>
-              <p>Is a stylesheet language used to control the appearance of the content on a webpage. It is used to define things like colors, fonts, and layout.</p>
+              <p>
+                Is a stylesheet language used to control the appearance of the
+                content on a webpage. It is used to define things like colors,
+                fonts, and layout.
+              </p>
               <h2>JavaScript</h2>
-              <p>Is a programming language that is used to add interactive features to websites. It is often used to create things like drop-down menus, pop-ups, and other interactive elements.</p>
+              <p>
+                Is a programming language that is used to add interactive
+                features to websites. It is often used to create things like
+                drop-down menus, pop-ups, and other interactive elements.
+              </p>
               <h2>React.js</h2>
-              <p>Is a JavaScript library for building user interfaces. It is used to create reusable UI components and improve the performance of web applications. React allows developers to create large web applications that can change data, without reloading the page. It is often used for building single-page applications and mobile applications.</p>
+              <p>
+                Is a JavaScript library for building user interfaces. It is used
+                to create reusable UI components and improve the performance of
+                web applications. React allows developers to create large web
+                applications that can change data, without reloading the page.
+                It is often used for building single-page applications and
+                mobile applications.
+              </p>
             </Text>
           </TextBackGround2>
         </ContentWrapper2>
@@ -84,7 +122,7 @@ const ContentWrapper = styled.div`
     gap: 60px;
     padding: 250px 20px 250px;
   }
-  
+
   @media (max-width: 1920px) {
     grid-template-columns: 360px auto;
     gap: 80px;
@@ -279,6 +317,88 @@ const TextBackGround = styled.div`
   padding: 0 20px 0 0px;
   opacity: 90%;
   height: 810px;
+
+  h1{
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  p{
+    color: white;
+    font-weight: bold;
+    font-size: 90%;
+    text-align: center;
+    margin-top: 10px;
+  }
+`
+
+const Icon1 = styled.img`
+  width: 64px;
+  height: 64px;
+`
+
+const Icon2 = styled.img`
+  width: 64px;
+  height: 64px;
+`
+
+const Icon3 = styled.img`
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+`
+const Icon4 = styled.img`
+  width: 64px;
+  height: 64px;
+`
+
+const IconWrapper = styled.div`
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(200.44deg, #4316DB 13.57%, #9076E7 98.38%);
+  border-radius: 50%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-self: center;
+  position: relative;
+
+  *,
+  & {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+  :hover {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1),
+    0px 30px 60px rgba(23, 0, 102, 0.5),
+    inset 0px 0px 0px 0.5px rgba(255, 255, 255, 0.5);
+    transform: translateY(-3px);
+
+    .icon {
+        transform: scale(1.2);
+    }
+  }
+
+  ${Wrapper}:hover & {
+    filter: hue-rotate(10deg) brightness(150%) saturate(120%);
+  }
+`
+
+const Ring = styled.img`
+  position: absolute;
+  top: -30px;
+  left: -25px;
+  width: 127px;
+  height: 127px;
+  display: grid;
+  align-content: justify;
+
+  ${IconWrapper}:hover & {
+    transform: rotate(30deg) scale(1.2) translate(1px, 1px);
+  }
 `
 
 const TextBackGround2 = styled.div`
@@ -307,8 +427,8 @@ const Text = styled.p`
   background-clip: text;
   -webkit-background-clip: text;
   font-size: 15px;
-  line-height: 30px; 
-  margin: 0 0 24px; 
+  line-height: 30px;
+  margin: 0 0 24px;
   text-align: left;
   padding-bottom: 20px;
 `
@@ -318,7 +438,7 @@ const TextTitle = styled(H1)`
   background-clip: text;
   -webkit-background-clip: text;
   font-size: 24px;
-  line-height: 35px; 
+  line-height: 35px;
   text-align: center;
   text-transform: uppercase;
   margin: 10px auto 0 0;
@@ -364,4 +484,6 @@ const TextTitle2 = styled(H2)`
   }
 `
 
-{/* const Description = styled(MediumText)`` */}
+{
+  /* const Description = styled(MediumText)`` */
+}
