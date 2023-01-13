@@ -318,8 +318,8 @@ const TextBackGround = styled.div`
   opacity: 90%;
   height: 810px;
   display: grid;
-  grid-template-columns: 360px auto;
-  justify-content: center;
+  grid-template-columns: 320px auto;
+  justify-content: space-evenly;
 
   h1{
     color: white;
