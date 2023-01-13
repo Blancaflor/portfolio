@@ -8,6 +8,7 @@ export default function PurchaseButton(props) {
   return (
     <Link to="../contact">
     <Wrapper>
+        <SEO title="Contact" />
         <IconWrapper>
           <Icon src="/images/icons/credit.svg" className="icon" />
           <Ring src="/images/icons/icon-ring.svg" />

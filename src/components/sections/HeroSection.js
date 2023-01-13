@@ -12,6 +12,7 @@ import TextAnimation2 from "../animations/TextAnimation2"
 function HeroSection() {
   return (
     <Wrapper>
+      <SEO title="Home" />
       <WaveBackground />
       <ContentWrapper>
         <TextWrapper>
