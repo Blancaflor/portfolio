@@ -317,7 +317,7 @@ const TextBackGround = styled.div`
   opacity: 90%;
   height: 810px;
   justify-content: space-between;
-  display: inline;
+  display: grid;
   grid-template-columns: 320px auto;
 
   h1{
