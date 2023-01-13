@@ -7,6 +7,7 @@ import { themes } from "../components/styles/ColorStyles"
 import { H1, MediumText } from "../components/styles/TextStyles"
 import ContactAnimation from "../components/animations/ContactAnimation"
 
+
 export default function Contact() {
 
   function sendEmail(e) {
