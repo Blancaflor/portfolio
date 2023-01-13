@@ -319,6 +319,30 @@ const TextBackGround = styled.div`
   display: inline-grid;
   grid-auto-flow: row dense;
 
+  @media (max-width: 1280px) {
+    height: 600px;
+  }
+
+  @media (max-width: 960px) {
+    height: 650px;
+  }
+
+  @media (max-width: 720px) {
+    height: 700px;
+  }
+
+  @media (max-width: 540px) {
+    height: 750px;
+  }
+
+  @media (max-width: 450px) {
+    height: 800px;
+  }
+
+  @media (max-width: 338px) {
+    height: 850px;
+  }
+
   h1{
     color: white;
     font-weight: bold;
