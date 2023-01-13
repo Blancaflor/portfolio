@@ -337,7 +337,7 @@ const TextBackGround = styled.div`
   }
 
   @media (max-width: 540px) {
-    height: 30%;
+    height: 90%;
   }
 
   @media (max-width: 450px) {
