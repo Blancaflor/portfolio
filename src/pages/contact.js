@@ -24,8 +24,8 @@ export default function Contact() {
 
   return (
     <Layout>
-      <SEO title="Contact" />
       <Wrapper>
+      <SEO title="Contact" />
       <WaveBackground />
       <ContentWrapper>
         <TextWrapper>
