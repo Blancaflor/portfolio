@@ -325,7 +325,7 @@ const TextBackGround = styled.div`
     color: white;
     font-weight: bold;
     font-size: 120%;
-    text-align: center;
+    text-align: justify;
     margin-top: 20px;
   }
 
@@ -333,7 +333,7 @@ const TextBackGround = styled.div`
     color: white;
     font-weight: bold;
     font-size: 90%;
-    text-align: center;
+    text-align: justify;
     margin-top: 10px;
   }
 `
