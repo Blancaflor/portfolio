@@ -54,7 +54,7 @@ function About() {
           <TextBackGround2>
             <Text>
               <TextTitle>
-                <h1>Tools we use to make your website.</h1>
+                <h1>Tools we use to create websites.</h1>
               </TextTitle>
               <br />
               <TextTitle2>
