@@ -34,6 +34,7 @@ function About() {
           <TextBackGround>
             <h1>Our</h1>
             <p>Values</p>
+            <br />
             <IconWrapper>
               <Icon1 src="/images/animations/html.png" className="icon" />
               <Ring src="/images/icons/icon-ring.svg" />
