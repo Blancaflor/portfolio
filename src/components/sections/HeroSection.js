@@ -9,7 +9,6 @@ import TextAnimation from "../animations/TextAnimation"
 import TextAnimation2 from "../animations/TextAnimation2"
 import SEO from "../layout/seo"
 
-
 function HeroSection() {
   return (
     <Wrapper>
