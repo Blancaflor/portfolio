@@ -31,6 +31,7 @@ function About() {
       </Wrapper>
       <Wrapper2>
         <ContentWrapper2>
+          <TextBackGroundTitle></TextBackGroundTitle>
           <TextBackGround>
             <h1>Our</h1>
             <p>Values</p>
@@ -310,16 +311,8 @@ const Title = styled(H1)`
   }
 `
 
-const TextBackGround = styled.div`
-  box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
-  backdrop-filter: blur(21.8507px);
-  border-radius: 16px;
-  opacity: 90%;
-  height: 810px;
-  display: inline-grid;
-  grid-auto-flow: row dense;
-
-  h1{
+const TextBackGroundTitle = styled.div`
+    h1{
     color: white;
     font-weight: bold;
     font-size: 120%;
@@ -332,6 +325,16 @@ const TextBackGround = styled.div`
     font-size: 90%;
     text-align: center;
   }
+`
+
+const TextBackGround = styled.div`
+  box-shadow: 0px 8.19119px 16.3824px rgba(0, 0, 0, 0.1),
+  backdrop-filter: blur(21.8507px);
+  border-radius: 16px;
+  opacity: 90%;
+  height: 810px;
+  display: inline-grid;
+  grid-auto-flow: row dense;
 `
 
 const Icon1 = styled.img`
