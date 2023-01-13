@@ -390,7 +390,6 @@ const Icon4 = styled.img`
 const IconWrapper = styled.div`
   width: 64px;
   height: 64px;
-  background: linear-gradient(200.44deg, #4316DB 13.57%, #9076E7 98.38%);
   border-radius: 50%;
   display: grid;
   justify-content: center;
