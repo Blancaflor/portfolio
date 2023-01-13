@@ -1,13 +1,11 @@
 import React from 'react';
 import emailjs from "emailjs-com"
 import Layout from "../components/layout/layout"
-import SEO from "../components/layout/seo"
 import styled, { keyframes } from "styled-components"
 import WaveBackground from "../components/backgrounds/WaveBackground"
 import { themes } from "../components/styles/ColorStyles"
 import { H1, MediumText } from "../components/styles/TextStyles"
 import ContactAnimation from "../components/animations/ContactAnimation"
-
 
 export default function Contact() {
 
@@ -26,7 +24,6 @@ export default function Contact() {
   return (
     <Layout>
       <Wrapper>
-      <SEO title="Contact" />
       <WaveBackground />
       <ContentWrapper>
         <TextWrapper>
