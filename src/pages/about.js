@@ -324,23 +324,23 @@ const TextBackGround = styled.div`
   }
 
   @media (max-width: 960px) {
-    height: 650px;
-  }
-
-  @media (max-width: 720px) {
     height: 700px;
   }
 
-  @media (max-width: 540px) {
+  @media (max-width: 720px) {
     height: 750px;
   }
 
+  @media (max-width: 540px) {
+    height: 780px;
+  }
+
   @media (max-width: 450px) {
-    height: 800px;
+    height: 890px;
   }
 
   @media (max-width: 338px) {
-    height: 850px;
+    height: 960px;
   }
 
   h1{
