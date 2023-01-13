@@ -332,6 +332,7 @@ const TextBackGround = styled.div`
   backdrop-filter: blur(21.8507px);
   border-radius: 16px;
   opacity: 90%;
+  height: 500px;
   display: inline-grid;
   grid-auto-flow: row dense;
 `
