@@ -318,8 +318,8 @@ const TextBackGround = styled.div`
   height: 810px;
   justify-content: space-between;
   display: grid;
-  grid-template-columns: 320px auto;
-  grid-column-start: 1;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-flow: row dense;
 
   h1{
     color: white;
@@ -339,21 +339,25 @@ const TextBackGround = styled.div`
 const Icon1 = styled.img`
   width: 64px;
   height: 64px;
+  grid-column-start: 1;
 `
 
 const Icon2 = styled.img`
   width: 64px;
   height: 64px;
+  grid-column-start: 1;
 `
 
 const Icon3 = styled.img`
   width: 64px;
   height: 64px;
   border-radius: 50%;
+  grid-column-start: 1;
 `
 const Icon4 = styled.img`
   width: 64px;
   height: 64px;
+  grid-column-start: 1;
 `
 
 const IconWrapper = styled.div`
