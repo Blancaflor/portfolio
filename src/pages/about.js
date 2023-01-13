@@ -321,31 +321,31 @@ const TextBackGround = styled.div`
   grid-auto-flow: row dense;
 
   @media (max-width: 1360px) {
-    height: 550px;
+    height: 100%;
   }
 
   @media (max-width: 1280px) {
-    height: 600px;
+    height: 100%;
   }
 
   @media (max-width: 960px) {
-    height: 670px;
+    height: 100%;
   }
 
   @media (max-width: 720px) {
-    height: 750px;
+    height: 100%;
   }
 
   @media (max-width: 540px) {
-    height: 780px;
+    height: 100%;
   }
 
   @media (max-width: 450px) {
-    height: 960px;
+    height: 100%;
   }
 
   @media (max-width: 338px) {
-    height: 1080px;
+    height: 100%;
   }
 
   h1{
