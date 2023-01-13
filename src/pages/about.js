@@ -341,11 +341,11 @@ const TextBackGround = styled.div`
   }
 
   @media (max-width: 450px) {
-    height: 100%;
+    height: 75%;
   }
 
   @media (max-width: 338px) {
-    height: 100%;
+    height: 75%;
   }
 
   h1{
