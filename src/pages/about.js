@@ -62,7 +62,6 @@ function About() {
               </TextTitle2>
               <br />
               <h2>HTML (HyperText Markup Language)</h2>
-              <br />
               <p>
                 Is a markup language used to create the structure and layout of
                 a webpage. It uses tags to define elements such as headings,
@@ -70,7 +69,6 @@ function About() {
               </p>
               <br />
               <h2>CSS (Cascading Style Sheets) </h2>
-              <br />
               <p>
                 Is a stylesheet language used to control the appearance of the
                 content on a webpage. It is used to define things like colors,
@@ -78,7 +76,6 @@ function About() {
               </p>
               <br />
               <h2>JavaScript</h2>
-              <br />
               <p>
                 Is a programming language that is used to add interactive
                 features to websites. It is often used to create things like
@@ -86,7 +83,6 @@ function About() {
               </p>
               <br />
               <h2>React.js</h2>
-              <br />
               <p>
                 Is a JavaScript library for building user interfaces. It is used
                 to create reusable UI components and improve the performance of
