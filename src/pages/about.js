@@ -325,16 +325,14 @@ const TextBackGround = styled.div`
     color: white;
     font-weight: bold;
     font-size: 120%;
-    text-align: justify;
-    margin-top: 20px;
+    text-align: center;
   }
 
   p{
     color: white;
     font-weight: bold;
     font-size: 90%;
-    text-align: justify;
-    margin-top: 10px;
+    text-align: center;
   }
 `
 
