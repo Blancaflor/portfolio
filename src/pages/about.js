@@ -119,7 +119,7 @@ const ContentWrapper = styled.div`
   margin: 0 auto;
   padding: 200px 30px;
   display: grid;
-  grid-template-columns: 390px auto;
+  grid-template-columns: 360px auto;
 
   @media (max-width: 2560px) {
     grid-template-columns: 400px auto;
@@ -128,7 +128,7 @@ const ContentWrapper = styled.div`
   }
 
   @media (max-width: 1920px) {
-    grid-template-columns: 390px auto;
+    grid-template-columns: 360px auto;
     gap: 80px;
     padding: 250px 20px 250px;
   }
