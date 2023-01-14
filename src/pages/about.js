@@ -114,7 +114,7 @@ const Wrapper2 = styled.div`
 `
 
 const ContentWrapper = styled.div`
-  max-width: 884px;
+  max-width: 1234px;
   margin: 0 auto;
   padding: 200px 30px;
   display: grid;
@@ -259,6 +259,7 @@ const ContentWrapper2 = styled.div`
 const TextWrapper = styled.div`
   max-width: 360px;
   display: grid;
+  gap: 30px;
 
   > * {
     opacity: 0;
