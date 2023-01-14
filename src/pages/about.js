@@ -28,6 +28,7 @@ function About() {
           </TextWrapper>
         </ContentWrapper>
       </Wrapper>
+      <div></div>
       <Wrapper2>
         <ContentWrapper2>
           <TextBackGround>
@@ -115,7 +116,6 @@ const Wrapper2 = styled.div`
 
 const ContentWrapper = styled.div`
   max-width: 1234px;
-  height: 100%;
   margin: 0 auto;
   padding: 200px 30px;
   display: grid;
