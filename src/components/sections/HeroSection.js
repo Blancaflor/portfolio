@@ -44,6 +44,7 @@ const animation = keyframes`
 const Wrapper = styled.div`
   overflow: hidden;
 `
+
 const ContentWrapper = styled.div`
   max-width: 1234px;
   margin: 0 auto;
@@ -56,7 +57,7 @@ const ContentWrapper = styled.div`
     gap: 60px;
     padding: 250px 20px 250px;
   }
-  
+
   @media (max-width: 1920px) {
     grid-template-columns: 360px auto;
     gap: 80px;
