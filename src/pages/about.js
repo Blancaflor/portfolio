@@ -115,7 +115,7 @@ const Wrapper2 = styled.div`
 `
 
 const ContentWrapper = styled.div`
-  max-width: 350px;
+  max-width: 1244px;
   margin: 0 auto;
   padding: 200px 40px;
   display: grid;
