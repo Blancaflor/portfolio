@@ -197,67 +197,62 @@ const ContentWrapper2 = styled.div`
   @media (max-width: 2560px) {
     grid-template-columns: 400px auto;
     gap: 60px;
-    padding: 250px 20px 250px;
+    padding: 100px 20px 250px;
   }
-  
   @media (max-width: 1920px) {
-    grid-template-columns: 360px auto;
+    grid-template-columns: 390px auto;
     gap: 80px;
-    padding: 250px 0 250px;
+    padding: 100px 0 250px;
   }
-
   @media (max-width: 1600px) {
-    grid-template-columns: 320px auto;
+    grid-template-columns: 380px auto;
     gap: 60px;
-    padding: 150px 20px 250px;
+    padding: 100px 20px 250px;
   }
-
   @media (max-width: 1440px) {
+    grid-template-columns: 360px auto;
+    gap: 60px;
+    padding: 100px 20px 250px;
+  }
+  @media (max-width: 1360px) {
+    grid-template-columns: 340px auto;
+    gap: 60px;
+    padding: 100px 20px 250px;
+  }
+  @media (max-width: 1280px) {
     grid-template-columns: 300px auto;
     gap: 60px;
-    padding: 150px 20px 250px;
-  }
-
-  @media (max-width: 1360px) {
-    grid-template-columns: 250px auto;
-    gap: 60px;
-    padding: 150px 20px 250px;
-  }
-
-  @media (max-width: 1280px) {
-    grid-template-columns: 200px auto;
-    gap: 60px;
-    padding: 150px 20px 250px;
+    padding: 100px 20px 250px;
   }
 
   @media (max-width: 960px) {
-    grid-template-columns: auto;
+    grid-template-columns: 220px auto;
     gap: 60px;
-    padding: 150px 20px 250px;
+    padding: 100px 20px 250px;
   }
 
   @media (max-width: 720px) {
-    grid-template-columns: auto;
+    grid-template-columns: 180px auto;
     gap: 60px;
-    padding: 150px 20px 250px;
+    padding: 100px 20px 250px;
   }
 
   @media (max-width: 540px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 150px 20px 250px;
+    grid-template-columns: 150px auto;
+    gap: 40px;
+    padding: 100px 20px 250px;
   }
 
   @media (max-width: 450px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 150px 20px 250px;
+    grid-template-columns: 120px auto;
+    gap: 30px;
+    padding: 100px 20px 250px;
   }
 
   @media (max-width: 338px) {
-    grid-template-columns: auto;
-    gap: 60px;
-    padding: 150px 20px 250px;
+    grid-template-columns: 100px auto;
+    gap: 20px;
+    padding: 100px 20px 250px;
   }
 `
 
