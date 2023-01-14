@@ -28,7 +28,6 @@ function About() {
           </TextWrapper>
         </ContentWrapper>
       </Wrapper>
-      <div></div>
       <Wrapper2>
         <ContentWrapper2>
           <TextBackGround>
@@ -107,7 +106,7 @@ const animation = keyframes`
 `
 
 const Wrapper = styled.div`
-  overflow: hidden;
+  overflow: cover;
 `
 
 const Wrapper2 = styled.div`
