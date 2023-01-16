@@ -107,6 +107,7 @@ const animation = keyframes`
 
 const Wrapper = styled.div`
   overflow: hidden;
+  height: 100%;
 `
 
 const Wrapper2 = styled.div`
@@ -114,7 +115,7 @@ const Wrapper2 = styled.div`
 `
 
 const ContentWrapper = styled.div`
-  max-width: 1234px;
+  max-width: 1253px;
   margin: 0 auto;
   padding: 200px 40px;
   display: grid;
