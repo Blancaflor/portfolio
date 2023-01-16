@@ -106,8 +106,7 @@ const animation = keyframes`
 `
 
 const Wrapper = styled.div`
-  overflow: cover;
-  height: 100%;
+  overflow: hidden;
 `
 
 const Wrapper2 = styled.div`
