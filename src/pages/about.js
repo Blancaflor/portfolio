@@ -193,56 +193,6 @@ const ContentWrapper2 = styled.div`
   padding: 200px 30px;
   display: grid;
   grid-template-columns: 360px auto;
-
-  @media (max-width: 2560px) {
-    grid-template-columns: 400px auto;
-    gap: 60px;
-  }
-  @media (max-width: 1920px) {
-    grid-template-columns: 390px auto;
-    gap: 80px;
-  }
-  @media (max-width: 1600px) {
-    grid-template-columns: 380px auto;
-    gap: 60px;
-  }
-  @media (max-width: 1440px) {
-    grid-template-columns: 360px auto;
-    gap: 60px;
-  }
-  @media (max-width: 1360px) {
-    grid-template-columns: 340px auto;
-    gap: 60px;
-  }
-  @media (max-width: 1280px) {
-    grid-template-columns: 300px auto;
-    gap: 60px;
-  }
-
-  @media (max-width: 960px) {
-    grid-template-columns: 220px auto;
-    gap: 60px;
-  }
-
-  @media (max-width: 720px) {
-    grid-template-columns: 180px auto;
-    gap: 60px;
-  }
-
-  @media (max-width: 540px) {
-    grid-template-columns: 150px auto;
-    gap: 40px;
-  }
-
-  @media (max-width: 450px) {
-    grid-template-columns: 120px auto;
-    gap: 30px;
-  }
-
-  @media (max-width: 338px) {
-    grid-template-columns: 100px auto;
-    gap: 20px;
-  }
 `
 
 const TextWrapper = styled.div`
