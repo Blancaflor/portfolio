@@ -27,7 +27,6 @@ function About() {
             </Title>
           </TextWrapper>
         </ContentWrapper>
-      </Wrapper>
       <Wrapper2>
         <ContentWrapper2>
           <TextBackGround>
@@ -94,6 +93,7 @@ function About() {
           </TextBackGround2>
         </ContentWrapper2>
       </Wrapper2>
+      </Wrapper>
     </Layout>
   )
 }
@@ -114,7 +114,7 @@ const Wrapper2 = styled.div`
 `
 
 const ContentWrapper = styled.div`
-  max-width: 100%;
+  max-width: 1234px;
   margin: 0 auto;
   padding: 200px 40px;
   display: grid;
