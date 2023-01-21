@@ -27,6 +27,7 @@ function About() {
             </Title>
           </TextWrapper>
         </ContentWrapper>
+      </Wrapper>
       <Wrapper2>
         <ContentWrapper2>
           <TextBackGround>
@@ -93,7 +94,6 @@ function About() {
           </TextBackGround2>
         </ContentWrapper2>
       </Wrapper2>
-      </Wrapper>
     </Layout>
   )
 }
@@ -257,7 +257,7 @@ const ContentWrapper2 = styled.div`
 `
 
 const TextWrapper = styled.div`
-  max-width: 360px;
+  max-width: 360px auto;
   display: grid;
   gap: 30px;
 
