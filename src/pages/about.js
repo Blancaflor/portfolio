@@ -22,7 +22,8 @@ function About() {
               <br />
               it
               <br />
-              all 
+              all
+              <br /> 
               <AboutAnimation />
             </Title>
           </TextWrapper>
