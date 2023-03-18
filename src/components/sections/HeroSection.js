@@ -25,7 +25,7 @@ function HeroSection() {
           <Description>Welcome on The Digital Platform</Description>
           <PurchaseButton
             title="Make An Appointment"
-            subtitle="Send us an email! Test"
+            subtitle="Send us an email!"
           />
         </TextWrapper>
         <MockupAnimation />
